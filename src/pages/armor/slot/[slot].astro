@@ -1,0 +1,44 @@
+---import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+
+export async function getStaticPaths() {
+  const armor = (await import("../../../../src/data/armor.json")).default;
+  const slots = ["Helm", "Breast", "Pants"];
+  return slots.map((s) => ({
+    params: { slot: s.toLowerCase() },
+    props: { slot: s, items: armor.filter((a) => a.slot === s) },
+  }));
+}
+const { slot, items } = Astro.props;
+const rows = items.map((a) => ({
+  name: a.name,
+  href: `/armor/${a.slug}/`,
+  rarity: a.rarity,
+  level: a.level,
+  armorMax: a.armor ? a.armor.max : null,
+  hpMax: a.maxHealth ? a.maxHealth.max : null,
+  area: a.area || "—",
+}));
+---
+
+<Base
+  title={`${slot} Armor in Core Keeper — Ranked by Armor Value`}
+  description={`All ${slot.toLowerCase()} armor pieces in Core Keeper ranked by armor value at max level.`}
+>
+  <p style="margin:0"><a href="/armor/">← All armor</a></p>
+  <h1>{slot} armor</h1>
+  <p class="muted">{items.length} {slot.toLowerCase()} pieces, strongest first.</p>
+  <DataTable
+    id="aslot"
+    rows={rows}
+    searchPlaceholder={"Search " + slot.toLowerCase() + " armor..."}
+    columns={[
+      { key: "name", label: "Piece", href: "href" },
+      { key: "rarity", label: "Rarity" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "armorMax", label: "Armor (lv20)", type: "number" },
+      { key: "hpMax", label: "+Max HP (lv20)", type: "number" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

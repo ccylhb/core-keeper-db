@@ -1,0 +1,76 @@
+---import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const food = (await import("../../../src/data/food.json")).default;
+  return food.map((f) => ({ params: { slug: f.slug }, props: { f } }));
+}
+const { f } = Astro.props;
+const buffEntries = Object.entries(f.buffs);
+---
+
+<Base
+  title={`${f.name} — Core Keeper Food Stats & Recipe`}
+  description={`${f.name} restores ${f.hunger ?? "unknown"} hunger in Core Keeper. Full buff list and recipe.`}
+>
+  <p style="margin:0"><a href="/food/">← All food</a></p>
+  <h1>{f.name}</h1>
+  <p>
+    <span class="tag">{f.cooked ? "Cooked dish" : "Raw / consumable"}</span>
+    {f.rarity && <span class="tag">{f.rarity}</span>}
+    {f.level != null && <span class="tag">Level {f.level}</span>}
+    {f.area && <span class="tag">{f.area} biome</span>}
+  </p>
+
+  {f.desc && <p class="muted">{f.desc}</p>}
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num">{f.hunger ?? "—"}</div>
+        <div class="stat-label">Hunger restored</div>
+      </div>
+      <div>
+        <div class="stat-num">{buffEntries.length}</div>
+        <div class="stat-label">Bonus effects</div>
+      </div>
+    </div>
+  </div>
+
+  {buffEntries.length > 0 && (
+    <>
+      <h2>Effects when eaten</h2>
+      <table>
+        <thead><tr><th>Effect</th><th>Value</th></tr></thead>
+        <tbody>
+          {buffEntries.map(([label, c]) => (
+            <tr><td>{label}</td><td>{c.base}{c.maxLevel ? ` (lasts at all levels: base ${c.base})` : ""}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {f.petXp != null && <p>Pet XP: <strong>{f.petXp}</strong></p>}
+
+  {f.materials && (
+    <>
+      <h2>Recipe</h2>
+      <table>
+        <thead><tr><th>Ingredient</th><th>Amount</th></tr></thead>
+        <tbody>
+          {f.materials.map((m) => (
+            <tr><td>{m.id}</td><td>{m.amount}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+  {f.sell != null && <p class="muted">Sell value: {f.sell}</p>}
+</Base>
+
+<style>
+  .answer-card { margin: 1rem 0; border-left: 4px solid var(--accent); }
+  .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; text-align: center; }
+  .stat-num { font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; }
+  .stat-label { font-size: 0.85rem; color: var(--muted); }
+</style>

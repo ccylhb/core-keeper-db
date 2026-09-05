@@ -1,0 +1,131 @@
+---
+import Base from "../layouts/Base.astro";
+import calc from "../../src/data/calculator.json";
+
+// Normalize materials: amount may be a number or [min, max] — use min for totals.
+const items = calc.recipes
+  .map((r) => ({
+    key: r.key,
+    name: r.name,
+    mats: (r.materials || [])
+      .filter((m) => m && m.id)
+      .map((m) => ({
+        id: m.id,
+        amount: typeof m.amount === "number" ? m.amount : Array.isArray(m.amount) ? m.amount[0] || 1 : 1,
+      })),
+  }))
+  .filter((r) => r.name && r.mats.length > 0)
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<Base
+  title="Core Keeper Crafting Calculator — Total Materials Planner"
+  description="Add any Core Keeper items you want to craft and instantly see the total materials needed. Handles multiple crafts at once."
+>
+  <h1>Crafting Calculator</h1>
+  <p class="muted">
+    Pick the items you want to craft, set quantities, and get the total material list.
+    A wiki shows you one recipe at a time — this totals everything across all your crafts.
+  </p>
+
+  <div class="grid grid-2" style="align-items:start">
+    <div class="card">
+      <label for="item-search" style="display:block;margin-bottom:0.4rem"><strong>1. Find an item</strong></label>
+      <input id="item-search" type="search" placeholder="Type an item name..." style="width:100%" list="item-list" />
+      <datalist id="item-list">
+        {items.map((i) => <option value={i.name} />)}
+      </datalist>
+      <div style="display:flex;gap:0.5rem;margin-top:0.5rem;align-items:center">
+        <label for="qty">Qty</label>
+        <input id="qty" type="number" min="1" value="1" style="width:5rem" />
+        <button id="add-btn" type="button">Add to plan</button>
+      </div>
+      <p class="muted" id="mats-preview" style="font-size:0.85rem;min-height:1.4rem;margin:0.5rem 0 0"></p>
+    </div>
+
+    <div class="card">
+      <strong>2. Your plan</strong>
+      <div id="plan" style="margin-top:0.5rem">
+        <p class="muted" id="plan-empty">Nothing planned yet. Add items on the left.</p>
+        <table id="plan-table" style="display:none">
+          <thead><tr><th>Item</th><th>Qty</th><th></th></tr></thead>
+          <tbody id="plan-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <h2>3. Total materials</h2>
+  <div class="card" id="totals-card" style="display:none">
+    <table>
+      <thead><tr><th>Material</th><th>Total needed</th></tr></thead>
+      <tbody id="totals-body"></tbody>
+    </table>
+    <button id="clear-btn" type="button" style="margin-top:0.75rem">Clear plan</button>
+  </div>
+  <p class="muted" id="totals-empty">Totals appear here once your plan has items.</p>
+</Base>
+
+<script define:vars={{ items }}>
+  const byName = Object.fromEntries(items.map((i) => [i.name.toLowerCase(), i]));
+  const byKey = Object.fromEntries(items.map((i) => [i.key, i]));
+  const plan = new Map();
+
+  const search = document.getElementById("item-search");
+  const qty = document.getElementById("qty");
+  const preview = document.getElementById("mats-preview");
+  const planBody = document.getElementById("plan-body");
+  const planTable = document.getElementById("plan-table");
+  const planEmpty = document.getElementById("plan-empty");
+  const totalsCard = document.getElementById("totals-card");
+  const totalsEmpty = document.getElementById("totals-empty");
+  const totalsBody = document.getElementById("totals-body");
+
+  search.addEventListener("input", () => {
+    const rec = byName[search.value.trim().toLowerCase()];
+    preview.textContent = rec ? "Needs: " + rec.mats.map((m) => m.amount + "x " + m.id).join(", ") : "";
+  });
+
+  document.getElementById("add-btn").addEventListener("click", () => {
+    const rec = byName[search.value.trim().toLowerCase()];
+    if (!rec) { preview.textContent = "No craftable item with that name."; return; }
+    const n = Math.max(1, parseInt(qty.value) || 1);
+    plan.set(rec.key, (plan.get(rec.key) || 0) + n);
+    search.value = ""; preview.textContent = "";
+    render();
+  });
+
+  document.getElementById("clear-btn").addEventListener("click", () => { plan.clear(); render(); });
+
+  function render() {
+    planBody.innerHTML = "";
+    for (const [key, n] of plan) {
+      const r = byKey[key];
+      const tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + r.name + "</td><td>" + n + "</td>";
+      const td = document.createElement("td");
+      const btn = document.createElement("button");
+      btn.textContent = "×"; btn.type = "button";
+      btn.style.padding = "0.1rem 0.6rem";
+      btn.addEventListener("click", () => { plan.delete(key); render(); });
+      td.appendChild(btn);
+      tr.appendChild(td);
+      planBody.appendChild(tr);
+    }
+    planTable.style.display = plan.size ? "table" : "none";
+    planEmpty.style.display = plan.size ? "none" : "block";
+
+    const totals = {};
+    for (const [key, n] of plan) {
+      for (const m of byKey[key].mats) {
+        totals[m.id] = (totals[m.id] || 0) + m.amount * n;
+      }
+    }
+    const entries = Object.entries(totals).sort((a, b) => b[1] - a[1]);
+    totalsBody.innerHTML = entries
+      .map(([id, total]) => "<tr><td>" + id + "</td><td><strong>" + total + "</strong></td></tr>")
+      .join("");
+    totalsCard.style.display = entries.length ? "block" : "none";
+    totalsEmpty.style.display = entries.length ? "none" : "block";
+  }
+</script>

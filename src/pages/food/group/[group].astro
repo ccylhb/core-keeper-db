@@ -1,0 +1,45 @@
+---import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+
+export async function getStaticPaths() {
+  const food = (await import("../../../../src/data/food.json")).default;
+  const groups = [
+    { key: "cooked", label: "Cooked dishes", filter: (f) => f.cooked },
+    { key: "raw", label: "Raw & other consumables", filter: (f) => !f.cooked },
+  ];
+  return groups.map((g) => ({
+    params: { group: g.key },
+    props: { label: g.label, items: food.filter(g.filter) },
+  }));
+}
+const { label, items } = Astro.props;
+const rows = items.map((f) => ({
+  name: f.name,
+  href: `/food/${f.slug}/`,
+  rarity: f.rarity,
+  hunger: f.hunger,
+  buffs: Object.keys(f.buffs).slice(0, 2).join(", ") || "—",
+  area: f.area || "—",
+}));
+---
+
+<Base
+  title={`${label} in Core Keeper — Ranked by Hunger`}
+  description={`All ${label.toLowerCase()} in Core Keeper ranked by hunger restored.`}
+>
+  <p style="margin:0"><a href="/food/">← All food</a></p>
+  <h1>{label}</h1>
+  <p class="muted">{items.length} items, most filling first.</p>
+  <DataTable
+    id="fgroup"
+    rows={rows}
+    searchPlaceholder="Search..."
+    columns={[
+      { key: "name", label: "Food", href: "href" },
+      { key: "rarity", label: "Rarity" },
+      { key: "hunger", label: "Hunger", type: "number" },
+      { key: "buffs", label: "Buffs" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

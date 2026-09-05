@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://core-keeper-db.pages.dev/sitemap.xml

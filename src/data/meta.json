@@ -1,0 +1,10 @@
+{
+  "gameVersion": "1.2.0.7",
+  "counts": {
+    "weapons": 89,
+    "armor": 231,
+    "accessories": 148,
+    "food": 135,
+    "enemies": 101
+  }
+}

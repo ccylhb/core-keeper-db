@@ -1,0 +1,98 @@
+---import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const armor = (await import("../../../src/data/armor.json")).default;
+  return armor.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+const otherConds = Object.entries(a.conds).filter(
+  ([id]) => id !== "ArmorIncrease" && id !== "IncreasedMaxHealth"
+);
+---
+
+<Base
+  title={`${a.name} — Core Keeper Armor Stats & Recipe`}
+  description={`${a.name} armor value at every upgrade level, health bonus and full stat list in Core Keeper.`}
+>
+  <p style="margin:0"><a href="/armor/">← All armor</a></p>
+  <h1>{a.name}</h1>
+  <p>
+    <span class="tag">{a.slot} slot</span>
+    {a.rarity && <span class="tag">{a.rarity}</span>}
+    {a.level != null && <span class="tag">Level {a.level}</span>}
+    {a.area && <span class="tag">{a.area} biome</span>}
+  </p>
+
+  {a.desc && <p class="muted">{a.desc}</p>}
+
+  <div class="card answer-card">
+    <div class="stat-row">
+      <div>
+        <div class="stat-num">{a.armor ? a.armor.max : "—"}</div>
+        <div class="stat-label">Armor at max level</div>
+      </div>
+      <div>
+        <div class="stat-num">{a.maxHealth ? "+" + a.maxHealth.max : "—"}</div>
+        <div class="stat-label">Max HP at max level</div>
+      </div>
+    </div>
+  </div>
+
+  {(a.armor || a.maxHealth) && (
+    <h2>Core stats by upgrade level</h2>
+  )}
+  {(a.armor || a.maxHealth) && (
+    <table>
+      <thead>
+        <tr><th>Level</th><th>Armor</th><th>Max HP</th></tr>
+      </thead>
+      <tbody>
+        {Object.keys(a.armor?.levels || a.maxHealth?.levels || {}).map((lv) => (
+          <tr>
+            <td>{lv}</td>
+            <td>{a.armor?.levels[lv] ?? "—"}</td>
+            <td>{a.maxHealth?.levels[lv] ?? "—"}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  )}
+
+  {otherConds.length > 0 && (
+    <>
+      <h2>Other bonuses</h2>
+      <table>
+        <thead><tr><th>Bonus</th><th>At craft level</th><th>At max level</th></tr></thead>
+        <tbody>
+          {otherConds.map(([id, c]) => (
+            <tr><td>{id}</td><td>{c.base}</td><td>{c.max}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {a.materials && (
+    <>
+      <h2>Recipe</h2>
+      <table>
+        <thead><tr><th>Material</th><th>Amount</th></tr></thead>
+        <tbody>
+          {a.materials.map((m) => (
+            <tr><td>{m.id}</td><td>{m.amount}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {a.durability && <p>Durability: <strong>{a.durability}</strong></p>}
+  {a.sell != null && <p class="muted">Sell value: {a.sell}</p>}
+</Base>
+
+<style>
+  .answer-card { margin: 1rem 0; border-left: 4px solid var(--accent); }
+  .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; text-align: center; }
+  .stat-num { font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; }
+  .stat-label { font-size: 0.85rem; color: var(--muted); }
+</style>

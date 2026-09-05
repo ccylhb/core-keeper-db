@@ -1,0 +1,46 @@
+---import Base from "../../../layouts/Base.astro";
+import DataTable from "../../../components/DataTable.astro";
+
+export async function getStaticPaths() {
+  const weapons = (await import("../../../../src/data/weapons.json")).default;
+  const groups = [...new Set(weapons.map((w) => w.group))];
+  return groups.map((g) => ({
+    params: { group: g.toLowerCase() },
+    props: { group: g, items: weapons.filter((w) => w.group === g) },
+  }));
+}
+const { group, items } = Astro.props;
+const rows = items.map((w) => ({
+  name: w.name,
+  href: `/weapons/${w.slug}/`,
+  rarity: w.rarity,
+  level: w.level,
+  dmgBase: w.dmg ? `${w.dmg.base} (lv ${w.dmg.baseLevel})` : "—",
+  dmgMax: w.dmg ? w.dmg.max : null,
+  dps: w.dps,
+  area: w.area || "—",
+}));
+---
+
+<Base
+  title={`${group} Weapons in Core Keeper — Ranked`}
+  description={`All ${group.toLowerCase()} weapons in Core Keeper ranked by DPS, with damage at every upgrade level.`}
+>
+  <p style="margin:0"><a href="/weapons/">← All weapons</a></p>
+  <h1>{group} weapons</h1>
+  <p class="muted">{items.length} {group.toLowerCase()} weapons, highest DPS first.</p>
+  <DataTable
+    id="wgroup"
+    rows={rows}
+    searchPlaceholder={"Search " + group.toLowerCase() + " weapons..."}
+    columns={[
+      { key: "name", label: "Weapon", href: "href" },
+      { key: "rarity", label: "Rarity" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "dmgBase", label: "Base damage" },
+      { key: "dmgMax", label: "Max damage (lv20)", type: "number" },
+      { key: "dps", label: "DPS est.", type: "number" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

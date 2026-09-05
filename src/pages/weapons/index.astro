@@ -1,0 +1,44 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import weapons from "../../../src/data/weapons.json";
+
+const rows = weapons.map((w) => ({
+  name: w.name,
+  href: `/weapons/${w.slug}/`,
+  group: w.group,
+  rarity: w.rarity,
+  level: w.level,
+  dmgBase: w.dmg ? `${w.dmg.base} (lv ${w.dmg.baseLevel})` : "—",
+  dmgMax: w.dmg ? w.dmg.max : null,
+  dps: w.dps,
+  area: w.area || "—",
+}));
+---
+
+<Base
+  title="All Core Keeper Weapons — Damage & DPS"
+  description="Every weapon in Core Keeper with damage at craft level, max damage at level 20, DPS and where to get it. Sortable and searchable."
+>
+  <h1>Weapons</h1>
+  <p class="muted">
+    {weapons.length} weapons, ranked by default from highest DPS. Click a name for the full
+    per-level damage table, bonuses and recipe. Numbers scale when you upgrade the weapon at an
+    <a href="/calculator/">upgrade forge</a>.
+  </p>
+  <DataTable
+    id="weapons"
+    rows={rows}
+    searchPlaceholder="Search weapons..."
+    columns={[
+      { key: "name", label: "Weapon", href: "href" },
+      { key: "group", label: "Type" },
+      { key: "rarity", label: "Rarity" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "dmgBase", label: "Base damage" },
+      { key: "dmgMax", label: "Max damage (lv20)", type: "number" },
+      { key: "dps", label: "DPS est.", type: "number" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

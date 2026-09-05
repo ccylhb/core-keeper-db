@@ -1,0 +1,75 @@
+---
+import Base from "../layouts/Base.astro";
+import weapons from "../../src/data/weapons.json";
+import armor from "../../src/data/armor.json";
+import food from "../../src/data/food.json";
+
+const topWeapons = weapons.filter((w) => w.dps).slice(0, 15);
+const topArmor = armor.filter((a) => a.armor).slice(0, 15);
+const topFood = food.filter((f) => f.hunger).slice(0, 15);
+---
+
+<Base
+  title="Core Keeper Rankings — Best Weapons, Armor & Food"
+  description="Answer-first rankings: best Core Keeper weapons by DPS, strongest armor pieces, most filling food. Updated for game version 1.2.0.7."
+>
+  <h1>Rankings</h1>
+  <p class="muted">
+    The short answers, no digging. Data from game version 1.2.0.7.
+  </p>
+
+  <h2 id="weapons">Best weapons by DPS</h2>
+  <p class="muted">Max damage per hit ÷ attack cooldown, at max upgrade level.</p>
+  <table>
+    <thead><tr><th>#</th><th>Weapon</th><th>Type</th><th>Max damage</th><th>DPS</th></tr></thead>
+    <tbody>
+      {topWeapons.map((w, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/weapons/${w.slug}/`}>{w.name}</a></td>
+          <td>{w.group}</td>
+          <td>{w.dmg.max}</td>
+          <td><strong>{w.dps}</strong></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p><a href="/weapons/">See all {weapons.length} weapons →</a></p>
+
+  <h2 id="armor">Strongest armor pieces</h2>
+  <table>
+    <thead><tr><th>#</th><th>Piece</th><th>Slot</th><th>Armor (lv20)</th><th>+Max HP</th></tr></thead>
+    <tbody>
+      {topArmor.map((a, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/armor/${a.slug}/`}>{a.name}</a></td>
+          <td>{a.slot}</td>
+          <td><strong>{a.armor.max}</strong></td>
+          <td>{a.maxHealth ? a.maxHealth.max : "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p><a href="/armor/">See all {armor.length} pieces →</a></p>
+
+  <h2 id="food">Most filling food</h2>
+  <table>
+    <thead><tr><th>#</th><th>Food</th><th>Kind</th><th>Hunger</th><th>Buffs</th></tr></thead>
+    <tbody>
+      {topFood.map((f, i) => (
+        <tr>
+          <td>{i + 1}</td>
+          <td><a href={`/food/${f.slug}/`}>{f.name}</a></td>
+          <td>{f.cooked ? "Cooked" : "Raw"}</td>
+          <td><strong>{f.hunger}</strong></td>
+          <td>{Object.keys(f.buffs).slice(0, 2).join(", ") || "—"}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  <p><a href="/food/">See all {food.length} foods →</a></p>
+
+  <h2>Plan a craft</h2>
+  <p>Use the <a href="/calculator/">crafting calculator</a> to total materials across everything you want to make.</p>
+</Base>

@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import food from "../../../src/data/food.json";
+
+const rows = food.map((f) => ({
+  name: f.name,
+  href: `/food/${f.slug}/`,
+  kind: f.cooked ? "Cooked" : "Raw/Other",
+  rarity: f.rarity,
+  hunger: f.hunger,
+  buffs: Object.keys(f.buffs).slice(0, 2).join(", ") || "—",
+  area: f.area || "—",
+}));
+---
+
+<Base
+  title="All Core Keeper Food — Ranked by Hunger Restored"
+  description="Every food and consumable in Core Keeper ranked by hunger restored, with buffs and recipes. Sortable and searchable."
+>
+  <h1>Food & Consumables</h1>
+  <p class="muted">
+    {food.length} items, ranked from most hunger restored. Cooked dishes usually beat raw
+    ingredients — the ranking makes it obvious which recipes are worth cooking. Click a name
+    for buffs and recipe.
+  </p>
+  <DataTable
+    id="food"
+    rows={rows}
+    searchPlaceholder="Search food..."
+    columns={[
+      { key: "name", label: "Food", href: "href" },
+      { key: "kind", label: "Kind" },
+      { key: "rarity", label: "Rarity" },
+      { key: "hunger", label: "Hunger", type: "number" },
+      { key: "buffs", label: "Buffs" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

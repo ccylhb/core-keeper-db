@@ -1,0 +1,40 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import enemies from "../../../src/data/enemies.json";
+
+const rows = enemies.map((e) => ({
+  name: e.name,
+  href: `/enemies/${e.slug}/`,
+  kind: e.boss ? "Boss" : "Enemy",
+  rarity: e.faction || "—",
+  level: e.level,
+  health: e.health,
+  area: e.area || "—",
+}));
+---
+
+<Base
+  title="All Core Keeper Enemies & Bosses — Health & Drops"
+  description="Every enemy and boss in Core Keeper with health, faction, level and drops. Sortable and searchable, bosses first."
+>
+  <h1>Enemies & Bosses</h1>
+  <p class="muted">
+    {enemies.length} creatures — the {enemies.filter((e) => e.boss).length} titan and dungeon
+    bosses first (they have the most health), then regular enemies. Click a name for the full
+    drop table.
+  </p>
+  <DataTable
+    id="enemies"
+    rows={rows}
+    searchPlaceholder="Search enemies..."
+    columns={[
+      { key: "name", label: "Creature", href: "href" },
+      { key: "kind", label: "Kind" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "health", label: "Health", type: "number" },
+      { key: "rarity", label: "Faction" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

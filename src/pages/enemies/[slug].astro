@@ -1,0 +1,68 @@
+---import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const enemies = (await import("../../../src/data/enemies.json")).default;
+  return enemies.map((e) => ({ params: { slug: e.slug }, props: { e } }));
+}
+const { e } = Astro.props;
+---
+
+<Base
+  title={`${e.name} — Core Keeper ${e.boss ? "Boss" : "Enemy"} Stats & Drops`}
+  description={`${e.name} has ${e.health ?? "unknown"} health in Core Keeper. Full drop table, level and location.`}
+>
+  <p style="margin:0"><a href="/enemies/">← All enemies</a></p>
+  <h1>{e.name}</h1>
+  <p>
+    <span class="tag" style={e.boss ? "color:var(--bad)" : ""}>{e.boss ? "Boss" : "Enemy"}</span>
+    {e.level != null && <span class="tag">Level {e.level}</span>}
+    {e.area && <span class="tag">{e.area} biome</span>}
+    {e.faction && e.faction !== "None" && <span class="tag">{e.faction}</span>}
+  </p>
+
+  {e.desc && <p class="muted">{e.desc}</p>}
+
+  {e.health != null && (
+    <div class="card answer-card">
+      <div class="stat-row">
+        <div>
+          <div class="stat-num">{e.health}</div>
+          <div class="stat-label">Health</div>
+        </div>
+        {e.moveSpeed != null && (
+          <div>
+            <div class="stat-num">{e.moveSpeed}</div>
+            <div class="stat-label">Move speed</div>
+          </div>
+        )}
+      </div>
+    </div>
+  )}
+
+  {e.drops.length > 0 ? (
+    <>
+      <h2>Drops</h2>
+      <table>
+        <thead><tr><th>Item</th><th>Amount</th><th>Chance</th></tr></thead>
+        <tbody>
+          {e.drops.map((d) => (
+            <tr>
+              <td>{d.id}</td>
+              <td>{d.amount}</td>
+              <td>{d.chance != null ? `${Math.round(d.chance * 100)}%` : "—"}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  ) : (
+    <p class="muted">No direct drops recorded.</p>
+  )}
+</Base>
+
+<style>
+  .answer-card { margin: 1rem 0; border-left: 4px solid var(--accent); }
+  .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; text-align: center; }
+  .stat-num { font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; }
+  .stat-label { font-size: 0.85rem; color: var(--muted); }
+</style>

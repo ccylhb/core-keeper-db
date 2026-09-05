@@ -1,0 +1,100 @@
+---import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const weapons = (await import("../../../src/data/weapons.json")).default;
+  return weapons.map((w) => ({ params: { slug: w.slug }, props: { w } }));
+}
+const { w } = Astro.props;
+---
+
+<Base
+  title={`${w.name} — Core Keeper Weapon Stats & Recipe`}
+  description={`${w.name} damage at every upgrade level, DPS, bonuses and crafting recipe in Core Keeper.`}
+>
+  <p style="margin:0"><a href="/weapons/">← All weapons</a></p>
+  <h1>{w.name}</h1>
+  <p>
+    <span class="tag">{w.group}</span>
+    {w.rarity && <span class="tag">{w.rarity}</span>}
+    {w.level != null && <span class="tag">Level {w.level}</span>}
+    {w.area && <span class="tag">{w.area} biome</span>}
+  </p>
+
+  {w.desc && <p class="muted">{w.desc}</p>}
+
+  {w.dmg && (
+    <div class="card answer-card">
+      <div class="stat-row">
+        <div>
+          <div class="stat-num">{w.dmg.base}</div>
+          <div class="stat-label">Damage at lv {w.dmg.baseLevel}</div>
+        </div>
+        <div>
+          <div class="stat-num">{w.dmg.max}</div>
+          <div class="stat-label">Damage at lv {w.dmg.maxLevel}</div>
+        </div>
+        <div>
+          <div class="stat-num">{w.dps ?? "—"}</div>
+          <div class="stat-label">DPS estimate</div>
+        </div>
+      </div>
+    </div>
+  )}
+
+  <h2>Damage by upgrade level</h2>
+  {w.dmg ? (
+    <table>
+      <thead>
+        <tr><th>Level</th><th>Damage</th></tr>
+      </thead>
+      <tbody>
+        {Object.entries(w.dmg.levels).map(([lv, v]) => (
+          <tr><td>{lv}</td><td>{v}</td></tr>
+        ))}
+      </tbody>
+    </table>
+  ) : (
+    <p class="muted">No damage scaling data.</p>
+  )}
+
+  {w.cooldown && <p class="muted">Attack cooldown: {w.cooldown}s</p>}
+
+  {Object.keys(w.conds).length > 0 && (
+    <>
+      <h2>Equipped bonuses</h2>
+      <table>
+        <thead><tr><th>Bonus</th><th>At craft level</th><th>At max level</th></tr></thead>
+        <tbody>
+          {Object.entries(w.conds).map(([id, c]) => (
+            <tr><td>{id}</td><td>{c.base}</td><td>{c.max}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+
+  {w.materials && (
+    <>
+      <h2>Recipe</h2>
+      <table>
+        <thead><tr><th>Material</th><th>Amount</th></tr></thead>
+        <tbody>
+          {w.materials.map((m) => (
+            <tr><td>{m.id}</td><td>{m.amount}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      <p class="muted">Tip: add this to the <a href="/calculator/">crafting calculator</a> to total materials across multiple crafts.</p>
+    </>
+  )}
+
+  {w.durability && <p>Durability: <strong>{w.durability}</strong></p>}
+  {w.sell != null && <p class="muted">Sell value: {w.sell}</p>}
+</Base>
+
+<style>
+  .answer-card { margin: 1rem 0; border-left: 4px solid var(--accent); }
+  .stat-row { display: flex; gap: 2.5rem; flex-wrap: wrap; text-align: center; }
+  .stat-num { font-size: 2rem; font-weight: 700; color: var(--accent); line-height: 1.1; }
+  .stat-label { font-size: 0.85rem; color: var(--muted); }
+</style>

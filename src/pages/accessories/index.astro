@@ -1,0 +1,39 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import accessories from "../../../src/data/accessories.json";
+
+const rows = accessories.map((a) => ({
+  name: a.name,
+  href: `/accessories/${a.slug}/`,
+  slot: a.slot,
+  rarity: a.rarity,
+  level: a.level,
+  bonus: Object.keys(a.conds).map((id) => id).slice(0, 2).join(", ") || "—",
+  area: a.area || "—",
+}));
+---
+
+<Base
+  title="All Core Keeper Accessories — Rings, Necklaces, Offhands"
+  description="Every ring, necklace and offhand in Core Keeper with exact stat bonuses. Sortable and searchable."
+>
+  <h1>Accessories</h1>
+  <p class="muted">
+    {accessories.length} rings, necklaces and offhands. The bonus column shows the two main
+    equipped effects; open a page for exact values at every level.
+  </p>
+  <DataTable
+    id="acc"
+    rows={rows}
+    searchPlaceholder="Search accessories..."
+    columns={[
+      { key: "name", label: "Accessory", href: "href" },
+      { key: "slot", label: "Slot" },
+      { key: "rarity", label: "Rarity" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "bonus", label: "Main bonus" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

@@ -1,0 +1,70 @@
+---import Base from "../../layouts/Base.astro";
+
+export async function getStaticPaths() {
+  const accessories = (await import("../../../src/data/accessories.json")).default;
+  return accessories.map((a) => ({ params: { slug: a.slug }, props: { a } }));
+}
+const { a } = Astro.props;
+---
+
+<Base
+  title={`${a.name} — Core Keeper Accessory Stats`}
+  description={`${a.name} bonuses at every upgrade level in Core Keeper.`}
+>
+  <p style="margin:0"><a href="/accessories/">← All accessories</a></p>
+  <h1>{a.name}</h1>
+  <p>
+    <span class="tag">{a.slot}</span>
+    {a.rarity && <span class="tag">{a.rarity}</span>}
+    {a.level != null && <span class="tag">Level {a.level}</span>}
+    {a.area && <span class="tag">{a.area} biome</span>}
+  </p>
+
+  {a.desc && <p class="muted">{a.desc}</p>}
+
+  {Object.keys(a.conds).length > 0 ? (
+    <>
+      <h2>Bonuses by upgrade level</h2>
+      <table>
+        <thead><tr><th>Bonus</th><th>At craft level</th><th>At max level</th></tr></thead>
+        <tbody>
+          {Object.entries(a.conds).map(([id, c]) => (
+            <tr><td>{id}</td><td>{c.base}</td><td>{c.max}</td></tr>
+          ))}
+        </tbody>
+      </table>
+      <details>
+        <summary style="cursor:pointer;color:var(--muted)">Full per-level table</summary>
+        {Object.entries(a.conds).map(([id, c]) => (
+          <div style="margin-top:0.75rem">
+            <strong>{id}</strong>
+            <table>
+              <tbody>
+                {Object.entries(c.levels).map(([lv, v]) => (
+                  <tr><td>{lv}</td><td>{v}</td></tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        ))}
+      </details>
+    </>
+  ) : (
+    <p class="muted">No equipped bonuses recorded for this item.</p>
+  )}
+
+  {a.materials && (
+    <>
+      <h2>Recipe</h2>
+      <table>
+        <thead><tr><th>Material</th><th>Amount</th></tr></thead>
+        <tbody>
+          {a.materials.map((m) => (
+            <tr><td>{m.id}</td><td>{m.amount}</td></tr>
+          ))}
+        </tbody>
+      </table>
+    </>
+  )}
+  {a.sell != null && <p class="muted">Sell value: {a.sell}</p>}
+</Base>

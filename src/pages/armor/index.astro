@@ -1,0 +1,41 @@
+---
+import Base from "../../layouts/Base.astro";
+import DataTable from "../../components/DataTable.astro";
+import armor from "../../../src/data/armor.json";
+
+const rows = armor.map((a) => ({
+  name: a.name,
+  href: `/armor/${a.slug}/`,
+  slot: a.slot,
+  rarity: a.rarity,
+  level: a.level,
+  armorMax: a.armor ? a.armor.max : null,
+  hpMax: a.maxHealth ? a.maxHealth.max : null,
+  area: a.area || "—",
+}));
+---
+
+<Base
+  title="All Core Keeper Armor — Armor Values"
+  description="Every armor piece in Core Keeper with armor value and max health bonus at max level. Sortable, searchable, ranked from strongest."
+>
+  <h1>Armor</h1>
+  <p class="muted">
+    {armor.length} pieces, ranked from highest armor value at max level. Helm, breast and pants
+    slots included. Click a name for per-level values and the full bonus list.
+  </p>
+  <DataTable
+    id="armor"
+    rows={rows}
+    searchPlaceholder="Search armor..."
+    columns={[
+      { key: "name", label: "Piece", href: "href" },
+      { key: "slot", label: "Slot" },
+      { key: "rarity", label: "Rarity" },
+      { key: "level", label: "Lv", type: "number" },
+      { key: "armorMax", label: "Armor (lv20)", type: "number" },
+      { key: "hpMax", label: "+Max HP (lv20)", type: "number" },
+      { key: "area", label: "Biome" },
+    ]}
+  />
+</Base>

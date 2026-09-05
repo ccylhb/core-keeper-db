@@ -1,0 +1,41 @@
+---
+import Base from "../layouts/Base.astro";
+import GuideLink from "../components/GuideLink.astro";
+import site from "../../site.config.json";
+import meta from "../../src/data/meta.json";
+const c = meta.counts;
+---
+
+<Base title={`${site.siteName} - ${site.tagline}`} description={site.description}>
+  <h1>{site.siteName}</h1>
+  <p class="muted">
+    Core Keeper database — every stat, rank and recipe for game version {meta.gameVersion}.
+    Built to answer one question fast: what should you craft, eat and fight next?
+  </p>
+
+  <div class="card" style="margin:1.25rem 0;border-left:4px solid var(--accent)">
+    <strong>Start here:</strong>
+    <a href="/rankings/">best weapons by DPS</a> ·
+    <a href="/rankings/">strongest armor</a> ·
+    <a href="/rankings/">most filling food</a> ·
+    <a href="/calculator/">crafting calculator</a>
+  </div>
+
+  <div class="grid grid-3">
+    <GuideLink title="Weapons" desc={`${c.weapons} weapons — melee, ranged, throwing, summoning. Damage per level and DPS ranking.`} href="/weapons/" badge={`${c.weapons} entries`} />
+    <GuideLink title="Armor" desc={`${c.armor} pieces — helms, breast armor and pants. Armor value and bonuses at every level.`} href="/armor/" badge={`${c.armor} entries`} />
+    <GuideLink title="Accessories" desc={`${c.accessories} rings, necklaces and offhands with exact bonuses.`} href="/accessories/" badge={`${c.accessories} entries`} />
+    <GuideLink title="Food & Consumables" desc={`${c.food} foods ranked by hunger restored, plus buffs and recipes.`} href="/food/" badge={`${c.food} entries`} />
+    <GuideLink title="Enemies & Bosses" desc={`${c.enemies} creatures with health, drops and where to find them.`} href="/enemies/" badge={`${c.enemies} entries`} />
+    <GuideLink title="Crafting Calculator" desc="Plan any craft: add items, see the total materials you need." href="/calculator/" badge="Tool" />
+  </div>
+
+  <h2>Why CoreDB</h2>
+  <p>
+    Wiki pages bury the answer under infoboxes and lore. Video guides make you watch
+    8 minutes for one number. Here every page leads with the stat you came for,
+    every list is sortable and ranked, and the <a href="/calculator/">crafting
+    calculator</a> totals your materials across multiple items — something neither
+    a wiki nor a video can do.
+  </p>
+</Base>
