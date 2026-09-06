@@ -1,1 +1,5418 @@
-[{"name": "Void Club", "slug": "Void_Club", "desc": "This club feels light when held, yet heavy when swung.", "rarity": "Rare", "level": 18, "area": "Excavation", "sell": 344, "materials": [{"id": "ReluciteBar", "amount": 20}, {"id": "CorruptedAlloy", "amount": 15}], "durability": 250, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 18, "base": 370, "maxLevel": 20, "max": 409, "levels": {"18": 370, "19": 389, "20": 409}}, "dps": 1022.5, "cooldown": 0.4, "conds": {}, "secondaryUse": true}, {"name": "Galaxite Dagger", "slug": "Galaxite_Dagger", "desc": "A quick-stabbing weapon made for close combat. The blade is so fine that it can cut a hair into two pieces lengthways.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 210, "materials": [{"id": "GalaxiteBar", "amount": 20}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 14, "base": 210, "maxLevel": 20, "max": 293, "levels": {"14": 210, "15": 224, "16": 238, "17": 252, "18": 265, "19": 279, "20": 293}}, "dps": 976.7, "cooldown": 0.3, "conds": {"CritChance": {"baseLevel": 14, "base": 14, "maxLevel": 20, "max": 18, "levels": {"14": 14, "15": 15, "16": 15, "17": 16, "18": 17, "19": 17, "20": 18}}}, "secondaryUse": false}, {"name": "Rune Song", "slug": "Rune_Song", "desc": "A legendary sword that hums when swung through the air. Its durability is a testament to extraordinary craftsmanship, said to carry the whispers of ancient battles within its blade.", "rarity": "Legendary", "level": 13, "area": "Mold", "sell": null, "materials": [{"id": "BrokenLegendarySword", "amount": 1}, {"id": "LegendarySwordBlade", "amount": 1}, {"id": "LegendarySwordGemstone", "amount": 1}, {"id": "IronBar", "amount": 50}, {"id": "AncientGemstone", "amount": 10}], "durability": "Infinite", "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 13, "base": 259, "maxLevel": 20, "max": 388, "levels": {"13": 259, "14": 277, "15": 296, "16": 314, "17": 333, "18": 351, "19": 370, "20": 388}}, "dps": 970.0, "cooldown": 0.4, "conds": {"LifeOnHit": {"baseLevel": 13, "base": 10, "maxLevel": 20, "max": 17, "levels": {"13": 10, "14": 12, "15": 13, "16": 13, "17": 13, "18": 15, "19": 17, "20": 17}}, "ChanceOnHitToGainMeleeAttackSpeed": {"baseLevel": 13, "base": 5, "maxLevel": 20, "max": 8, "levels": {"13": 5, "14": 6, "15": 6, "16": 7, "17": 7, "18": 7, "19": 8, "20": 8}}}, "secondaryUse": true}, {"name": "Ritual Dagger", "slug": "Ritual_Dagger", "desc": "This unusual dagger is made from a big gemstone shard. There are dark red spots on the handle.", "rarity": "Epic", "level": 9, "area": "Stone", "sell": 116, "materials": [{"id": "IronBar", "amount": 15}, {"id": "AncientGemstone", "amount": 3}], "durability": 467, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 9, "base": 137, "maxLevel": 20, "max": 287, "levels": {"9": 137, "10": 150, "11": 164, "12": 178, "13": 191, "14": 205, "15": 219, "16": 232, "17": 246, "18": 260, "19": 273, "20": 287}}, "dps": 956.7, "cooldown": 0.3, "conds": {"BlueGlow": {"baseLevel": 9, "base": 2, "maxLevel": 20, "max": 3, "levels": {"9": 2, "10": 2, "11": 2, "12": 2, "13": 3, "14": 3, "15": 3, "16": 3, "17": 3, "18": 3, "19": 3, "20": 3}}, "CritChance": {"baseLevel": 9, "base": 5, "maxLevel": 20, "max": 9, "levels": {"9": 5, "10": 5, "11": 6, "12": 6, "13": 6, "14": 7, "15": 8, "16": 8, "17": 8, "18": 9, "19": 9, "20": 9}}, "CriticalDamagePercentageIncrease": {"baseLevel": 9, "base": 13, "maxLevel": 20, "max": 25, "levels": {"9": 13, "10": 14, "11": 15, "12": 16, "13": 17, "14": 19, "15": 20, "16": 21, "17": 22, "18": 23, "19": 24, "20": 25}}}, "secondaryUse": false}, {"name": "Tin Dagger", "slug": "Tin_Dagger", "desc": "A small blade that allows for quick stabs.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 9, "materials": [{"id": "TinBar", "amount": 7}], "durability": 400, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 5, "base": 82, "maxLevel": 20, "max": 286, "levels": {"5": 82, "6": 95, "7": 109, "8": 123, "9": 136, "10": 150, "11": 163, "12": 177, "13": 191, "14": 204, "15": 218, "16": 232, "17": 245, "18": 259, "19": 272, "20": 286}}, "dps": 953.3, "cooldown": 0.3, "conds": {}, "secondaryUse": false}, {"name": "Rusty Dagger", "slug": "Rusty_Dagger", "desc": "A blade so corroded it only vaguely resembles copper. It's deceptively sharp.", "rarity": "Uncommon", "level": 3, "area": "Slime", "sell": 9, "materials": [{"id": "CopperBar", "amount": 6}], "durability": 233, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 3, "base": 54, "maxLevel": 20, "max": 285, "levels": {"3": 54, "4": 68, "5": 81, "6": 95, "7": 108, "8": 122, "9": 136, "10": 149, "11": 163, "12": 176, "13": 190, "14": 203, "15": 217, "16": 230, "17": 244, "18": 258, "19": 271, "20": 285}}, "dps": 950.0, "cooldown": 0.3, "conds": {"CritChance": {"baseLevel": 3, "base": 5, "maxLevel": 20, "max": 16, "levels": {"3": 5, "4": 6, "5": 6, "6": 7, "7": 8, "8": 9, "9": 9, "10": 10, "11": 11, "12": 11, "13": 12, "14": 13, "15": 14, "16": 14, "17": 14, "18": 15, "19": 15, "20": 16}}}, "secondaryUse": false}, {"name": "Scarlet Dagger", "slug": "Scarlet_Dagger", "desc": "This wavy, crimson dagger pierces through most materials.", "rarity": "Uncommon", "level": 9, "area": "Nature", "sell": 141, "materials": [{"id": "IronBar", "amount": 4}, {"id": "ScarletBar", "amount": 10}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 9, "base": 134, "maxLevel": 20, "max": 280, "levels": {"9": 134, "10": 147, "11": 160, "12": 174, "13": 187, "14": 200, "15": 214, "16": 227, "17": 240, "18": 254, "19": 267, "20": 280}}, "dps": 933.3, "cooldown": 0.3, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 9, "base": 24, "maxLevel": 20, "max": 44, "levels": {"9": 24, "10": 25, "11": 27, "12": 29, "13": 31, "14": 33, "15": 34, "16": 36, "17": 38, "18": 40, "19": 42, "20": 44}}}, "secondaryUse": false}, {"name": "Splintered Wooden Sword", "slug": "Splintered_Wooden_Sword", "desc": "This simple sword has seen far more battles than its maker would ever suggest. A worn reminder that even the humblest blade can do the impossible, where every crack Dares the next blow to land.", "rarity": "Uncommon", "level": 2, "area": "StartArea", "sell": 6, "materials": [{"id": "Wood", "amount": 5}], "durability": 88, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 2, "base": 51, "maxLevel": 20, "max": 357, "levels": {"2": 51, "3": 68, "4": 85, "5": 102, "6": 119, "7": 136, "8": 153, "9": 170, "10": 187, "11": 204, "12": 221, "13": 238, "14": 255, "15": 272, "16": 289, "17": 306, "18": 323, "19": 340, "20": 357}}, "dps": 892.5, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 2, "base": 4, "maxLevel": 20, "max": 19, "levels": {"2": 4, "3": 5, "4": 7, "5": 7, "6": 8, "7": 9, "8": 10, "9": 10, "10": 11, "11": 12, "12": 12, "13": 13, "14": 14, "15": 15, "16": 15, "17": 16, "18": 18, "19": 18, "20": 19}}}, "secondaryUse": false}, {"name": "Poisonous Sickle", "slug": "Poisonous_Sickle", "desc": "Farming tool that turned into a weapon when a great threat had to be slain.", "rarity": "Epic", "level": 12, "area": "Mold", "sell": 196, "materials": [{"id": "ScarletBar", "amount": 15}, {"id": "PoisonSlime", "amount": 20}], "durability": 525, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 12, "base": 221, "maxLevel": 20, "max": 356, "levels": {"12": 221, "13": 238, "14": 255, "15": 272, "16": 289, "17": 306, "18": 323, "19": 340, "20": 356}}, "dps": 890.0, "cooldown": 0.4, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 12, "base": 18, "maxLevel": 20, "max": 26, "levels": {"12": 18, "13": 19, "14": 20, "15": 21, "16": 22, "17": 23, "18": 24, "19": 25, "20": 26}}, "ChanceToApplyPoisoned": {"baseLevel": 12, "base": 28, "maxLevel": 20, "max": 41, "levels": {"12": 28, "13": 29, "14": 31, "15": 33, "16": 34, "17": 36, "18": 37, "19": 39, "20": 41}}}, "secondaryUse": false}, {"name": "Prehistoric Crystal Spear", "slug": "Prehistoric_Crystal_Spear", "desc": "One of the first weapons ever made by mankind, but this one has an ancient gemstone in place of a normal spearhead.", "rarity": "Epic", "level": 15, "area": "Desert", "sell": 242, "materials": [{"id": "GalaxiteBar", "amount": 20}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 15, "base": 272, "maxLevel": 20, "max": 356, "levels": {"15": 272, "16": 289, "17": 306, "18": 323, "19": 340, "20": 356}}, "dps": 890.0, "cooldown": 0.4, "conds": {"PhysicalMeleeDamageIncrease": {"baseLevel": 15, "base": 361, "maxLevel": 20, "max": 470, "levels": {"15": 361, "16": 383, "17": 405, "18": 427, "19": 449, "20": 470}}}, "secondaryUse": true}, {"name": "Hunting Spear", "slug": "Hunting_Spear", "desc": "A very crude long-reach weapon used by the cavelings dwelling in the Clay Caves. Good to hunt larvae and place them over a fire.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 7, "materials": [{"id": "TinBar", "amount": 5}, {"id": "Wood", "amount": 8}], "durability": 300, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 5, "base": 101, "maxLevel": 20, "max": 355, "levels": {"5": 101, "6": 118, "7": 135, "8": 152, "9": 169, "10": 186, "11": 203, "12": 220, "13": 236, "14": 253, "15": 270, "16": 287, "17": 304, "18": 321, "19": 338, "20": 355}}, "dps": 887.5, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 5, "base": 3, "maxLevel": 20, "max": 9, "levels": {"5": 3, "6": 4, "7": 4, "8": 5, "9": 5, "10": 5, "11": 6, "12": 6, "13": 6, "14": 7, "15": 8, "16": 8, "17": 8, "18": 9, "19": 9, "20": 9}}}, "secondaryUse": true}, {"name": "Atlantean Worm Sword", "slug": "Atlantean_Worm_Sword", "desc": "A dislodged, razorsharp mandible of the Atlantean Worm. The maker of the deep sea.", "rarity": "Epic", "level": 17, "area": "Crystal", "sell": 261, "materials": [{"id": "SolariteBar", "amount": 24}], "durability": 525, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 17, "base": 300, "maxLevel": 20, "max": 350, "levels": {"17": 300, "18": 317, "19": 334, "20": 350}}, "dps": 875.0, "cooldown": 0.4, "conds": {"IncreasedDamageAgainstBosses": {"baseLevel": 17, "base": 17, "maxLevel": 20, "max": 21, "levels": {"17": 17, "18": 18, "19": 19, "20": 21}}, "LifeOnHit": {"baseLevel": 17, "base": 4, "maxLevel": 20, "max": 5, "levels": {"17": 4, "18": 4, "19": 5, "20": 5}}}, "secondaryUse": false}, {"name": "Copper Sword", "slug": "Copper_Sword", "desc": "A good weapon for slaying foes.", "rarity": "Common", "level": 2, "area": "Slime", "sell": 6, "materials": [{"id": "CopperBar", "amount": 5}], "durability": 250, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 2, "base": 50, "maxLevel": 20, "max": 349, "levels": {"2": 50, "3": 66, "4": 83, "5": 100, "6": 116, "7": 133, "8": 149, "9": 166, "10": 183, "11": 199, "12": 216, "13": 232, "14": 249, "15": 266, "16": 282, "17": 299, "18": 315, "19": 332, "20": 349}}, "dps": 872.5, "cooldown": 0.4, "conds": {}, "secondaryUse": false}, {"name": "Pipe Club", "slug": "Pipe_Club", "desc": "A hefty pipe with a gauge on the end for added weight.", "rarity": "Rare", "level": 8, "area": "Stone", "sell": 19, "materials": [{"id": "TinBar", "amount": 10}, {"id": "LarvaMeat", "amount": 7}, {"id": "Wood", "amount": 10}], "durability": 175, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 8, "base": 298, "maxLevel": 20, "max": 695, "levels": {"8": 298, "9": 331, "10": 364, "11": 397, "12": 430, "13": 463, "14": 496, "15": 530, "16": 563, "17": 596, "18": 629, "19": 662, "20": 695}}, "dps": 868.8, "cooldown": 0.8, "conds": {"ChanceOnHitToKnockback": {"baseLevel": 8, "base": 36, "maxLevel": 20, "max": 60, "levels": {"8": 36, "9": 38, "10": 40, "11": 42, "12": 44, "13": 46, "14": 48, "15": 50, "16": 52, "17": 54, "18": 56, "19": 58, "20": 60}}}, "secondaryUse": false}, {"name": "Iron Sword", "slug": "Iron_Sword", "desc": "A strong weapon for slaying foes.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 61, "materials": [{"id": "IronBar", "amount": 8}, {"id": "GoldBar", "amount": 1}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 7, "base": 132, "maxLevel": 20, "max": 347, "levels": {"7": 132, "8": 149, "9": 165, "10": 182, "11": 198, "12": 215, "13": 231, "14": 248, "15": 264, "16": 281, "17": 297, "18": 314, "19": 330, "20": 347}}, "dps": 867.5, "cooldown": 0.4, "conds": {"MeleeAttackSpeedIncrease": {"baseLevel": 7, "base": 47, "maxLevel": 20, "max": 99, "levels": {"7": 47, "8": 51, "9": 55, "10": 59, "11": 63, "12": 67, "13": 71, "14": 75, "15": 79, "16": 83, "17": 87, "18": 91, "19": 95, "20": 99}}}, "secondaryUse": false}, {"name": "Galaxite Sword", "slug": "Galaxite_Sword", "desc": "An otherworldly weapon for slaying foes.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 257, "materials": [{"id": "GalaxiteBar", "amount": 24}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 14, "base": 248, "maxLevel": 20, "max": 347, "levels": {"14": 248, "15": 264, "16": 281, "17": 298, "18": 314, "19": 331, "20": 347}}, "dps": 867.5, "cooldown": 0.4, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 14, "base": 36, "maxLevel": 20, "max": 47, "levels": {"14": 36, "15": 38, "16": 40, "17": 42, "18": 44, "19": 45, "20": 47}}}, "secondaryUse": false}, {"name": "Octarine Sword", "slug": "Octarine_Sword", "desc": "An extraordinary weapon for slaying foes.", "rarity": "Rare", "level": 12, "area": "Sea", "sell": 184, "materials": [{"id": "OctarineBar", "amount": 16}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 12, "base": 214, "maxLevel": 20, "max": 346, "levels": {"12": 214, "13": 231, "14": 247, "15": 264, "16": 280, "17": 297, "18": 313, "19": 330, "20": 346}}, "dps": 865.0, "cooldown": 0.4, "conds": {"MeleeAttackSpeedIncrease": {"baseLevel": 12, "base": 67, "maxLevel": 20, "max": 98, "levels": {"12": 67, "13": 70, "14": 74, "15": 78, "16": 82, "17": 86, "18": 90, "19": 94, "20": 98}}}, "secondaryUse": false}, {"name": "Solarite Sword", "slug": "Solarite_Sword", "desc": "A superior weapon for obliterating foes.", "rarity": "Rare", "level": 16, "area": "Crystal", "sell": 248, "materials": [{"id": "SolariteBar", "amount": 24}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 16, "base": 280, "maxLevel": 20, "max": 346, "levels": {"16": 280, "17": 296, "18": 313, "19": 329, "20": 346}}, "dps": 865.0, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 16, "base": 7, "maxLevel": 20, "max": 8, "levels": {"16": 7, "17": 7, "18": 8, "19": 8, "20": 8}}, "MeleeAttackSpeedIncrease": {"baseLevel": 16, "base": 45, "maxLevel": 20, "max": 53, "levels": {"16": 45, "17": 47, "18": 49, "19": 51, "20": 53}}}, "secondaryUse": false}, {"name": "Slippery Slime Sword", "slug": "Slippery_Slime_Sword", "desc": "A blue variant of the slime sword. It sometimes spreads slime onto your enemies that makes them slide around.", "rarity": "Epic", "level": 13, "area": "Sea", "sell": 192, "materials": [{"id": "OctarineBar", "amount": 16}, {"id": "SlipperySlime", "amount": 15}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 13, "base": 230, "maxLevel": 20, "max": 345, "levels": {"13": 230, "14": 246, "15": 263, "16": 279, "17": 295, "18": 312, "19": 328, "20": 345}}, "dps": 862.5, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 13, "base": 6, "maxLevel": 20, "max": 8, "levels": {"13": 6, "14": 6, "15": 7, "16": 7, "17": 7, "18": 8, "19": 8, "20": 8}}, "ChanceOnHitToApplySlipperyMovement": {"baseLevel": 13, "base": 37, "maxLevel": 20, "max": 52, "levels": {"13": 37, "14": 39, "15": 41, "16": 43, "17": 46, "18": 48, "19": 50, "20": 52}}}, "secondaryUse": false}, {"name": "Crystal Shard Club", "slug": "Crystal_Shard_Club", "desc": "This bludgeoning weapon is made from fragile crystal, that can send out splinters when swung.", "rarity": "Rare", "level": 16, "area": "Crystal", "sell": 311, "materials": [{"id": "SolariteBar", "amount": 20}, {"id": "AncientGemstone", "amount": 10}, {"id": "GleamWood", "amount": 10}], "durability": 364, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 16, "base": 349, "maxLevel": 20, "max": 431, "levels": {"16": 349, "17": 370, "18": 390, "19": 411, "20": 431}}, "dps": 862.0, "cooldown": 0.5, "conds": {"ChanceOnHitToKnockback": {"baseLevel": 16, "base": 50, "maxLevel": 20, "max": 58, "levels": {"16": 50, "17": 52, "18": 54, "19": 56, "20": 58}}}, "secondaryUse": true}, {"name": "Iron Halberd", "slug": "Iron_Halberd", "desc": "A luxurious pole-weapon fit for a royal guardian and perfect for poking at adversaries.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 73, "materials": [{"id": "IronBar", "amount": 9}, {"id": "GoldBar", "amount": 1}, {"id": "Wood", "amount": 5}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 7, "base": 131, "maxLevel": 20, "max": 343, "levels": {"7": 131, "8": 147, "9": 163, "10": 179, "11": 196, "12": 212, "13": 228, "14": 245, "15": 261, "16": 277, "17": 294, "18": 310, "19": 326, "20": 343}}, "dps": 857.5, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 7, "base": 4, "maxLevel": 20, "max": 8, "levels": {"7": 4, "8": 4, "9": 4, "10": 5, "11": 5, "12": 5, "13": 6, "14": 6, "15": 7, "16": 7, "17": 7, "18": 8, "19": 8, "20": 8}}}, "secondaryUse": true}, {"name": "Tin Sword", "slug": "Tin_Sword", "desc": "A sharp weapon for slaying foes.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 8, "materials": [{"id": "TinBar", "amount": 7}], "durability": 300, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 5, "base": 98, "maxLevel": 20, "max": 342, "levels": {"5": 98, "6": 114, "7": 130, "8": 146, "9": 163, "10": 179, "11": 195, "12": 212, "13": 228, "14": 244, "15": 260, "16": 277, "17": 293, "18": 309, "19": 325, "20": 342}}, "dps": 855.0, "cooldown": 0.4, "conds": {}, "secondaryUse": false}, {"name": "Larva Spike Club", "slug": "Larva_Spike_Club", "desc": "A bludgeoning weapon that is hard to withstand.", "rarity": "Rare", "level": 8, "area": "LarvaHive", "sell": 20, "materials": [{"id": "TinBar", "amount": 10}, {"id": "LarvaMeat", "amount": 7}, {"id": "Wood", "amount": 10}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 8, "base": 147, "maxLevel": 20, "max": 342, "levels": {"8": 147, "9": 163, "10": 179, "11": 196, "12": 212, "13": 228, "14": 244, "15": 261, "16": 277, "17": 293, "18": 310, "19": 326, "20": 342}}, "dps": 855.0, "cooldown": 0.4, "conds": {"ChanceOnHitToKnockback": {"baseLevel": 8, "base": 34, "maxLevel": 20, "max": 56, "levels": {"8": 34, "9": 35, "10": 37, "11": 39, "12": 41, "13": 43, "14": 45, "15": 47, "16": 49, "17": 50, "18": 52, "19": 54, "20": 56}}}, "secondaryUse": false}, {"name": "Tentacle Whip", "slug": "Tentacle_Whip", "desc": "An elastic tentacle that lashes out at enemies from afar. It's still alive and wiggling in your hand.", "rarity": "Uncommon", "level": 11, "area": "Sea", "sell": 167, "materials": [{"id": "OctarineBar", "amount": 15}], "durability": 233, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 11, "base": 293, "maxLevel": 20, "max": 513, "levels": {"11": 293, "12": 318, "13": 342, "14": 367, "15": 391, "16": 416, "17": 440, "18": 464, "19": 489, "20": 513}}, "dps": 855.0, "cooldown": 0.6, "conds": {}, "secondaryUse": false}, {"name": "Scarlet Sword", "slug": "Scarlet_Sword", "desc": "A great weapon for slaying foes.", "rarity": "Uncommon", "level": 9, "area": "Nature", "sell": 134, "materials": [{"id": "IronBar", "amount": 4}, {"id": "ScarletBar", "amount": 10}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 9, "base": 163, "maxLevel": 20, "max": 341, "levels": {"9": 163, "10": 179, "11": 195, "12": 211, "13": 228, "14": 244, "15": 260, "16": 276, "17": 293, "18": 309, "19": 325, "20": 341}}, "dps": 852.5, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 9, "base": 8, "maxLevel": 20, "max": 16, "levels": {"9": 8, "10": 9, "11": 10, "12": 10, "13": 11, "14": 12, "15": 13, "16": 13, "17": 14, "18": 15, "19": 15, "20": 16}}}, "secondaryUse": false}, {"name": "Hydra Bone Sword", "slug": "Hydra_Bone_Sword", "desc": "A jagged sword made from a hydra's spine. It is not particularly sharp but its uneven shape can tear dangerous wounds into your opponents.", "rarity": "Rare", "level": 16, "area": "Crystal", "sell": 251, "materials": [{"id": "SolariteBar", "amount": 24}, {"id": "GleamWood", "amount": 10}], "durability": 500, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 16, "base": 276, "maxLevel": 20, "max": 341, "levels": {"16": 276, "17": 292, "18": 308, "19": 324, "20": 341}}, "dps": 852.5, "cooldown": 0.4, "conds": {"IncreasedDamageAgainstBosses": {"baseLevel": 16, "base": 15, "maxLevel": 20, "max": 18, "levels": {"16": 15, "17": 16, "18": 16, "19": 17, "20": 18}}, "DamageIncreaseAgainstStunned": {"baseLevel": 16, "base": 44, "maxLevel": 20, "max": 53, "levels": {"16": 44, "17": 46, "18": 48, "19": 50, "20": 53}}}, "secondaryUse": false}, {"name": "Octarine Axe", "slug": "Octarine_Axe", "desc": "This crescent-shaped weapon hits hard and magically arcs towards enemies' weak spots.", "rarity": "Rare", "level": 12, "area": "Sea", "sell": 200, "materials": [{"id": "OctarineBar", "amount": 18}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 12, "base": 312, "maxLevel": 20, "max": 503, "levels": {"12": 312, "13": 335, "14": 359, "15": 383, "16": 407, "17": 431, "18": 455, "19": 479, "20": 503}}, "dps": 838.3, "cooldown": 0.6, "conds": {"CritChance": {"baseLevel": 12, "base": 12, "maxLevel": 20, "max": 18, "levels": {"12": 12, "13": 13, "14": 14, "15": 15, "16": 15, "17": 16, "18": 17, "19": 17, "20": 18}}}, "secondaryUse": true}, {"name": "Battle Axe", "slug": "Battle_Axe", "desc": "A menacing weapon that swings wide and hits hard.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 59, "materials": [{"id": "IronBar", "amount": 10}, {"id": "Wood", "amount": 10}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 7, "base": 191, "maxLevel": 20, "max": 500, "levels": {"7": 191, "8": 214, "9": 238, "10": 262, "11": 286, "12": 310, "13": 334, "14": 357, "15": 381, "16": 405, "17": 429, "18": 453, "19": 477, "20": 500}}, "dps": 833.3, "cooldown": 0.6, "conds": {"PhysicalMeleeDamageIncrease": {"baseLevel": 7, "base": 176, "maxLevel": 20, "max": 445, "levels": {"7": 176, "8": 197, "9": 217, "10": 238, "11": 259, "12": 279, "13": 300, "14": 321, "15": 341, "16": 362, "17": 383, "18": 403, "19": 424, "20": 445}}}, "secondaryUse": true}, {"name": "Tin Axe", "slug": "Tin_Axe", "desc": "A slower but more damaging weapon against multiple enemies.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 11, "materials": [{"id": "TinBar", "amount": 9}], "durability": 200, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 5, "base": 140, "maxLevel": 20, "max": 489, "levels": {"5": 140, "6": 163, "7": 186, "8": 210, "9": 233, "10": 256, "11": 279, "12": 303, "13": 326, "14": 349, "15": 373, "16": 396, "17": 419, "18": 443, "19": 466, "20": 489}}, "dps": 815.0, "cooldown": 0.6, "conds": {}, "secondaryUse": true}, {"name": "Lava Battle Axe", "slug": "Lava_Battle_Axe", "desc": "A smoldering, heavy weapon that looks like it was just taken out of the forge.", "rarity": "Rare", "level": 15, "area": "Lava", "sell": 239, "materials": [{"id": "GalaxiteBar", "amount": 22}, {"id": "LavaSlime", "amount": 20}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 15, "base": 372, "maxLevel": 20, "max": 488, "levels": {"15": 372, "16": 395, "17": 419, "18": 442, "19": 465, "20": 488}}, "dps": 813.3, "cooldown": 0.6, "conds": {"ApplyBurning": {"baseLevel": 15, "base": 52, "maxLevel": 20, "max": 66, "levels": {"15": 52, "16": 55, "17": 57, "18": 60, "19": 63, "20": 66}}}, "secondaryUse": true}, {"name": "Anchor Axe", "slug": "Anchor_Axe", "desc": "This heavy weapon is actually just a ship anchor. Hits very hard and can throw enemies off.", "rarity": "Rare", "level": 13, "area": "City", "sell": 294, "materials": [{"id": "OctarineBar", "amount": 25}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 13, "base": 322, "maxLevel": 20, "max": 483, "levels": {"13": 322, "14": 345, "15": 368, "16": 391, "17": 414, "18": 437, "19": 460, "20": 483}}, "dps": 805.0, "cooldown": 0.6, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 13, "base": 31, "maxLevel": 20, "max": 43, "levels": {"13": 31, "14": 32, "15": 34, "16": 36, "17": 38, "18": 40, "19": 41, "20": 43}}, "ChanceOnHitToKnockback": {"baseLevel": 13, "base": 42, "maxLevel": 20, "max": 55, "levels": {"13": 42, "14": 44, "15": 45, "16": 47, "17": 49, "18": 51, "19": 53, "20": 55}}}, "secondaryUse": true}, {"name": "Pandorium Axe", "slug": "Pandorium_Axe", "desc": "This weapon has been designed by minds twisted in the darkness of The Passage. It tears more than it cuts.", "rarity": "Rare", "level": 17, "area": "Passage", "sell": 376, "materials": [{"id": "PandoriumBar", "amount": 25}, {"id": "Cytoplasm", "amount": 20}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 17, "base": 413, "maxLevel": 20, "max": 482, "levels": {"17": 413, "18": 436, "19": 459, "20": 482}}, "dps": 803.3, "cooldown": 0.6, "conds": {"ChanceToAddRandomConditionOnHit": {"baseLevel": 17, "base": 149, "maxLevel": 20, "max": 176, "levels": {"17": 149, "18": 158, "19": 167, "20": 176}}}, "secondaryUse": true}, {"name": "Zealot's Scimitar", "slug": "Zealots_Scimitar", "desc": "A brilliant sword that channels mana into the blade to increase its power.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 206, "materials": [{"id": "GalaxiteBar", "amount": 20}], "durability": 233, "type": "MeleeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Melee", "dmg": {"baseLevel": 14, "base": 343, "maxLevel": 20, "max": 481, "levels": {"14": 343, "15": 366, "16": 389, "17": 412, "18": 435, "19": 458, "20": 481}}, "dps": 801.7, "cooldown": 0.6, "conds": {}, "secondaryUse": false}, {"name": "Slime Sword", "slug": "Slime_Sword", "desc": "A strange weapon, good for damaging enemies and slowing them down.", "rarity": "Rare", "level": 6, "area": "Clay", "sell": 27, "materials": [{"id": "CopperBar", "amount": 10}, {"id": "Slime", "amount": 15}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 6, "base": 99, "maxLevel": 20, "max": 298, "levels": {"6": 99, "7": 113, "8": 128, "9": 142, "10": 156, "11": 170, "12": 184, "13": 199, "14": 213, "15": 227, "16": 241, "17": 255, "18": 270, "19": 284, "20": 298}}, "dps": 745.0, "cooldown": 0.4, "conds": {"ApplyMovementSpeedReduction": {"baseLevel": 6, "base": -411, "maxLevel": 20, "max": -924, "levels": {"6": -411, "7": -462, "8": -513, "9": -565, "10": -616, "11": -667, "12": -719, "13": -770, "14": -821, "15": -873, "16": -924, "17": -924, "18": -924, "19": -924, "20": -924}}}, "secondaryUse": false}, {"name": "Broken Handle", "slug": "Broken_Handle", "desc": "A piece of an ancient weapon. Even though it's only the handle it already feels mysteriously balanced in your hand.", "rarity": "Rare", "level": 10, "area": "Nature", "sell": 88, "materials": [{"id": "IronBar", "amount": 12}, {"id": "GoldBar", "amount": 1}], "durability": 350, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": {"baseLevel": 10, "base": 129, "maxLevel": 20, "max": 246, "levels": {"10": 129, "11": 141, "12": 152, "13": 164, "14": 176, "15": 187, "16": 199, "17": 211, "18": 223, "19": 234, "20": 246}}, "dps": 615.0, "cooldown": 0.4, "conds": {"IncreasedMaxHealth": {"baseLevel": 10, "base": 31, "maxLevel": 20, "max": 62, "levels": {"10": 31, "11": 34, "12": 37, "13": 40, "14": 44, "15": 47, "16": 50, "17": 53, "18": 56, "19": 59, "20": 62}}}, "secondaryUse": false}, {"name": "Noxious Meteor Staff", "slug": "Noxious_Meteor_Staff", "desc": "A tainted staff laced with corroding blight. It sizzles with embittered energies that rain down a dense drop of toxin.", "rarity": "Epic", "level": 11, "area": "Nature", "sell": 180, "materials": [{"id": "ScarletBar", "amount": 16}, {"id": "PoisonSlime", "amount": 10}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 11, "base": 608, "maxLevel": 20, "max": 1064, "levels": {"11": 608, "12": 659, "13": 709, "14": 760, "15": 811, "16": 861, "17": 912, "18": 963, "19": 1013, "20": 1064}}, "dps": 532.0, "cooldown": 2.0, "conds": {"ChanceToApplyPoisoned": {"baseLevel": 11, "base": 16, "maxLevel": 20, "max": 25, "levels": {"11": 16, "12": 17, "13": 18, "14": 19, "15": 20, "16": 21, "17": 22, "18": 23, "19": 24, "20": 25}}}, "secondaryUse": false}, {"name": "Corrupted Meteor Staff", "slug": "Corrupted_Meteor_Staff", "desc": "A weathered staff infused with cosmic corruption. It crackles with unfathomable energies and whispers of forbidden power.", "rarity": "Epic", "level": 18, "area": "Passage", "sell": 266, "materials": [{"id": "PandoriumBar", "amount": 20}, {"id": "LavaSlime", "amount": 20}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 18, "base": 949, "maxLevel": 20, "max": 1049, "levels": {"18": 949, "19": 999, "20": 1049}}, "dps": 524.5, "cooldown": 2.0, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 18, "base": 41, "maxLevel": 20, "max": 45, "levels": {"18": 41, "19": 43, "20": 45}}}, "secondaryUse": false}, {"name": "Arcane Staff", "slug": "Arcane_Staff", "desc": "Unleash a torrent of arcane energies.", "rarity": "Rare", "level": 8, "area": "Stone", "sell": 94, "materials": [{"id": "GoldBar", "amount": 5}, {"id": "AncientGemstone", "amount": 3}], "durability": 500, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 8, "base": 67, "maxLevel": 20, "max": 157, "levels": {"8": 67, "9": 75, "10": 82, "11": 89, "12": 97, "13": 104, "14": 112, "15": 119, "16": 127, "17": 134, "18": 142, "19": 149, "20": 157}}, "dps": 523.3, "cooldown": 0.3, "conds": {"CritChance": {"baseLevel": 8, "base": 8, "maxLevel": 20, "max": 16, "levels": {"8": 8, "9": 8, "10": 9, "11": 10, "12": 10, "13": 11, "14": 12, "15": 13, "16": 13, "17": 14, "18": 15, "19": 15, "20": 16}}}, "secondaryUse": false}, {"name": "Chaos Staff", "slug": "Chaos_Staff", "desc": "An unpredictable, powerful weapon that weaves chaotic ancient energy into all kinds of projectiles. The enemy will never know what's coming for them.", "rarity": "Rare", "level": 17, "area": "Passage", "sell": 331, "materials": [{"id": "PandoriumBar", "amount": 20}, {"id": "Cytoplasm", "amount": 15}], "durability": 225, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 17, "base": 448, "maxLevel": 20, "max": 522, "levels": {"17": 448, "18": 472, "19": 497, "20": 522}}, "dps": 522.0, "cooldown": 1.0, "conds": {}, "secondaryUse": true}, {"name": "Sun Caller", "slug": "Sun_Caller", "desc": "Used by great mages to conjure small stars.", "rarity": "Epic", "level": 13, "area": "Sea", "sell": 334, "materials": [{"id": "OctarineBar", "amount": 20}, {"id": "AncientGemstone", "amount": 10}], "durability": 225, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 13, "base": 326, "maxLevel": 20, "max": 490, "levels": {"13": 326, "14": 350, "15": 373, "16": 396, "17": 420, "18": 443, "19": 466, "20": 490}}, "dps": 490.0, "cooldown": 1.0, "conds": {"CritChance": {"baseLevel": 13, "base": 13, "maxLevel": 20, "max": 18, "levels": {"13": 13, "14": 14, "15": 15, "16": 15, "17": 16, "18": 17, "19": 17, "20": 18}}}, "secondaryUse": true}, {"name": "Stormbringer", "slug": "Stormbringer", "desc": "Augmented by a mysterious energy, this weapon unleashes chaining arcs of lightning upon your foes. Holding it sends a tingling sensation through your arms.", "rarity": "Legendary", "level": 19, "area": "Passage", "sell": null, "materials": [{"id": "PandoriumBar", "amount": 100}, {"id": "SolariteBar", "amount": 100}, {"id": "Cytoplasm", "amount": 50}, {"id": "LaserDrillTool", "amount": 1}], "durability": "Infinite", "type": "BeamWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Beam", "dmg": {"baseLevel": 19, "base": 93, "maxLevel": 20, "max": 97, "levels": {"19": 93, "20": 97}}, "dps": 485.0, "cooldown": 0.2, "conds": {"MiningIncrease": {"baseLevel": 19, "base": 1000, "maxLevel": 20, "max": 1097, "levels": {"19": 1000, "20": 1097}}, "MovementSpeedBoostAfterMining": {"baseLevel": 19, "base": 15, "maxLevel": 20, "max": 15, "levels": {"19": 15, "20": 15}}, "LightningGunChainLightning": {"baseLevel": 19, "base": 1, "maxLevel": 20, "max": 1, "levels": {"19": 1, "20": 1}}}, "secondaryUse": false}, {"name": "Fireball Staff", "slug": "Fireball_Staff", "desc": "A magical staff that the caveling shamans use in their rituals and against uninvited guests.", "rarity": "Rare", "level": 8, "area": "Stone", "sell": 14, "materials": [{"id": "Wood", "amount": 20}, {"id": "Slime", "amount": 10}], "durability": 225, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 8, "base": 207, "maxLevel": 20, "max": 484, "levels": {"8": 207, "9": 230, "10": 253, "11": 277, "12": 300, "13": 323, "14": 346, "15": 369, "16": 392, "17": 415, "18": 438, "19": 461, "20": 484}}, "dps": 484.0, "cooldown": 1.0, "conds": {"ApplyBurning": {"baseLevel": 8, "base": 35, "maxLevel": 20, "max": 73, "levels": {"8": 35, "9": 38, "10": 42, "11": 45, "12": 48, "13": 51, "14": 54, "15": 57, "16": 60, "17": 63, "18": 66, "19": 70, "20": 73}}}, "secondaryUse": true}, {"name": "Simple Staff", "slug": "Simple_Staff", "desc": "Commonly used by apprentice mages.", "rarity": "Common", "level": 2, "area": "Slime", "sell": 13, "materials": [{"id": "Wood", "amount": 10}, {"id": "AncientGemstone", "amount": 1}], "durability": 255, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 2, "base": 68, "maxLevel": 20, "max": 479, "levels": {"2": 68, "3": 91, "4": 114, "5": 137, "6": 160, "7": 182, "8": 205, "9": 228, "10": 251, "11": 274, "12": 296, "13": 319, "14": 342, "15": 365, "16": 388, "17": 410, "18": 433, "19": 456, "20": 479}}, "dps": 479.0, "cooldown": 1.0, "conds": {"CritChance": {"baseLevel": 2, "base": 4, "maxLevel": 20, "max": 17, "levels": {"2": 4, "3": 5, "4": 6, "5": 6, "6": 7, "7": 8, "8": 9, "9": 9, "10": 10, "11": 11, "12": 11, "13": 12, "14": 13, "15": 14, "16": 14, "17": 15, "18": 16, "19": 16, "20": 17}}}, "secondaryUse": false}, {"name": "Scholar's Staff", "slug": "Scholars_Staff", "desc": "A magical staff wielded by caveling scholars that utilizes an ancient gemstone to produce powerful bolts of energy.", "rarity": "Rare", "level": 13, "area": "City", "sell": 258, "materials": [{"id": "OctarineBar", "amount": 20}, {"id": "AncientGemstone", "amount": 3}], "durability": 225, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 13, "base": 319, "maxLevel": 20, "max": 478, "levels": {"13": 319, "14": 342, "15": 364, "16": 387, "17": 410, "18": 433, "19": 456, "20": 478}}, "dps": 478.0, "cooldown": 1.0, "conds": {"IncreasedMagicDamagePercentage": {"baseLevel": 13, "base": 257, "maxLevel": 20, "max": 382, "levels": {"13": 257, "14": 275, "15": 293, "16": 311, "17": 329, "18": 347, "19": 365, "20": 382}}}, "secondaryUse": true}, {"name": "Scrap Minigun", "slug": "Scrap_Minigun", "desc": "A gun-like apparatus that manages to convert disposable debris into a flurry of cutting missiles.", "rarity": "Rare", "level": 18, "area": "Excavation", "sell": 351, "materials": [{"id": "ReluciteBar", "amount": 18}, {"id": "PandoriumBar", "amount": 8}, {"id": "CorruptedAlloy", "amount": 15}], "durability": 300, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 18, "base": 52, "maxLevel": 20, "max": 57, "levels": {"18": 52, "19": 54, "20": 57}}, "dps": 456.0, "cooldown": 0.125, "conds": {"PhysicalRangeDamageIncrease": {"baseLevel": 18, "base": 207, "maxLevel": 20, "max": 228, "levels": {"18": 207, "19": 218, "20": 228}}, "CritChance": {"baseLevel": 18, "base": 8, "maxLevel": 20, "max": 8, "levels": {"18": 8, "19": 8, "20": 8}}}, "secondaryUse": false}, {"name": "Obliteration Ray", "slug": "Obliteration_Ray", "desc": "A high energy mining tool that is at the constant limit of bursting. The barely contained laser melts almost anything in its path.", "rarity": "Epic", "level": 17, "area": "Crystal", "sell": 308, "materials": [{"id": "SolariteBar", "amount": 30}], "durability": 250, "type": "BeamWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Beam", "dmg": {"baseLevel": 17, "base": 76, "maxLevel": 20, "max": 89, "levels": {"17": 76, "18": 80, "19": 85, "20": 89}}, "dps": 445.0, "cooldown": 0.2, "conds": {"MiningIncrease": {"baseLevel": 17, "base": 800, "maxLevel": 20, "max": 1073, "levels": {"17": 800, "18": 886, "19": 978, "20": 1073}}}, "secondaryUse": false}, {"name": "Sticky Stick", "slug": "Sticky_Stick", "desc": "This staff is drenched in slime that never seems to end no matter how much is flung away.", "rarity": "Rare", "level": 4, "area": "Slime", "sell": 25, "materials": [{"id": "Slime", "amount": 20}], "durability": 150, "type": "RangeWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Ranged", "dmg": {"baseLevel": 4, "base": 103, "maxLevel": 20, "max": 434, "levels": {"4": 103, "5": 124, "6": 145, "7": 165, "8": 186, "9": 207, "10": 227, "11": 248, "12": 268, "13": 289, "14": 310, "15": 330, "16": 351, "17": 372, "18": 392, "19": 413, "20": 434}}, "dps": 434.0, "cooldown": 1.0, "conds": {"ApplySlowedBySlime": {"baseLevel": 4, "base": -321, "maxLevel": 20, "max": -643, "levels": {"4": -321, "5": -402, "6": -482, "7": -563, "8": -643, "9": -643, "10": -643, "11": -643, "12": -643, "13": -643, "14": -643, "15": -643, "16": -643, "17": -643, "18": -643, "19": -643, "20": -643}}}, "secondaryUse": false}, {"name": "Throwing Daggers", "slug": "Throwing_Daggers", "desc": "A set of curved blades. They're evenly balanced so that throwing them is as easy as pointing a finger.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 264, "materials": [{"id": "GalaxiteBar", "amount": 20}, {"id": "IronBar", "amount": 5}], "durability": 375, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 14, "base": 120, "maxLevel": 20, "max": 168, "levels": {"14": 120, "15": 128, "16": 136, "17": 144, "18": 152, "19": 160, "20": 168}}, "dps": 420.0, "cooldown": 0.4, "conds": {"CritChance": {"baseLevel": 14, "base": 14, "maxLevel": 20, "max": 19, "levels": {"14": 14, "15": 15, "16": 15, "17": 16, "18": 17, "19": 17, "20": 19}}}, "secondaryUse": true}, {"name": "Galaxite Chakram", "slug": "Galaxite_Chakram", "desc": "This unique throwing weapon requires finesse and dexterity to be used to its full potential.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 267, "materials": [{"id": "GalaxiteBar", "amount": 22}], "durability": 375, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 14, "base": 120, "maxLevel": 20, "max": 168, "levels": {"14": 120, "15": 128, "16": 136, "17": 144, "18": 152, "19": 160, "20": 168}}, "dps": 420.0, "cooldown": 0.4, "conds": {"CriticalDamagePercentageIncrease": {"baseLevel": 14, "base": 39, "maxLevel": 20, "max": 52, "levels": {"14": 39, "15": 41, "16": 44, "17": 46, "18": 48, "19": 50, "20": 52}}}, "secondaryUse": false}, {"name": "Blowpipe", "slug": "Blowpipe", "desc": "A simple weapon loaded with poisonous darts.", "rarity": "Uncommon", "level": 10, "area": "Mold", "sell": 24, "materials": [{"id": "Wood", "amount": 30}, {"id": "PoisonSlime", "amount": 20}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 10, "base": 131, "maxLevel": 20, "max": 250, "levels": {"10": 131, "11": 143, "12": 155, "13": 167, "14": 179, "15": 190, "16": 202, "17": 214, "18": 226, "19": 238, "20": 250}}, "dps": 416.7, "cooldown": 0.6, "conds": {"ChanceToApplyPoisoned": {"baseLevel": 10, "base": 16, "maxLevel": 20, "max": 27, "levels": {"10": 16, "11": 17, "12": 18, "13": 19, "14": 20, "15": 21, "16": 22, "17": 24, "18": 25, "19": 26, "20": 27}}}, "secondaryUse": true}, {"name": "Iron Bow", "slug": "Iron_Bow", "desc": "A sturdy bow to shoot foes from afar.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 56, "materials": [{"id": "IronBar", "amount": 7}, {"id": "GoldBar", "amount": 1}, {"id": "Wood", "amount": 5}], "durability": 257, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 7, "base": 111, "maxLevel": 20, "max": 291, "levels": {"7": 111, "8": 125, "9": 138, "10": 152, "11": 166, "12": 180, "13": 194, "14": 208, "15": 221, "16": 235, "17": 249, "18": 263, "19": 277, "20": 291}}, "dps": 415.7, "cooldown": 0.7, "conds": {"PhysicalRangeDamageIncrease": {"baseLevel": 7, "base": 179, "maxLevel": 20, "max": 453, "levels": {"7": 179, "8": 200, "9": 221, "10": 242, "11": 263, "12": 284, "13": 305, "14": 326, "15": 347, "16": 368, "17": 389, "18": 411, "19": 432, "20": 453}}}, "secondaryUse": true}, {"name": "Bubble Gun", "slug": "Bubble_Gun", "desc": "A strange ranged weapon that shoots out hovering bubbles, adding slippery movement on contact.", "rarity": "Rare", "level": 12, "area": "Sea", "sell": 167, "materials": [{"id": "OctarineBar", "amount": 15}], "durability": 375, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 12, "base": 103, "maxLevel": 20, "max": 166, "levels": {"12": 103, "13": 110, "14": 118, "15": 126, "16": 134, "17": 142, "18": 150, "19": 158, "20": 166}}, "dps": 415.0, "cooldown": 0.4, "conds": {"ChanceOnHitToApplySlipperyMovement": {"baseLevel": 12, "base": 35, "maxLevel": 20, "max": 52, "levels": {"12": 35, "13": 38, "14": 40, "15": 42, "16": 44, "17": 46, "18": 48, "19": 50, "20": 52}}}, "secondaryUse": false}, {"name": "Phantom Spark", "slug": "Phantom_Spark", "desc": "A legendary, masterfully crafted bow that shoots pure energy projectiles. Sometimes those pierce the veil of time and space, calling upon the spirits of the past.", "rarity": "Legendary", "level": 15, "area": "City", "sell": null, "materials": [{"id": "LegendaryBowPart1", "amount": 1}, {"id": "LegendaryBowPart2", "amount": 1}, {"id": "LegendaryBowPart3", "amount": 1}, {"id": "OctarineBar", "amount": 100}, {"id": "AncientGemstone", "amount": 20}], "durability": "Infinite", "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 15, "base": 220, "maxLevel": 20, "max": 289, "levels": {"15": 220, "16": 234, "17": 247, "18": 261, "19": 275, "20": 289}}, "dps": 412.9, "cooldown": 0.7, "conds": {"CritChance": {"baseLevel": 15, "base": 10, "maxLevel": 20, "max": 12, "levels": {"15": 10, "16": 10, "17": 10, "18": 11, "19": 11, "20": 12}}, "CriticalDamagePercentageIncrease": {"baseLevel": 15, "base": 27, "maxLevel": 20, "max": 34, "levels": {"15": 27, "16": 28, "17": 30, "18": 31, "19": 33, "20": 34}}, "ChanceOnKillToSummonGhost": {"baseLevel": 15, "base": 20, "maxLevel": 20, "max": 20, "levels": {"15": 20, "16": 20, "17": 20, "18": 20, "19": 20, "20": 20}}}, "secondaryUse": true}, {"name": "Slingshot", "slug": "Slingshot", "desc": "Simple ranged weapon to fire away at enemies.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 5, "materials": [{"id": "TinBar", "amount": 3}, {"id": "Wood", "amount": 10}], "durability": 300, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 5, "base": 58, "maxLevel": 20, "max": 205, "levels": {"5": 58, "6": 68, "7": 78, "8": 88, "9": 97, "10": 107, "11": 117, "12": 127, "13": 136, "14": 146, "15": 156, "16": 166, "17": 175, "18": 185, "19": 195, "20": 205}}, "dps": 410.0, "cooldown": 0.5, "conds": {}, "secondaryUse": false}, {"name": "Snowball", "slug": "Snowball", "desc": "A handy projectile to start some fights with the neighbours' children. Can also be collected and further processed.", "rarity": "Common", "level": 4, "area": "Clay", "sell": 1, "materials": null, "durability": null, "type": "RangeWeapon", "categories": ["Seasonal", "Christmas"], "group": "Ranged", "dmg": {"baseLevel": 4, "base": 49, "maxLevel": 20, "max": 205, "levels": {"4": 49, "5": 59, "6": 68, "7": 78, "8": 88, "9": 98, "10": 107, "11": 117, "12": 127, "13": 137, "14": 146, "15": 156, "16": 166, "17": 176, "18": 186, "19": 195, "20": 205}}, "dps": 410.0, "cooldown": 0.5, "conds": {"ChanceOnRangeShotToStun": {"baseLevel": 4, "base": 25, "maxLevel": 20, "max": 25, "levels": {"4": 25, "5": 25, "6": 25, "7": 25, "8": 25, "9": 25, "10": 25, "11": 25, "12": 25, "13": 25, "14": 25, "15": 25, "16": 25, "17": 25, "18": 25, "19": 25, "20": 25}}}, "secondaryUse": false}, {"name": "Solarite Crossbow", "slug": "Solarite_Crossbow", "desc": "A grand glimmering crossbow that shoots mighty bolts.", "rarity": "Rare", "level": 16, "area": "Crystal", "sell": 227, "materials": [{"id": "SolariteBar", "amount": 20}, {"id": "GleamWood", "amount": 15}], "durability": 257, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 16, "base": 232, "maxLevel": 20, "max": 286, "levels": {"16": 232, "17": 245, "18": 259, "19": 273, "20": 286}}, "dps": 408.6, "cooldown": 0.7, "conds": {"CritChance": {"baseLevel": 16, "base": 7, "maxLevel": 20, "max": 8, "levels": {"16": 7, "17": 7, "18": 8, "19": 8, "20": 8}}, "PhysicalRangeDamageIncrease": {"baseLevel": 16, "base": 180, "maxLevel": 20, "max": 221, "levels": {"16": 180, "17": 190, "18": 200, "19": 210, "20": 221}}}, "secondaryUse": true}, {"name": "Flintlock Musket", "slug": "Flintlock_Musket", "desc": "Can't argue much with a handful of lead coming right at you.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 12, "materials": [{"id": "TinBar", "amount": 10}, {"id": "Wood", "amount": 10}], "durability": 150, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 5, "base": 230, "maxLevel": 20, "max": 805, "levels": {"5": 230, "6": 268, "7": 307, "8": 345, "9": 383, "10": 422, "11": 460, "12": 498, "13": 536, "14": 575, "15": 613, "16": 651, "17": 690, "18": 728, "19": 766, "20": 805}}, "dps": 402.5, "cooldown": 2.0, "conds": {}, "secondaryUse": false}, {"name": "Octarine Bow", "slug": "Octarine_Bow", "desc": "A strange bow that enhances the way arrows fly, allowing for quicker shots.", "rarity": "Rare", "level": 12, "area": "Sea", "sell": 175, "materials": [{"id": "OctarineBar", "amount": 15}, {"id": "CoralWood", "amount": 15}], "durability": 257, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 12, "base": 174, "maxLevel": 20, "max": 280, "levels": {"12": 174, "13": 187, "14": 200, "15": 214, "16": 227, "17": 240, "18": 254, "19": 267, "20": 280}}, "dps": 400.0, "cooldown": 0.7, "conds": {"RangeAttackSpeedIncrease": {"baseLevel": 12, "base": 62, "maxLevel": 20, "max": 91, "levels": {"12": 62, "13": 66, "14": 70, "15": 73, "16": 77, "17": 80, "18": 84, "19": 88, "20": 91}}}, "secondaryUse": true}, {"name": "Flamethrower", "slug": "Flamethrower", "desc": "A bulky tank attached to a hose spraying ignited fuel, ready to set the world ablaze.", "rarity": "Rare", "level": 18, "area": "Excavation", "sell": 333, "materials": [{"id": "ReluciteBar", "amount": 20}, {"id": "CorruptedAlloy", "amount": 15}], "durability": 875, "type": "BeamWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Beam", "dmg": {"baseLevel": 18, "base": 69, "maxLevel": 20, "max": 76, "levels": {"18": 69, "19": 72, "20": 76}}, "dps": 380.0, "cooldown": 0.2, "conds": {"ApplyBurning": {"baseLevel": 18, "base": 58, "maxLevel": 20, "max": 64, "levels": {"18": 58, "19": 61, "20": 64}}, "ChanceToSpawnFireOnAttack": {"baseLevel": 18, "base": 100, "maxLevel": 20, "max": 100, "levels": {"18": 100, "19": 100, "20": 100}}}, "secondaryUse": false}, {"name": "Quill Rifle", "slug": "Quill_Rifle", "desc": "A re-engineered bioweapon, discharging quills as deadly bolts.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 55, "materials": [{"id": "IronBar", "amount": 7}, {"id": "GoldBar", "amount": 1}, {"id": "Wood", "amount": 5}], "durability": 720, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 7, "base": 36, "maxLevel": 20, "max": 94, "levels": {"7": 36, "8": 40, "9": 45, "10": 49, "11": 54, "12": 58, "13": 63, "14": 67, "15": 72, "16": 76, "17": 81, "18": 85, "19": 90, "20": 94}}, "dps": 376.0, "cooldown": 0.25, "conds": {"PhysicalRangeDamageIncrease": {"baseLevel": 7, "base": 187, "maxLevel": 20, "max": 472, "levels": {"7": 187, "8": 209, "9": 231, "10": 253, "11": 275, "12": 297, "13": 319, "14": 340, "15": 362, "16": 384, "17": 406, "18": 428, "19": 450, "20": 472}}}, "secondaryUse": false}, {"name": "Void Gun", "slug": "Void_Gun", "desc": "A particle weapon with unknown inner workings. It emits balls of void that distort spacetime to inflict high damage.", "rarity": "Epic", "level": 17, "area": "Crystal", "sell": 355, "materials": [{"id": "SolariteBar", "amount": 25}, {"id": "AncientGemstone", "amount": 5}], "durability": 225, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 17, "base": 283, "maxLevel": 20, "max": 330, "levels": {"17": 283, "18": 299, "19": 314, "20": 330}}, "dps": 330.0, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Wood Crossbow", "slug": "Wood_Crossbow", "desc": "A small wooden crossbow that swiftly shoots bolts.", "rarity": "Common", "level": 2, "area": "Slime", "sell": 6, "materials": [{"id": "Wood", "amount": 15}, {"id": "Fiber", "amount": 5}], "durability": 255, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 2, "base": 47, "maxLevel": 20, "max": 329, "levels": {"2": 47, "3": 63, "4": 78, "5": 94, "6": 110, "7": 125, "8": 141, "9": 157, "10": 172, "11": 188, "12": 204, "13": 219, "14": 235, "15": 250, "16": 266, "17": 282, "18": 297, "19": 313, "20": 329}}, "dps": 329.0, "cooldown": 1.0, "conds": {}, "secondaryUse": true}, {"name": "Scarlet Crossbow", "slug": "Scarlet_Crossbow", "desc": "A heavy metallic crossbow that shoots potent bolts.", "rarity": "Uncommon", "level": 9, "area": "Nature", "sell": 149, "materials": [{"id": "IronBar", "amount": 5}, {"id": "ScarletBar", "amount": 10}, {"id": "Fiber", "amount": 5}], "durability": 300, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 9, "base": 157, "maxLevel": 20, "max": 329, "levels": {"9": 157, "10": 172, "11": 188, "12": 204, "13": 219, "14": 235, "15": 251, "16": 266, "17": 282, "18": 298, "19": 313, "20": 329}}, "dps": 329.0, "cooldown": 1.0, "conds": {}, "secondaryUse": true}, {"name": "Wood Bow", "slug": "Wood_Bow", "desc": "A crude bow to shoot foes from afar.", "rarity": "Common", "level": 2, "area": "Slime", "sell": 1, "materials": [{"id": "Wood", "amount": 15}], "durability": 257, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 2, "base": 33, "maxLevel": 20, "max": 230, "levels": {"2": 33, "3": 44, "4": 55, "5": 66, "6": 77, "7": 88, "8": 99, "9": 109, "10": 120, "11": 131, "12": 142, "13": 153, "14": 164, "15": 175, "16": 186, "17": 197, "18": 208, "19": 219, "20": 230}}, "dps": 328.6, "cooldown": 0.7, "conds": {}, "secondaryUse": true}, {"name": "Ricochet Shuriken", "slug": "Ricochet_Shuriken", "desc": "A four-bladed throwing weapon that bounces back and forth across the room. Slicing any enemy in its path.", "rarity": "Rare", "level": 16, "area": "Crystal", "sell": 255, "materials": [{"id": "SolariteBar", "amount": 20}, {"id": "AncientGemstone", "amount": 3}], "durability": 375, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 16, "base": 94, "maxLevel": 20, "max": 116, "levels": {"16": 94, "17": 100, "18": 105, "19": 111, "20": 116}}, "dps": 290.0, "cooldown": 0.4, "conds": {"RangeAttackSpeedIncrease": {"baseLevel": 16, "base": 45, "maxLevel": 20, "max": 53, "levels": {"16": 45, "17": 47, "18": 49, "19": 51, "20": 53}}, "CriticalDamagePercentageIncrease": {"baseLevel": 16, "base": 22, "maxLevel": 20, "max": 26, "levels": {"16": 22, "17": 23, "18": 24, "19": 25, "20": 26}}}, "secondaryUse": true}, {"name": "Titan Breath", "slug": "Titan_Breath", "desc": "Wrought by restrained paradox, it inhales energy to exhale a controlled cut through the aether. Anything trapped within is overwhelmed by the distilled entropy.", "rarity": "Legendary", "level": 18, "area": "Crystal", "sell": null, "materials": [{"id": "LegendaryStaffPart1", "amount": 1}, {"id": "LegendaryStaffPart2", "amount": 1}, {"id": "LegendaryStaffPart3", "amount": 1}], "durability": "Infinite", "type": "BeamWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Beam", "dmg": {"baseLevel": 18, "base": 48, "maxLevel": 20, "max": 53, "levels": {"18": 48, "19": 51, "20": 53}}, "dps": 265.0, "cooldown": 0.2, "conds": {"MiningIncrease": {"baseLevel": 18, "base": 421, "maxLevel": 20, "max": 510, "levels": {"18": 421, "19": 465, "20": 510}}, "CritChance": {"baseLevel": 18, "base": 11, "maxLevel": 20, "max": 12, "levels": {"18": 11, "19": 11, "20": 12}}, "IncreaseManaCostAndMagicDamagePercentagePerSecond": {"baseLevel": 18, "base": 10, "maxLevel": 20, "max": 10, "levels": {"18": 10, "19": 10, "20": 10}}}, "secondaryUse": true}, {"name": "Burnzooka", "slug": "Burnzooka", "desc": "This fiery weapon was modeled after the grubzooka but enhanced with lava rock shielding to contain its power. Can blast away stone walls and anything weaker.", "rarity": "Epic", "level": 16, "area": "Lava", "sell": 267, "materials": [{"id": "GalaxiteBar", "amount": 20}, {"id": "LavaSlime", "amount": 20}], "durability": 200, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 16, "base": 200, "maxLevel": 20, "max": 247, "levels": {"16": 200, "17": 212, "18": 224, "19": 235, "20": 247}}, "dps": 164.7, "cooldown": 1.5, "conds": {}, "secondaryUse": false}, {"name": "Grubzooka", "slug": "Grubzooka", "desc": "The heavy shots from the Grubzooka also tear down any dirt, sand and turf walls in its path.", "rarity": "Epic", "level": 9, "area": "LarvaHive", "sell": 36, "materials": [{"id": "TinBar", "amount": 18}, {"id": "LarvaMeat", "amount": 15}], "durability": 150, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 9, "base": 115, "maxLevel": 20, "max": 241, "levels": {"9": 115, "10": 126, "11": 137, "12": 149, "13": 160, "14": 172, "15": 183, "16": 195, "17": 206, "18": 218, "19": 229, "20": 241}}, "dps": 160.7, "cooldown": 1.5, "conds": {}, "secondaryUse": false}, {"name": "Credence of Ruin", "slug": "Credence_of_Ruin", "desc": "A relic born of cult devotion and void corruption. Forged from S.A.H.A.B.A.R.'s own frame and sanctified components of Breaker's Reach.", "rarity": "Legendary", "level": 20, "area": "Excavation", "sell": null, "materials": [{"id": "LegendaryMortarPart3", "amount": 1}, {"id": "LegendaryMortarPart1", "amount": 1}, {"id": "LegendaryMortarPart2", "amount": 1}], "durability": "Infinite", "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 20, "base": 30, "maxLevel": 20, "max": 30, "levels": {"20": 30}}, "dps": 50.0, "cooldown": 0.6, "conds": {"IncreaseSequenceExplosionTotalMaxExplosionsOnHit": {"baseLevel": 20, "base": 1, "maxLevel": 20, "max": 1, "levels": {"20": 1}}}, "secondaryUse": true}, {"name": "Volcano Mortar", "slug": "Volcano_Mortar", "desc": "Erupts molten chunks into the air to crash like meteoroids.", "rarity": "Epic", "level": 16, "area": "Lava", "sell": 356, "materials": [{"id": "GalaxiteBar", "amount": 27}, {"id": "LavaSlime", "amount": 25}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 16, "base": 24, "maxLevel": 20, "max": 29, "levels": {"16": 24, "17": 25, "18": 26, "19": 28, "20": 29}}, "dps": 48.3, "cooldown": 0.6, "conds": {"ApplyBurning": {"baseLevel": 16, "base": 56, "maxLevel": 20, "max": 68, "levels": {"16": 56, "17": 59, "18": 62, "19": 65, "20": 68}}}, "secondaryUse": false}, {"name": "Stone Mortar", "slug": "Stone_Mortar", "desc": "A handheld cannon hurling rocks into the air. They won't know what hit 'em!", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 60, "materials": [{"id": "IronBar", "amount": 10}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 7, "base": 11, "maxLevel": 20, "max": 29, "levels": {"7": 11, "8": 13, "9": 14, "10": 15, "11": 17, "12": 18, "13": 20, "14": 21, "15": 22, "16": 24, "17": 25, "18": 26, "19": 28, "20": 29}}, "dps": 48.3, "cooldown": 0.6, "conds": {}, "secondaryUse": false}, {"name": "Scrapzooka", "slug": "Scrapzooka", "desc": "A weapon of scrap. Because some problems are best blasted away.", "rarity": "Rare", "level": 8, "area": "Stone", "sell": 58, "materials": [{"id": "IronBar", "amount": 10}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 8, "base": 27, "maxLevel": 20, "max": 63, "levels": {"8": 27, "9": 30, "10": 33, "11": 36, "12": 39, "13": 42, "14": 45, "15": 48, "16": 51, "17": 54, "18": 57, "19": 60, "20": 63}}, "dps": 42.0, "cooldown": 1.5, "conds": {}, "secondaryUse": false}, {"name": "Bomb Scarab Mortar", "slug": "Bomb_Scarab_Mortar", "desc": "A powerful weapon launching explosive projectiles that resemble the center eye of a bomb scarab.", "rarity": "Rare", "level": 14, "area": "Desert", "sell": 228, "materials": [{"id": "GalaxiteBar", "amount": 20}], "durability": 250, "type": "RangeWeapon", "categories": ["Equipment", "RangeWeapon"], "group": "Ranged", "dmg": {"baseLevel": 14, "base": 45, "maxLevel": 20, "max": 63, "levels": {"14": 45, "15": 48, "16": 51, "17": 54, "18": 57, "19": 60, "20": 63}}, "dps": 42.0, "cooldown": 1.5, "conds": {}, "secondaryUse": false}, {"name": "Cupid Bow", "slug": "Cupid_Bow", "desc": "A bow that hits right into the heart of its target and has a chance to infatuate it with the archer.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 6, "materials": [{"id": "Wood", "amount": 15}], "durability": 30, "type": "RangeWeapon", "categories": ["Seasonal", "Valentine"], "group": "Ranged", "dmg": {"baseLevel": 5, "base": 12, "maxLevel": 20, "max": 42, "levels": {"5": 12, "6": 14, "7": 16, "8": 18, "9": 20, "10": 22, "11": 24, "12": 26, "13": 28, "14": 30, "15": 32, "16": 34, "17": 36, "18": 38, "19": 40, "20": 42}}, "dps": 8.4, "cooldown": 5.0, "conds": {"ChanceToApplyCharmed": {"baseLevel": 5, "base": 100, "maxLevel": 20, "max": 100, "levels": {"5": 100, "6": 100, "7": 100, "8": 100, "9": 100, "10": 100, "11": 100, "12": 100, "13": 100, "14": 100, "15": 100, "16": 100, "17": 100, "18": 100, "19": 100, "20": 100}}}, "secondaryUse": false}, {"name": "Wooden Sword", "slug": "Wooden_Sword", "desc": "A crude weapon to fend off foes.", "rarity": "Common", "level": 1, "area": "StartArea", "sell": 1, "materials": [{"id": "Wood", "amount": 5}], "durability": 88, "type": "MeleeWeapon", "categories": ["Equipment", "MeleeWeapon"], "group": "Melee", "dmg": null, "dps": null, "cooldown": 0.4, "conds": {}, "secondaryUse": false}, {"name": "Fire Grenade", "slug": "Fire_Grenade", "desc": "An explosive fit for those who want to set the world on fire!", "rarity": "Uncommon", "level": 13, "area": "Desert", "sell": 5, "materials": [{"id": "BlastingDung", "amount": 1}, {"id": "LavaSlime", "amount": 2}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {"ChanceToSpawnNapalmFromExplosives": {"baseLevel": 13, "base": 100, "maxLevel": 20, "max": 154, "levels": {"13": 100, "14": 108, "15": 116, "16": 123, "17": 131, "18": 139, "19": 146, "20": 154}}}, "secondaryUse": true}, {"name": "Poison Grenade", "slug": "Poison_Grenade", "desc": "An explosive that is hard to recover from.", "rarity": "Uncommon", "level": 13, "area": "Desert", "sell": 5, "materials": [{"id": "BlastingDung", "amount": 1}, {"id": "PoisonSlime", "amount": 2}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {"ChanceToApplyPoisoned": {"baseLevel": 13, "base": 100, "maxLevel": 20, "max": 139, "levels": {"13": 100, "14": 106, "15": 111, "16": 117, "17": 122, "18": 128, "19": 133, "20": 139}}}, "secondaryUse": true}, {"name": "Grenade", "slug": "Grenade", "desc": "A throwable explosive that bounces on impact.", "rarity": "Common", "level": 4, "area": "Clay", "sell": 9, "materials": [{"id": "BombPepper", "amount": 1}, {"id": "CopperBar", "amount": 1}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {}, "secondaryUse": true}, {"name": "Stun Grenade", "slug": "Stun_Grenade", "desc": "Creates a blast that overwhelms the senses.", "rarity": "Common", "level": 4, "area": "Clay", "sell": 8, "materials": [{"id": "BombPepper", "amount": 1}, {"id": "TinBar", "amount": 1}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {"ChanceOnHitToStun": {"baseLevel": 4, "base": 100, "maxLevel": 20, "max": 100, "levels": {"4": 100, "5": 100, "6": 100, "7": 100, "8": 100, "9": 100, "10": 100, "11": 100, "12": 100, "13": 100, "14": 100, "15": 100, "16": 100, "17": 100, "18": 100, "19": 100, "20": 100}}}, "secondaryUse": true}, {"name": "Charm Grenade", "slug": "Charm_Grenade", "desc": "Nothing is as persuasive as a little explosive charm.", "rarity": "Uncommon", "level": 13, "area": "Desert", "sell": 7, "materials": [{"id": "BlastingDung", "amount": 1}, {"id": "HeartBerry", "amount": 3}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {"ChanceToApplyCharmed": {"baseLevel": 13, "base": 25, "maxLevel": 20, "max": 25, "levels": {"13": 25, "14": 25, "15": 25, "16": 25, "17": 25, "18": 25, "19": 25, "20": 25}}}, "secondaryUse": true}, {"name": "Oil Grenade", "slug": "Oil_Grenade", "desc": "Splatters combustible oil all over the ground.", "rarity": "Uncommon", "level": 17, "area": "Excavation", "sell": 14, "materials": [{"id": "BlastingDung", "amount": 1}, {"id": "ReluciteBar", "amount": 1}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {}, "secondaryUse": true}, {"name": "Blast Bundle", "slug": "Blast_Bundle", "desc": "Thrown much like a regular grenade... but creates a stronger blast!", "rarity": "Uncommon", "level": 17, "area": "Excavation", "sell": 14, "materials": [{"id": "BlastingDung", "amount": 1}, {"id": "ReluciteBar", "amount": 1}], "durability": null, "type": "ThrowingWeapon", "categories": ["Technology", "Explosives"], "group": "Throwing", "dmg": null, "dps": null, "cooldown": 1.5, "conds": {}, "secondaryUse": true}, {"name": "Tome of the Dark", "slug": "Tome_of_the_Dark", "desc": "More of a pamphlet, beginners guide to shadowmancy.", "rarity": "Common", "level": 2, "area": "Slime", "sell": 18, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 1}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of the Deep", "slug": "Tome_of_the_Deep", "desc": "A tome that contains powerful incantions barely utterable by the human tongue.", "rarity": "Rare", "level": 12, "area": "Sea", "sell": 62, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 5}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of the Dead", "slug": "Tome_of_the_Dead", "desc": "A vile treatise on the conjuring of restless spirits.", "rarity": "Uncommon", "level": 10, "area": "Mold", "sell": 37, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 3}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of Ashes", "slug": "Tome_of_Ashes", "desc": "Reeks of sulfur and is hot to the touch.", "rarity": "Uncommon", "level": 7, "area": "Stone", "sell": 17, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 1}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of Sprouts", "slug": "Tome_of_Sprouts", "desc": "A mystical tome germinating with verdant potential.", "rarity": "Rare", "level": 10, "area": "Nature", "sell": 21, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 1}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of Decay", "slug": "Tome_of_Decay", "desc": "Flipping through its pages causes your fingers to go numb.", "rarity": "Epic", "level": 17, "area": "Crystal", "sell": 22, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 1}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}, {"name": "Tome of Breach", "slug": "Tome_of_Breach", "desc": "More of an unfinished journal detailing the author's obsession with unearthing secrets.", "rarity": "Uncommon", "level": 5, "area": "Clay", "sell": 20, "materials": [{"id": "Fiber", "amount": 5}, {"id": "AncientGemstone", "amount": 1}], "durability": 100, "type": "SummoningWeapon", "categories": ["Equipment", "MagicWeapon"], "group": "Summoning", "dmg": null, "dps": null, "cooldown": 1.0, "conds": {}, "secondaryUse": false}]
+[
+ {
+  "name": "Void Club",
+  "slug": "Void_Club",
+  "desc": "This club feels light when held, yet heavy when swung.",
+  "rarity": "Rare",
+  "level": 18,
+  "area": "Excavation",
+  "sell": 344,
+  "materials": [
+   {
+    "id": "ReluciteBar",
+    "amount": 20
+   },
+   {
+    "id": "CorruptedAlloy",
+    "amount": 15
+   }
+  ],
+  "durability": 250,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 18,
+   "base": 370,
+   "maxLevel": 20,
+   "max": 409,
+   "levels": {
+    "18": 370,
+    "19": 389,
+    "20": 409
+   }
+  },
+  "dps": 1022.5,
+  "cooldown": 0.4,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Galaxite Dagger",
+  "slug": "Galaxite_Dagger",
+  "desc": "A quick-stabbing weapon made for close combat. The blade is so fine that it can cut a hair into two pieces lengthways.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 210,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 210,
+   "maxLevel": 20,
+   "max": 293,
+   "levels": {
+    "14": 210,
+    "15": 224,
+    "16": 238,
+    "17": 252,
+    "18": 265,
+    "19": 279,
+    "20": 293
+   }
+  },
+  "dps": 976.7,
+  "cooldown": 0.3,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 14,
+    "base": 14,
+    "maxLevel": 20,
+    "max": 18,
+    "levels": {
+     "14": 14,
+     "15": 15,
+     "16": 15,
+     "17": 16,
+     "18": 17,
+     "19": 17,
+     "20": 18
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Galaxite_Dagger.png"
+ },
+ {
+  "name": "Rune Song",
+  "slug": "Rune_Song",
+  "desc": "A legendary sword that hums when swung through the air. Its durability is a testament to extraordinary craftsmanship, said to carry the whispers of ancient battles within its blade.",
+  "rarity": "Legendary",
+  "level": 13,
+  "area": "Mold",
+  "sell": null,
+  "materials": [
+   {
+    "id": "BrokenLegendarySword",
+    "amount": 1
+   },
+   {
+    "id": "LegendarySwordBlade",
+    "amount": 1
+   },
+   {
+    "id": "LegendarySwordGemstone",
+    "amount": 1
+   },
+   {
+    "id": "IronBar",
+    "amount": 50
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 10
+   }
+  ],
+  "durability": "Infinite",
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 13,
+   "base": 259,
+   "maxLevel": 20,
+   "max": 388,
+   "levels": {
+    "13": 259,
+    "14": 277,
+    "15": 296,
+    "16": 314,
+    "17": 333,
+    "18": 351,
+    "19": 370,
+    "20": 388
+   }
+  },
+  "dps": 970.0,
+  "cooldown": 0.4,
+  "conds": {
+   "LifeOnHit": {
+    "baseLevel": 13,
+    "base": 10,
+    "maxLevel": 20,
+    "max": 17,
+    "levels": {
+     "13": 10,
+     "14": 12,
+     "15": 13,
+     "16": 13,
+     "17": 13,
+     "18": 15,
+     "19": 17,
+     "20": 17
+    }
+   },
+   "ChanceOnHitToGainMeleeAttackSpeed": {
+    "baseLevel": 13,
+    "base": 5,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "13": 5,
+     "14": 6,
+     "15": 6,
+     "16": 7,
+     "17": 7,
+     "18": 7,
+     "19": 8,
+     "20": 8
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Ritual Dagger",
+  "slug": "Ritual_Dagger",
+  "desc": "This unusual dagger is made from a big gemstone shard. There are dark red spots on the handle.",
+  "rarity": "Epic",
+  "level": 9,
+  "area": "Stone",
+  "sell": 116,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 15
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 3
+   }
+  ],
+  "durability": 467,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 9,
+   "base": 137,
+   "maxLevel": 20,
+   "max": 287,
+   "levels": {
+    "9": 137,
+    "10": 150,
+    "11": 164,
+    "12": 178,
+    "13": 191,
+    "14": 205,
+    "15": 219,
+    "16": 232,
+    "17": 246,
+    "18": 260,
+    "19": 273,
+    "20": 287
+   }
+  },
+  "dps": 956.7,
+  "cooldown": 0.3,
+  "conds": {
+   "BlueGlow": {
+    "baseLevel": 9,
+    "base": 2,
+    "maxLevel": 20,
+    "max": 3,
+    "levels": {
+     "9": 2,
+     "10": 2,
+     "11": 2,
+     "12": 2,
+     "13": 3,
+     "14": 3,
+     "15": 3,
+     "16": 3,
+     "17": 3,
+     "18": 3,
+     "19": 3,
+     "20": 3
+    }
+   },
+   "CritChance": {
+    "baseLevel": 9,
+    "base": 5,
+    "maxLevel": 20,
+    "max": 9,
+    "levels": {
+     "9": 5,
+     "10": 5,
+     "11": 6,
+     "12": 6,
+     "13": 6,
+     "14": 7,
+     "15": 8,
+     "16": 8,
+     "17": 8,
+     "18": 9,
+     "19": 9,
+     "20": 9
+    }
+   },
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 9,
+    "base": 13,
+    "maxLevel": 20,
+    "max": 25,
+    "levels": {
+     "9": 13,
+     "10": 14,
+     "11": 15,
+     "12": 16,
+     "13": 17,
+     "14": 19,
+     "15": 20,
+     "16": 21,
+     "17": 22,
+     "18": 23,
+     "19": 24,
+     "20": 25
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Tin Dagger",
+  "slug": "Tin_Dagger",
+  "desc": "A small blade that allows for quick stabs.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 9,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 7
+   }
+  ],
+  "durability": 400,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 82,
+   "maxLevel": 20,
+   "max": 286,
+   "levels": {
+    "5": 82,
+    "6": 95,
+    "7": 109,
+    "8": 123,
+    "9": 136,
+    "10": 150,
+    "11": 163,
+    "12": 177,
+    "13": 191,
+    "14": 204,
+    "15": 218,
+    "16": 232,
+    "17": 245,
+    "18": 259,
+    "19": 272,
+    "20": 286
+   }
+  },
+  "dps": 953.3,
+  "cooldown": 0.3,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Rusty Dagger",
+  "slug": "Rusty_Dagger",
+  "desc": "A blade so corroded it only vaguely resembles copper. It's deceptively sharp.",
+  "rarity": "Uncommon",
+  "level": 3,
+  "area": "Slime",
+  "sell": 9,
+  "materials": [
+   {
+    "id": "CopperBar",
+    "amount": 6
+   }
+  ],
+  "durability": 233,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 3,
+   "base": 54,
+   "maxLevel": 20,
+   "max": 285,
+   "levels": {
+    "3": 54,
+    "4": 68,
+    "5": 81,
+    "6": 95,
+    "7": 108,
+    "8": 122,
+    "9": 136,
+    "10": 149,
+    "11": 163,
+    "12": 176,
+    "13": 190,
+    "14": 203,
+    "15": 217,
+    "16": 230,
+    "17": 244,
+    "18": 258,
+    "19": 271,
+    "20": 285
+   }
+  },
+  "dps": 950.0,
+  "cooldown": 0.3,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 3,
+    "base": 5,
+    "maxLevel": 20,
+    "max": 16,
+    "levels": {
+     "3": 5,
+     "4": 6,
+     "5": 6,
+     "6": 7,
+     "7": 8,
+     "8": 9,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 11,
+     "13": 12,
+     "14": 13,
+     "15": 14,
+     "16": 14,
+     "17": 14,
+     "18": 15,
+     "19": 15,
+     "20": 16
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Scarlet Dagger",
+  "slug": "Scarlet_Dagger",
+  "desc": "This wavy, crimson dagger pierces through most materials.",
+  "rarity": "Uncommon",
+  "level": 9,
+  "area": "Nature",
+  "sell": 141,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 4
+   },
+   {
+    "id": "ScarletBar",
+    "amount": 10
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 9,
+   "base": 134,
+   "maxLevel": 20,
+   "max": 280,
+   "levels": {
+    "9": 134,
+    "10": 147,
+    "11": 160,
+    "12": 174,
+    "13": 187,
+    "14": 200,
+    "15": 214,
+    "16": 227,
+    "17": 240,
+    "18": 254,
+    "19": 267,
+    "20": 280
+   }
+  },
+  "dps": 933.3,
+  "cooldown": 0.3,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 9,
+    "base": 24,
+    "maxLevel": 20,
+    "max": 44,
+    "levels": {
+     "9": 24,
+     "10": 25,
+     "11": 27,
+     "12": 29,
+     "13": 31,
+     "14": 33,
+     "15": 34,
+     "16": 36,
+     "17": 38,
+     "18": 40,
+     "19": 42,
+     "20": 44
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Splintered Wooden Sword",
+  "slug": "Splintered_Wooden_Sword",
+  "desc": "This simple sword has seen far more battles than its maker would ever suggest. A worn reminder that even the humblest blade can do the impossible, where every crack Dares the next blow to land.",
+  "rarity": "Uncommon",
+  "level": 2,
+  "area": "StartArea",
+  "sell": 6,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 5
+   }
+  ],
+  "durability": 88,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 2,
+   "base": 51,
+   "maxLevel": 20,
+   "max": 357,
+   "levels": {
+    "2": 51,
+    "3": 68,
+    "4": 85,
+    "5": 102,
+    "6": 119,
+    "7": 136,
+    "8": 153,
+    "9": 170,
+    "10": 187,
+    "11": 204,
+    "12": 221,
+    "13": 238,
+    "14": 255,
+    "15": 272,
+    "16": 289,
+    "17": 306,
+    "18": 323,
+    "19": 340,
+    "20": 357
+   }
+  },
+  "dps": 892.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 2,
+    "base": 4,
+    "maxLevel": 20,
+    "max": 19,
+    "levels": {
+     "2": 4,
+     "3": 5,
+     "4": 7,
+     "5": 7,
+     "6": 8,
+     "7": 9,
+     "8": 10,
+     "9": 10,
+     "10": 11,
+     "11": 12,
+     "12": 12,
+     "13": 13,
+     "14": 14,
+     "15": 15,
+     "16": 15,
+     "17": 16,
+     "18": 18,
+     "19": 18,
+     "20": 19
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Poisonous Sickle",
+  "slug": "Poisonous_Sickle",
+  "desc": "Farming tool that turned into a weapon when a great threat had to be slain.",
+  "rarity": "Epic",
+  "level": 12,
+  "area": "Mold",
+  "sell": 196,
+  "materials": [
+   {
+    "id": "ScarletBar",
+    "amount": 15
+   },
+   {
+    "id": "PoisonSlime",
+    "amount": 20
+   }
+  ],
+  "durability": 525,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 12,
+   "base": 221,
+   "maxLevel": 20,
+   "max": 356,
+   "levels": {
+    "12": 221,
+    "13": 238,
+    "14": 255,
+    "15": 272,
+    "16": 289,
+    "17": 306,
+    "18": 323,
+    "19": 340,
+    "20": 356
+   }
+  },
+  "dps": 890.0,
+  "cooldown": 0.4,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 12,
+    "base": 18,
+    "maxLevel": 20,
+    "max": 26,
+    "levels": {
+     "12": 18,
+     "13": 19,
+     "14": 20,
+     "15": 21,
+     "16": 22,
+     "17": 23,
+     "18": 24,
+     "19": 25,
+     "20": 26
+    }
+   },
+   "ChanceToApplyPoisoned": {
+    "baseLevel": 12,
+    "base": 28,
+    "maxLevel": 20,
+    "max": 41,
+    "levels": {
+     "12": 28,
+     "13": 29,
+     "14": 31,
+     "15": 33,
+     "16": 34,
+     "17": 36,
+     "18": 37,
+     "19": 39,
+     "20": 41
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Poisonous_Sickle.png"
+ },
+ {
+  "name": "Prehistoric Crystal Spear",
+  "slug": "Prehistoric_Crystal_Spear",
+  "desc": "One of the first weapons ever made by mankind, but this one has an ancient gemstone in place of a normal spearhead.",
+  "rarity": "Epic",
+  "level": 15,
+  "area": "Desert",
+  "sell": 242,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 15,
+   "base": 272,
+   "maxLevel": 20,
+   "max": 356,
+   "levels": {
+    "15": 272,
+    "16": 289,
+    "17": 306,
+    "18": 323,
+    "19": 340,
+    "20": 356
+   }
+  },
+  "dps": 890.0,
+  "cooldown": 0.4,
+  "conds": {
+   "PhysicalMeleeDamageIncrease": {
+    "baseLevel": 15,
+    "base": 361,
+    "maxLevel": 20,
+    "max": 470,
+    "levels": {
+     "15": 361,
+     "16": 383,
+     "17": 405,
+     "18": 427,
+     "19": 449,
+     "20": 470
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Prehistoric_Crystal_Spear.png"
+ },
+ {
+  "name": "Hunting Spear",
+  "slug": "Hunting_Spear",
+  "desc": "A very crude long-reach weapon used by the cavelings dwelling in the Clay Caves. Good to hunt larvae and place them over a fire.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 7,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 5
+   },
+   {
+    "id": "Wood",
+    "amount": 8
+   }
+  ],
+  "durability": 300,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 101,
+   "maxLevel": 20,
+   "max": 355,
+   "levels": {
+    "5": 101,
+    "6": 118,
+    "7": 135,
+    "8": 152,
+    "9": 169,
+    "10": 186,
+    "11": 203,
+    "12": 220,
+    "13": 236,
+    "14": 253,
+    "15": 270,
+    "16": 287,
+    "17": 304,
+    "18": 321,
+    "19": 338,
+    "20": 355
+   }
+  },
+  "dps": 887.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 5,
+    "base": 3,
+    "maxLevel": 20,
+    "max": 9,
+    "levels": {
+     "5": 3,
+     "6": 4,
+     "7": 4,
+     "8": 5,
+     "9": 5,
+     "10": 5,
+     "11": 6,
+     "12": 6,
+     "13": 6,
+     "14": 7,
+     "15": 8,
+     "16": 8,
+     "17": 8,
+     "18": 9,
+     "19": 9,
+     "20": 9
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Atlantean Worm Sword",
+  "slug": "Atlantean_Worm_Sword",
+  "desc": "A dislodged, razorsharp mandible of the Atlantean Worm. The maker of the deep sea.",
+  "rarity": "Epic",
+  "level": 17,
+  "area": "Crystal",
+  "sell": 261,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 24
+   }
+  ],
+  "durability": 525,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 17,
+   "base": 300,
+   "maxLevel": 20,
+   "max": 350,
+   "levels": {
+    "17": 300,
+    "18": 317,
+    "19": 334,
+    "20": 350
+   }
+  },
+  "dps": 875.0,
+  "cooldown": 0.4,
+  "conds": {
+   "IncreasedDamageAgainstBosses": {
+    "baseLevel": 17,
+    "base": 17,
+    "maxLevel": 20,
+    "max": 21,
+    "levels": {
+     "17": 17,
+     "18": 18,
+     "19": 19,
+     "20": 21
+    }
+   },
+   "LifeOnHit": {
+    "baseLevel": 17,
+    "base": 4,
+    "maxLevel": 20,
+    "max": 5,
+    "levels": {
+     "17": 4,
+     "18": 4,
+     "19": 5,
+     "20": 5
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Copper Sword",
+  "slug": "Copper_Sword",
+  "desc": "A good weapon for slaying foes.",
+  "rarity": "Common",
+  "level": 2,
+  "area": "Slime",
+  "sell": 6,
+  "materials": [
+   {
+    "id": "CopperBar",
+    "amount": 5
+   }
+  ],
+  "durability": 250,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 2,
+   "base": 50,
+   "maxLevel": 20,
+   "max": 349,
+   "levels": {
+    "2": 50,
+    "3": 66,
+    "4": 83,
+    "5": 100,
+    "6": 116,
+    "7": 133,
+    "8": 149,
+    "9": 166,
+    "10": 183,
+    "11": 199,
+    "12": 216,
+    "13": 232,
+    "14": 249,
+    "15": 266,
+    "16": 282,
+    "17": 299,
+    "18": 315,
+    "19": 332,
+    "20": 349
+   }
+  },
+  "dps": 872.5,
+  "cooldown": 0.4,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Pipe Club",
+  "slug": "Pipe_Club",
+  "desc": "A hefty pipe with a gauge on the end for added weight.",
+  "rarity": "Rare",
+  "level": 8,
+  "area": "Stone",
+  "sell": 19,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 10
+   },
+   {
+    "id": "LarvaMeat",
+    "amount": 7
+   },
+   {
+    "id": "Wood",
+    "amount": 10
+   }
+  ],
+  "durability": 175,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 8,
+   "base": 298,
+   "maxLevel": 20,
+   "max": 695,
+   "levels": {
+    "8": 298,
+    "9": 331,
+    "10": 364,
+    "11": 397,
+    "12": 430,
+    "13": 463,
+    "14": 496,
+    "15": 530,
+    "16": 563,
+    "17": 596,
+    "18": 629,
+    "19": 662,
+    "20": 695
+   }
+  },
+  "dps": 868.8,
+  "cooldown": 0.8,
+  "conds": {
+   "ChanceOnHitToKnockback": {
+    "baseLevel": 8,
+    "base": 36,
+    "maxLevel": 20,
+    "max": 60,
+    "levels": {
+     "8": 36,
+     "9": 38,
+     "10": 40,
+     "11": 42,
+     "12": 44,
+     "13": 46,
+     "14": 48,
+     "15": 50,
+     "16": 52,
+     "17": 54,
+     "18": 56,
+     "19": 58,
+     "20": 60
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Pipe_Club.png"
+ },
+ {
+  "name": "Iron Sword",
+  "slug": "Iron_Sword",
+  "desc": "A strong weapon for slaying foes.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 61,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 8
+   },
+   {
+    "id": "GoldBar",
+    "amount": 1
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 132,
+   "maxLevel": 20,
+   "max": 347,
+   "levels": {
+    "7": 132,
+    "8": 149,
+    "9": 165,
+    "10": 182,
+    "11": 198,
+    "12": 215,
+    "13": 231,
+    "14": 248,
+    "15": 264,
+    "16": 281,
+    "17": 297,
+    "18": 314,
+    "19": 330,
+    "20": 347
+   }
+  },
+  "dps": 867.5,
+  "cooldown": 0.4,
+  "conds": {
+   "MeleeAttackSpeedIncrease": {
+    "baseLevel": 7,
+    "base": 47,
+    "maxLevel": 20,
+    "max": 99,
+    "levels": {
+     "7": 47,
+     "8": 51,
+     "9": 55,
+     "10": 59,
+     "11": 63,
+     "12": 67,
+     "13": 71,
+     "14": 75,
+     "15": 79,
+     "16": 83,
+     "17": 87,
+     "18": 91,
+     "19": 95,
+     "20": 99
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Galaxite Sword",
+  "slug": "Galaxite_Sword",
+  "desc": "An otherworldly weapon for slaying foes.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 257,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 24
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 248,
+   "maxLevel": 20,
+   "max": 347,
+   "levels": {
+    "14": 248,
+    "15": 264,
+    "16": 281,
+    "17": 298,
+    "18": 314,
+    "19": 331,
+    "20": 347
+   }
+  },
+  "dps": 867.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 14,
+    "base": 36,
+    "maxLevel": 20,
+    "max": 47,
+    "levels": {
+     "14": 36,
+     "15": 38,
+     "16": 40,
+     "17": 42,
+     "18": 44,
+     "19": 45,
+     "20": 47
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Galaxite_Sword.png"
+ },
+ {
+  "name": "Octarine Sword",
+  "slug": "Octarine_Sword",
+  "desc": "An extraordinary weapon for slaying foes.",
+  "rarity": "Rare",
+  "level": 12,
+  "area": "Sea",
+  "sell": 184,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 16
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 12,
+   "base": 214,
+   "maxLevel": 20,
+   "max": 346,
+   "levels": {
+    "12": 214,
+    "13": 231,
+    "14": 247,
+    "15": 264,
+    "16": 280,
+    "17": 297,
+    "18": 313,
+    "19": 330,
+    "20": 346
+   }
+  },
+  "dps": 865.0,
+  "cooldown": 0.4,
+  "conds": {
+   "MeleeAttackSpeedIncrease": {
+    "baseLevel": 12,
+    "base": 67,
+    "maxLevel": 20,
+    "max": 98,
+    "levels": {
+     "12": 67,
+     "13": 70,
+     "14": 74,
+     "15": 78,
+     "16": 82,
+     "17": 86,
+     "18": 90,
+     "19": 94,
+     "20": 98
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Solarite Sword",
+  "slug": "Solarite_Sword",
+  "desc": "A superior weapon for obliterating foes.",
+  "rarity": "Rare",
+  "level": 16,
+  "area": "Crystal",
+  "sell": 248,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 24
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 280,
+   "maxLevel": 20,
+   "max": 346,
+   "levels": {
+    "16": 280,
+    "17": 296,
+    "18": 313,
+    "19": 329,
+    "20": 346
+   }
+  },
+  "dps": 865.0,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 16,
+    "base": 7,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "16": 7,
+     "17": 7,
+     "18": 8,
+     "19": 8,
+     "20": 8
+    }
+   },
+   "MeleeAttackSpeedIncrease": {
+    "baseLevel": 16,
+    "base": 45,
+    "maxLevel": 20,
+    "max": 53,
+    "levels": {
+     "16": 45,
+     "17": 47,
+     "18": 49,
+     "19": 51,
+     "20": 53
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Slippery Slime Sword",
+  "slug": "Slippery_Slime_Sword",
+  "desc": "A blue variant of the slime sword. It sometimes spreads slime onto your enemies that makes them slide around.",
+  "rarity": "Epic",
+  "level": 13,
+  "area": "Sea",
+  "sell": 192,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 16
+   },
+   {
+    "id": "SlipperySlime",
+    "amount": 15
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 13,
+   "base": 230,
+   "maxLevel": 20,
+   "max": 345,
+   "levels": {
+    "13": 230,
+    "14": 246,
+    "15": 263,
+    "16": 279,
+    "17": 295,
+    "18": 312,
+    "19": 328,
+    "20": 345
+   }
+  },
+  "dps": 862.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 13,
+    "base": 6,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "13": 6,
+     "14": 6,
+     "15": 7,
+     "16": 7,
+     "17": 7,
+     "18": 8,
+     "19": 8,
+     "20": 8
+    }
+   },
+   "ChanceOnHitToApplySlipperyMovement": {
+    "baseLevel": 13,
+    "base": 37,
+    "maxLevel": 20,
+    "max": 52,
+    "levels": {
+     "13": 37,
+     "14": 39,
+     "15": 41,
+     "16": 43,
+     "17": 46,
+     "18": 48,
+     "19": 50,
+     "20": 52
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Crystal Shard Club",
+  "slug": "Crystal_Shard_Club",
+  "desc": "This bludgeoning weapon is made from fragile crystal, that can send out splinters when swung.",
+  "rarity": "Rare",
+  "level": 16,
+  "area": "Crystal",
+  "sell": 311,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 20
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 10
+   },
+   {
+    "id": "GleamWood",
+    "amount": 10
+   }
+  ],
+  "durability": 364,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 349,
+   "maxLevel": 20,
+   "max": 431,
+   "levels": {
+    "16": 349,
+    "17": 370,
+    "18": 390,
+    "19": 411,
+    "20": 431
+   }
+  },
+  "dps": 862.0,
+  "cooldown": 0.5,
+  "conds": {
+   "ChanceOnHitToKnockback": {
+    "baseLevel": 16,
+    "base": 50,
+    "maxLevel": 20,
+    "max": 58,
+    "levels": {
+     "16": 50,
+     "17": 52,
+     "18": 54,
+     "19": 56,
+     "20": 58
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Crystal_Shard_Club.png"
+ },
+ {
+  "name": "Iron Halberd",
+  "slug": "Iron_Halberd",
+  "desc": "A luxurious pole-weapon fit for a royal guardian and perfect for poking at adversaries.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 73,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 9
+   },
+   {
+    "id": "GoldBar",
+    "amount": 1
+   },
+   {
+    "id": "Wood",
+    "amount": 5
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 131,
+   "maxLevel": 20,
+   "max": 343,
+   "levels": {
+    "7": 131,
+    "8": 147,
+    "9": 163,
+    "10": 179,
+    "11": 196,
+    "12": 212,
+    "13": 228,
+    "14": 245,
+    "15": 261,
+    "16": 277,
+    "17": 294,
+    "18": 310,
+    "19": 326,
+    "20": 343
+   }
+  },
+  "dps": 857.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 7,
+    "base": 4,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "7": 4,
+     "8": 4,
+     "9": 4,
+     "10": 5,
+     "11": 5,
+     "12": 5,
+     "13": 6,
+     "14": 6,
+     "15": 7,
+     "16": 7,
+     "17": 7,
+     "18": 8,
+     "19": 8,
+     "20": 8
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Tin Sword",
+  "slug": "Tin_Sword",
+  "desc": "A sharp weapon for slaying foes.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 8,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 7
+   }
+  ],
+  "durability": 300,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 98,
+   "maxLevel": 20,
+   "max": 342,
+   "levels": {
+    "5": 98,
+    "6": 114,
+    "7": 130,
+    "8": 146,
+    "9": 163,
+    "10": 179,
+    "11": 195,
+    "12": 212,
+    "13": 228,
+    "14": 244,
+    "15": 260,
+    "16": 277,
+    "17": 293,
+    "18": 309,
+    "19": 325,
+    "20": 342
+   }
+  },
+  "dps": 855.0,
+  "cooldown": 0.4,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Larva Spike Club",
+  "slug": "Larva_Spike_Club",
+  "desc": "A bludgeoning weapon that is hard to withstand.",
+  "rarity": "Rare",
+  "level": 8,
+  "area": "LarvaHive",
+  "sell": 20,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 10
+   },
+   {
+    "id": "LarvaMeat",
+    "amount": 7
+   },
+   {
+    "id": "Wood",
+    "amount": 10
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 8,
+   "base": 147,
+   "maxLevel": 20,
+   "max": 342,
+   "levels": {
+    "8": 147,
+    "9": 163,
+    "10": 179,
+    "11": 196,
+    "12": 212,
+    "13": 228,
+    "14": 244,
+    "15": 261,
+    "16": 277,
+    "17": 293,
+    "18": 310,
+    "19": 326,
+    "20": 342
+   }
+  },
+  "dps": 855.0,
+  "cooldown": 0.4,
+  "conds": {
+   "ChanceOnHitToKnockback": {
+    "baseLevel": 8,
+    "base": 34,
+    "maxLevel": 20,
+    "max": 56,
+    "levels": {
+     "8": 34,
+     "9": 35,
+     "10": 37,
+     "11": 39,
+     "12": 41,
+     "13": 43,
+     "14": 45,
+     "15": 47,
+     "16": 49,
+     "17": 50,
+     "18": 52,
+     "19": 54,
+     "20": 56
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Larva_Spike_Club.png"
+ },
+ {
+  "name": "Tentacle Whip",
+  "slug": "Tentacle_Whip",
+  "desc": "An elastic tentacle that lashes out at enemies from afar. It's still alive and wiggling in your hand.",
+  "rarity": "Uncommon",
+  "level": 11,
+  "area": "Sea",
+  "sell": 167,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 15
+   }
+  ],
+  "durability": 233,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 11,
+   "base": 293,
+   "maxLevel": 20,
+   "max": 513,
+   "levels": {
+    "11": 293,
+    "12": 318,
+    "13": 342,
+    "14": 367,
+    "15": 391,
+    "16": 416,
+    "17": 440,
+    "18": 464,
+    "19": 489,
+    "20": 513
+   }
+  },
+  "dps": 855.0,
+  "cooldown": 0.6,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tentacle_Whip.png"
+ },
+ {
+  "name": "Scarlet Sword",
+  "slug": "Scarlet_Sword",
+  "desc": "A great weapon for slaying foes.",
+  "rarity": "Uncommon",
+  "level": 9,
+  "area": "Nature",
+  "sell": 134,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 4
+   },
+   {
+    "id": "ScarletBar",
+    "amount": 10
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 9,
+   "base": 163,
+   "maxLevel": 20,
+   "max": 341,
+   "levels": {
+    "9": 163,
+    "10": 179,
+    "11": 195,
+    "12": 211,
+    "13": 228,
+    "14": 244,
+    "15": 260,
+    "16": 276,
+    "17": 293,
+    "18": 309,
+    "19": 325,
+    "20": 341
+   }
+  },
+  "dps": 852.5,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 9,
+    "base": 8,
+    "maxLevel": 20,
+    "max": 16,
+    "levels": {
+     "9": 8,
+     "10": 9,
+     "11": 10,
+     "12": 10,
+     "13": 11,
+     "14": 12,
+     "15": 13,
+     "16": 13,
+     "17": 14,
+     "18": 15,
+     "19": 15,
+     "20": 16
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Hydra Bone Sword",
+  "slug": "Hydra_Bone_Sword",
+  "desc": "A jagged sword made from a hydra's spine. It is not particularly sharp but its uneven shape can tear dangerous wounds into your opponents.",
+  "rarity": "Rare",
+  "level": 16,
+  "area": "Crystal",
+  "sell": 251,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 24
+   },
+   {
+    "id": "GleamWood",
+    "amount": 10
+   }
+  ],
+  "durability": 500,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 276,
+   "maxLevel": 20,
+   "max": 341,
+   "levels": {
+    "16": 276,
+    "17": 292,
+    "18": 308,
+    "19": 324,
+    "20": 341
+   }
+  },
+  "dps": 852.5,
+  "cooldown": 0.4,
+  "conds": {
+   "IncreasedDamageAgainstBosses": {
+    "baseLevel": 16,
+    "base": 15,
+    "maxLevel": 20,
+    "max": 18,
+    "levels": {
+     "16": 15,
+     "17": 16,
+     "18": 16,
+     "19": 17,
+     "20": 18
+    }
+   },
+   "DamageIncreaseAgainstStunned": {
+    "baseLevel": 16,
+    "base": 44,
+    "maxLevel": 20,
+    "max": 53,
+    "levels": {
+     "16": 44,
+     "17": 46,
+     "18": 48,
+     "19": 50,
+     "20": 53
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Hydra_Bone_Sword.png"
+ },
+ {
+  "name": "Octarine Axe",
+  "slug": "Octarine_Axe",
+  "desc": "This crescent-shaped weapon hits hard and magically arcs towards enemies' weak spots.",
+  "rarity": "Rare",
+  "level": 12,
+  "area": "Sea",
+  "sell": 200,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 18
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 12,
+   "base": 312,
+   "maxLevel": 20,
+   "max": 503,
+   "levels": {
+    "12": 312,
+    "13": 335,
+    "14": 359,
+    "15": 383,
+    "16": 407,
+    "17": 431,
+    "18": 455,
+    "19": 479,
+    "20": 503
+   }
+  },
+  "dps": 838.3,
+  "cooldown": 0.6,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 12,
+    "base": 12,
+    "maxLevel": 20,
+    "max": 18,
+    "levels": {
+     "12": 12,
+     "13": 13,
+     "14": 14,
+     "15": 15,
+     "16": 15,
+     "17": 16,
+     "18": 17,
+     "19": 17,
+     "20": 18
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Battle Axe",
+  "slug": "Battle_Axe",
+  "desc": "A menacing weapon that swings wide and hits hard.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 59,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 10
+   },
+   {
+    "id": "Wood",
+    "amount": 10
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 191,
+   "maxLevel": 20,
+   "max": 500,
+   "levels": {
+    "7": 191,
+    "8": 214,
+    "9": 238,
+    "10": 262,
+    "11": 286,
+    "12": 310,
+    "13": 334,
+    "14": 357,
+    "15": 381,
+    "16": 405,
+    "17": 429,
+    "18": 453,
+    "19": 477,
+    "20": 500
+   }
+  },
+  "dps": 833.3,
+  "cooldown": 0.6,
+  "conds": {
+   "PhysicalMeleeDamageIncrease": {
+    "baseLevel": 7,
+    "base": 176,
+    "maxLevel": 20,
+    "max": 445,
+    "levels": {
+     "7": 176,
+     "8": 197,
+     "9": 217,
+     "10": 238,
+     "11": 259,
+     "12": 279,
+     "13": 300,
+     "14": 321,
+     "15": 341,
+     "16": 362,
+     "17": 383,
+     "18": 403,
+     "19": 424,
+     "20": 445
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Tin Axe",
+  "slug": "Tin_Axe",
+  "desc": "A slower but more damaging weapon against multiple enemies.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 11,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 9
+   }
+  ],
+  "durability": 200,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 140,
+   "maxLevel": 20,
+   "max": 489,
+   "levels": {
+    "5": 140,
+    "6": 163,
+    "7": 186,
+    "8": 210,
+    "9": 233,
+    "10": 256,
+    "11": 279,
+    "12": 303,
+    "13": 326,
+    "14": 349,
+    "15": 373,
+    "16": 396,
+    "17": 419,
+    "18": 443,
+    "19": 466,
+    "20": 489
+   }
+  },
+  "dps": 815.0,
+  "cooldown": 0.6,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Lava Battle Axe",
+  "slug": "Lava_Battle_Axe",
+  "desc": "A smoldering, heavy weapon that looks like it was just taken out of the forge.",
+  "rarity": "Rare",
+  "level": 15,
+  "area": "Lava",
+  "sell": 239,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 22
+   },
+   {
+    "id": "LavaSlime",
+    "amount": 20
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 15,
+   "base": 372,
+   "maxLevel": 20,
+   "max": 488,
+   "levels": {
+    "15": 372,
+    "16": 395,
+    "17": 419,
+    "18": 442,
+    "19": 465,
+    "20": 488
+   }
+  },
+  "dps": 813.3,
+  "cooldown": 0.6,
+  "conds": {
+   "ApplyBurning": {
+    "baseLevel": 15,
+    "base": 52,
+    "maxLevel": 20,
+    "max": 66,
+    "levels": {
+     "15": 52,
+     "16": 55,
+     "17": 57,
+     "18": 60,
+     "19": 63,
+     "20": 66
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Lava_Battle_Axe.png"
+ },
+ {
+  "name": "Anchor Axe",
+  "slug": "Anchor_Axe",
+  "desc": "This heavy weapon is actually just a ship anchor. Hits very hard and can throw enemies off.",
+  "rarity": "Rare",
+  "level": 13,
+  "area": "City",
+  "sell": 294,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 25
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 13,
+   "base": 322,
+   "maxLevel": 20,
+   "max": 483,
+   "levels": {
+    "13": 322,
+    "14": 345,
+    "15": 368,
+    "16": 391,
+    "17": 414,
+    "18": 437,
+    "19": 460,
+    "20": 483
+   }
+  },
+  "dps": 805.0,
+  "cooldown": 0.6,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 13,
+    "base": 31,
+    "maxLevel": 20,
+    "max": 43,
+    "levels": {
+     "13": 31,
+     "14": 32,
+     "15": 34,
+     "16": 36,
+     "17": 38,
+     "18": 40,
+     "19": 41,
+     "20": 43
+    }
+   },
+   "ChanceOnHitToKnockback": {
+    "baseLevel": 13,
+    "base": 42,
+    "maxLevel": 20,
+    "max": 55,
+    "levels": {
+     "13": 42,
+     "14": 44,
+     "15": 45,
+     "16": 47,
+     "17": 49,
+     "18": 51,
+     "19": 53,
+     "20": 55
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Anchor_Axe.png"
+ },
+ {
+  "name": "Pandorium Axe",
+  "slug": "Pandorium_Axe",
+  "desc": "This weapon has been designed by minds twisted in the darkness of The Passage. It tears more than it cuts.",
+  "rarity": "Rare",
+  "level": 17,
+  "area": "Passage",
+  "sell": 376,
+  "materials": [
+   {
+    "id": "PandoriumBar",
+    "amount": 25
+   },
+   {
+    "id": "Cytoplasm",
+    "amount": 20
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 17,
+   "base": 413,
+   "maxLevel": 20,
+   "max": 482,
+   "levels": {
+    "17": 413,
+    "18": 436,
+    "19": 459,
+    "20": 482
+   }
+  },
+  "dps": 803.3,
+  "cooldown": 0.6,
+  "conds": {
+   "ChanceToAddRandomConditionOnHit": {
+    "baseLevel": 17,
+    "base": 149,
+    "maxLevel": 20,
+    "max": 176,
+    "levels": {
+     "17": 149,
+     "18": 158,
+     "19": 167,
+     "20": 176
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Pandorium_Axe.png"
+ },
+ {
+  "name": "Zealot's Scimitar",
+  "slug": "Zealots_Scimitar",
+  "desc": "A brilliant sword that channels mana into the blade to increase its power.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 206,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   }
+  ],
+  "durability": 233,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 343,
+   "maxLevel": 20,
+   "max": 481,
+   "levels": {
+    "14": 343,
+    "15": 366,
+    "16": 389,
+    "17": 412,
+    "18": 435,
+    "19": 458,
+    "20": 481
+   }
+  },
+  "dps": 801.7,
+  "cooldown": 0.6,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Zealot_s_Scimitar.png"
+ },
+ {
+  "name": "Slime Sword",
+  "slug": "Slime_Sword",
+  "desc": "A strange weapon, good for damaging enemies and slowing them down.",
+  "rarity": "Rare",
+  "level": 6,
+  "area": "Clay",
+  "sell": 27,
+  "materials": [
+   {
+    "id": "CopperBar",
+    "amount": 10
+   },
+   {
+    "id": "Slime",
+    "amount": 15
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 6,
+   "base": 99,
+   "maxLevel": 20,
+   "max": 298,
+   "levels": {
+    "6": 99,
+    "7": 113,
+    "8": 128,
+    "9": 142,
+    "10": 156,
+    "11": 170,
+    "12": 184,
+    "13": 199,
+    "14": 213,
+    "15": 227,
+    "16": 241,
+    "17": 255,
+    "18": 270,
+    "19": 284,
+    "20": 298
+   }
+  },
+  "dps": 745.0,
+  "cooldown": 0.4,
+  "conds": {
+   "ApplyMovementSpeedReduction": {
+    "baseLevel": 6,
+    "base": -411,
+    "maxLevel": 20,
+    "max": -924,
+    "levels": {
+     "6": -411,
+     "7": -462,
+     "8": -513,
+     "9": -565,
+     "10": -616,
+     "11": -667,
+     "12": -719,
+     "13": -770,
+     "14": -821,
+     "15": -873,
+     "16": -924,
+     "17": -924,
+     "18": -924,
+     "19": -924,
+     "20": -924
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Broken Handle",
+  "slug": "Broken_Handle",
+  "desc": "A piece of an ancient weapon. Even though it's only the handle it already feels mysteriously balanced in your hand.",
+  "rarity": "Rare",
+  "level": 10,
+  "area": "Nature",
+  "sell": 88,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 12
+   },
+   {
+    "id": "GoldBar",
+    "amount": 1
+   }
+  ],
+  "durability": 350,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": {
+   "baseLevel": 10,
+   "base": 129,
+   "maxLevel": 20,
+   "max": 246,
+   "levels": {
+    "10": 129,
+    "11": 141,
+    "12": 152,
+    "13": 164,
+    "14": 176,
+    "15": 187,
+    "16": 199,
+    "17": 211,
+    "18": 223,
+    "19": 234,
+    "20": 246
+   }
+  },
+  "dps": 615.0,
+  "cooldown": 0.4,
+  "conds": {
+   "IncreasedMaxHealth": {
+    "baseLevel": 10,
+    "base": 31,
+    "maxLevel": 20,
+    "max": 62,
+    "levels": {
+     "10": 31,
+     "11": 34,
+     "12": 37,
+     "13": 40,
+     "14": 44,
+     "15": 47,
+     "16": 50,
+     "17": 53,
+     "18": 56,
+     "19": 59,
+     "20": 62
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Noxious Meteor Staff",
+  "slug": "Noxious_Meteor_Staff",
+  "desc": "A tainted staff laced with corroding blight. It sizzles with embittered energies that rain down a dense drop of toxin.",
+  "rarity": "Epic",
+  "level": 11,
+  "area": "Nature",
+  "sell": 180,
+  "materials": [
+   {
+    "id": "ScarletBar",
+    "amount": 16
+   },
+   {
+    "id": "PoisonSlime",
+    "amount": 10
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 11,
+   "base": 608,
+   "maxLevel": 20,
+   "max": 1064,
+   "levels": {
+    "11": 608,
+    "12": 659,
+    "13": 709,
+    "14": 760,
+    "15": 811,
+    "16": 861,
+    "17": 912,
+    "18": 963,
+    "19": 1013,
+    "20": 1064
+   }
+  },
+  "dps": 532.0,
+  "cooldown": 2.0,
+  "conds": {
+   "ChanceToApplyPoisoned": {
+    "baseLevel": 11,
+    "base": 16,
+    "maxLevel": 20,
+    "max": 25,
+    "levels": {
+     "11": 16,
+     "12": 17,
+     "13": 18,
+     "14": 19,
+     "15": 20,
+     "16": 21,
+     "17": 22,
+     "18": 23,
+     "19": 24,
+     "20": 25
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Noxious_Meteor_Staff.png"
+ },
+ {
+  "name": "Corrupted Meteor Staff",
+  "slug": "Corrupted_Meteor_Staff",
+  "desc": "A weathered staff infused with cosmic corruption. It crackles with unfathomable energies and whispers of forbidden power.",
+  "rarity": "Epic",
+  "level": 18,
+  "area": "Passage",
+  "sell": 266,
+  "materials": [
+   {
+    "id": "PandoriumBar",
+    "amount": 20
+   },
+   {
+    "id": "LavaSlime",
+    "amount": 20
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 18,
+   "base": 949,
+   "maxLevel": 20,
+   "max": 1049,
+   "levels": {
+    "18": 949,
+    "19": 999,
+    "20": 1049
+   }
+  },
+  "dps": 524.5,
+  "cooldown": 2.0,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 18,
+    "base": 41,
+    "maxLevel": 20,
+    "max": 45,
+    "levels": {
+     "18": 41,
+     "19": 43,
+     "20": 45
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Corrupted_Meteor_Staff.png"
+ },
+ {
+  "name": "Arcane Staff",
+  "slug": "Arcane_Staff",
+  "desc": "Unleash a torrent of arcane energies.",
+  "rarity": "Rare",
+  "level": 8,
+  "area": "Stone",
+  "sell": 94,
+  "materials": [
+   {
+    "id": "GoldBar",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 3
+   }
+  ],
+  "durability": 500,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 8,
+   "base": 67,
+   "maxLevel": 20,
+   "max": 157,
+   "levels": {
+    "8": 67,
+    "9": 75,
+    "10": 82,
+    "11": 89,
+    "12": 97,
+    "13": 104,
+    "14": 112,
+    "15": 119,
+    "16": 127,
+    "17": 134,
+    "18": 142,
+    "19": 149,
+    "20": 157
+   }
+  },
+  "dps": 523.3,
+  "cooldown": 0.3,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 8,
+    "base": 8,
+    "maxLevel": 20,
+    "max": 16,
+    "levels": {
+     "8": 8,
+     "9": 8,
+     "10": 9,
+     "11": 10,
+     "12": 10,
+     "13": 11,
+     "14": 12,
+     "15": 13,
+     "16": 13,
+     "17": 14,
+     "18": 15,
+     "19": 15,
+     "20": 16
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Chaos Staff",
+  "slug": "Chaos_Staff",
+  "desc": "An unpredictable, powerful weapon that weaves chaotic ancient energy into all kinds of projectiles. The enemy will never know what's coming for them.",
+  "rarity": "Rare",
+  "level": 17,
+  "area": "Passage",
+  "sell": 331,
+  "materials": [
+   {
+    "id": "PandoriumBar",
+    "amount": 20
+   },
+   {
+    "id": "Cytoplasm",
+    "amount": 15
+   }
+  ],
+  "durability": 225,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 17,
+   "base": 448,
+   "maxLevel": 20,
+   "max": 522,
+   "levels": {
+    "17": 448,
+    "18": 472,
+    "19": 497,
+    "20": 522
+   }
+  },
+  "dps": 522.0,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": "/icons/Chaos_Staff.png"
+ },
+ {
+  "name": "Sun Caller",
+  "slug": "Sun_Caller",
+  "desc": "Used by great mages to conjure small stars.",
+  "rarity": "Epic",
+  "level": 13,
+  "area": "Sea",
+  "sell": 334,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 20
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 10
+   }
+  ],
+  "durability": 225,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 13,
+   "base": 326,
+   "maxLevel": 20,
+   "max": 490,
+   "levels": {
+    "13": 326,
+    "14": 350,
+    "15": 373,
+    "16": 396,
+    "17": 420,
+    "18": 443,
+    "19": 466,
+    "20": 490
+   }
+  },
+  "dps": 490.0,
+  "cooldown": 1.0,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 13,
+    "base": 13,
+    "maxLevel": 20,
+    "max": 18,
+    "levels": {
+     "13": 13,
+     "14": 14,
+     "15": 15,
+     "16": 15,
+     "17": 16,
+     "18": 17,
+     "19": 17,
+     "20": 18
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Stormbringer",
+  "slug": "Stormbringer",
+  "desc": "Augmented by a mysterious energy, this weapon unleashes chaining arcs of lightning upon your foes. Holding it sends a tingling sensation through your arms.",
+  "rarity": "Legendary",
+  "level": 19,
+  "area": "Passage",
+  "sell": null,
+  "materials": [
+   {
+    "id": "PandoriumBar",
+    "amount": 100
+   },
+   {
+    "id": "SolariteBar",
+    "amount": 100
+   },
+   {
+    "id": "Cytoplasm",
+    "amount": 50
+   },
+   {
+    "id": "LaserDrillTool",
+    "amount": 1
+   }
+  ],
+  "durability": "Infinite",
+  "type": "BeamWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Beam",
+  "dmg": {
+   "baseLevel": 19,
+   "base": 93,
+   "maxLevel": 20,
+   "max": 97,
+   "levels": {
+    "19": 93,
+    "20": 97
+   }
+  },
+  "dps": 485.0,
+  "cooldown": 0.2,
+  "conds": {
+   "MiningIncrease": {
+    "baseLevel": 19,
+    "base": 1000,
+    "maxLevel": 20,
+    "max": 1097,
+    "levels": {
+     "19": 1000,
+     "20": 1097
+    }
+   },
+   "MovementSpeedBoostAfterMining": {
+    "baseLevel": 19,
+    "base": 15,
+    "maxLevel": 20,
+    "max": 15,
+    "levels": {
+     "19": 15,
+     "20": 15
+    }
+   },
+   "LightningGunChainLightning": {
+    "baseLevel": 19,
+    "base": 1,
+    "maxLevel": 20,
+    "max": 1,
+    "levels": {
+     "19": 1,
+     "20": 1
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Stormbringer.png"
+ },
+ {
+  "name": "Fireball Staff",
+  "slug": "Fireball_Staff",
+  "desc": "A magical staff that the caveling shamans use in their rituals and against uninvited guests.",
+  "rarity": "Rare",
+  "level": 8,
+  "area": "Stone",
+  "sell": 14,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 20
+   },
+   {
+    "id": "Slime",
+    "amount": 10
+   }
+  ],
+  "durability": 225,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 8,
+   "base": 207,
+   "maxLevel": 20,
+   "max": 484,
+   "levels": {
+    "8": 207,
+    "9": 230,
+    "10": 253,
+    "11": 277,
+    "12": 300,
+    "13": 323,
+    "14": 346,
+    "15": 369,
+    "16": 392,
+    "17": 415,
+    "18": 438,
+    "19": 461,
+    "20": 484
+   }
+  },
+  "dps": 484.0,
+  "cooldown": 1.0,
+  "conds": {
+   "ApplyBurning": {
+    "baseLevel": 8,
+    "base": 35,
+    "maxLevel": 20,
+    "max": 73,
+    "levels": {
+     "8": 35,
+     "9": 38,
+     "10": 42,
+     "11": 45,
+     "12": 48,
+     "13": 51,
+     "14": 54,
+     "15": 57,
+     "16": 60,
+     "17": 63,
+     "18": 66,
+     "19": 70,
+     "20": 73
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Simple Staff",
+  "slug": "Simple_Staff",
+  "desc": "Commonly used by apprentice mages.",
+  "rarity": "Common",
+  "level": 2,
+  "area": "Slime",
+  "sell": 13,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 10
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 255,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 2,
+   "base": 68,
+   "maxLevel": 20,
+   "max": 479,
+   "levels": {
+    "2": 68,
+    "3": 91,
+    "4": 114,
+    "5": 137,
+    "6": 160,
+    "7": 182,
+    "8": 205,
+    "9": 228,
+    "10": 251,
+    "11": 274,
+    "12": 296,
+    "13": 319,
+    "14": 342,
+    "15": 365,
+    "16": 388,
+    "17": 410,
+    "18": 433,
+    "19": 456,
+    "20": 479
+   }
+  },
+  "dps": 479.0,
+  "cooldown": 1.0,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 2,
+    "base": 4,
+    "maxLevel": 20,
+    "max": 17,
+    "levels": {
+     "2": 4,
+     "3": 5,
+     "4": 6,
+     "5": 6,
+     "6": 7,
+     "7": 8,
+     "8": 9,
+     "9": 9,
+     "10": 10,
+     "11": 11,
+     "12": 11,
+     "13": 12,
+     "14": 13,
+     "15": 14,
+     "16": 14,
+     "17": 15,
+     "18": 16,
+     "19": 16,
+     "20": 17
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Scholar's Staff",
+  "slug": "Scholars_Staff",
+  "desc": "A magical staff wielded by caveling scholars that utilizes an ancient gemstone to produce powerful bolts of energy.",
+  "rarity": "Rare",
+  "level": 13,
+  "area": "City",
+  "sell": 258,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 20
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 3
+   }
+  ],
+  "durability": 225,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 13,
+   "base": 319,
+   "maxLevel": 20,
+   "max": 478,
+   "levels": {
+    "13": 319,
+    "14": 342,
+    "15": 364,
+    "16": 387,
+    "17": 410,
+    "18": 433,
+    "19": 456,
+    "20": 478
+   }
+  },
+  "dps": 478.0,
+  "cooldown": 1.0,
+  "conds": {
+   "IncreasedMagicDamagePercentage": {
+    "baseLevel": 13,
+    "base": 257,
+    "maxLevel": 20,
+    "max": 382,
+    "levels": {
+     "13": 257,
+     "14": 275,
+     "15": 293,
+     "16": 311,
+     "17": 329,
+     "18": 347,
+     "19": 365,
+     "20": 382
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Scrap Minigun",
+  "slug": "Scrap_Minigun",
+  "desc": "A gun-like apparatus that manages to convert disposable debris into a flurry of cutting missiles.",
+  "rarity": "Rare",
+  "level": 18,
+  "area": "Excavation",
+  "sell": 351,
+  "materials": [
+   {
+    "id": "ReluciteBar",
+    "amount": 18
+   },
+   {
+    "id": "PandoriumBar",
+    "amount": 8
+   },
+   {
+    "id": "CorruptedAlloy",
+    "amount": 15
+   }
+  ],
+  "durability": 300,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 18,
+   "base": 52,
+   "maxLevel": 20,
+   "max": 57,
+   "levels": {
+    "18": 52,
+    "19": 54,
+    "20": 57
+   }
+  },
+  "dps": 456.0,
+  "cooldown": 0.125,
+  "conds": {
+   "PhysicalRangeDamageIncrease": {
+    "baseLevel": 18,
+    "base": 207,
+    "maxLevel": 20,
+    "max": 228,
+    "levels": {
+     "18": 207,
+     "19": 218,
+     "20": 228
+    }
+   },
+   "CritChance": {
+    "baseLevel": 18,
+    "base": 8,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "18": 8,
+     "19": 8,
+     "20": 8
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Obliteration Ray",
+  "slug": "Obliteration_Ray",
+  "desc": "A high energy mining tool that is at the constant limit of bursting. The barely contained laser melts almost anything in its path.",
+  "rarity": "Epic",
+  "level": 17,
+  "area": "Crystal",
+  "sell": 308,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 30
+   }
+  ],
+  "durability": 250,
+  "type": "BeamWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Beam",
+  "dmg": {
+   "baseLevel": 17,
+   "base": 76,
+   "maxLevel": 20,
+   "max": 89,
+   "levels": {
+    "17": 76,
+    "18": 80,
+    "19": 85,
+    "20": 89
+   }
+  },
+  "dps": 445.0,
+  "cooldown": 0.2,
+  "conds": {
+   "MiningIncrease": {
+    "baseLevel": 17,
+    "base": 800,
+    "maxLevel": 20,
+    "max": 1073,
+    "levels": {
+     "17": 800,
+     "18": 886,
+     "19": 978,
+     "20": 1073
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Obliteration_Ray.png"
+ },
+ {
+  "name": "Sticky Stick",
+  "slug": "Sticky_Stick",
+  "desc": "This staff is drenched in slime that never seems to end no matter how much is flung away.",
+  "rarity": "Rare",
+  "level": 4,
+  "area": "Slime",
+  "sell": 25,
+  "materials": [
+   {
+    "id": "Slime",
+    "amount": 20
+   }
+  ],
+  "durability": 150,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 4,
+   "base": 103,
+   "maxLevel": 20,
+   "max": 434,
+   "levels": {
+    "4": 103,
+    "5": 124,
+    "6": 145,
+    "7": 165,
+    "8": 186,
+    "9": 207,
+    "10": 227,
+    "11": 248,
+    "12": 268,
+    "13": 289,
+    "14": 310,
+    "15": 330,
+    "16": 351,
+    "17": 372,
+    "18": 392,
+    "19": 413,
+    "20": 434
+   }
+  },
+  "dps": 434.0,
+  "cooldown": 1.0,
+  "conds": {
+   "ApplySlowedBySlime": {
+    "baseLevel": 4,
+    "base": -321,
+    "maxLevel": 20,
+    "max": -643,
+    "levels": {
+     "4": -321,
+     "5": -402,
+     "6": -482,
+     "7": -563,
+     "8": -643,
+     "9": -643,
+     "10": -643,
+     "11": -643,
+     "12": -643,
+     "13": -643,
+     "14": -643,
+     "15": -643,
+     "16": -643,
+     "17": -643,
+     "18": -643,
+     "19": -643,
+     "20": -643
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Throwing Daggers",
+  "slug": "Throwing_Daggers",
+  "desc": "A set of curved blades. They're evenly balanced so that throwing them is as easy as pointing a finger.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 264,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   },
+   {
+    "id": "IronBar",
+    "amount": 5
+   }
+  ],
+  "durability": 375,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 120,
+   "maxLevel": 20,
+   "max": 168,
+   "levels": {
+    "14": 120,
+    "15": 128,
+    "16": 136,
+    "17": 144,
+    "18": 152,
+    "19": 160,
+    "20": 168
+   }
+  },
+  "dps": 420.0,
+  "cooldown": 0.4,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 14,
+    "base": 14,
+    "maxLevel": 20,
+    "max": 19,
+    "levels": {
+     "14": 14,
+     "15": 15,
+     "16": 15,
+     "17": 16,
+     "18": 17,
+     "19": 17,
+     "20": 19
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Galaxite Chakram",
+  "slug": "Galaxite_Chakram",
+  "desc": "This unique throwing weapon requires finesse and dexterity to be used to its full potential.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 267,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 22
+   }
+  ],
+  "durability": 375,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 120,
+   "maxLevel": 20,
+   "max": 168,
+   "levels": {
+    "14": 120,
+    "15": 128,
+    "16": 136,
+    "17": 144,
+    "18": 152,
+    "19": 160,
+    "20": 168
+   }
+  },
+  "dps": 420.0,
+  "cooldown": 0.4,
+  "conds": {
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 14,
+    "base": 39,
+    "maxLevel": 20,
+    "max": 52,
+    "levels": {
+     "14": 39,
+     "15": 41,
+     "16": 44,
+     "17": 46,
+     "18": 48,
+     "19": 50,
+     "20": 52
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Galaxite_Chakram.png"
+ },
+ {
+  "name": "Blowpipe",
+  "slug": "Blowpipe",
+  "desc": "A simple weapon loaded with poisonous darts.",
+  "rarity": "Uncommon",
+  "level": 10,
+  "area": "Mold",
+  "sell": 24,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 30
+   },
+   {
+    "id": "PoisonSlime",
+    "amount": 20
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 10,
+   "base": 131,
+   "maxLevel": 20,
+   "max": 250,
+   "levels": {
+    "10": 131,
+    "11": 143,
+    "12": 155,
+    "13": 167,
+    "14": 179,
+    "15": 190,
+    "16": 202,
+    "17": 214,
+    "18": 226,
+    "19": 238,
+    "20": 250
+   }
+  },
+  "dps": 416.7,
+  "cooldown": 0.6,
+  "conds": {
+   "ChanceToApplyPoisoned": {
+    "baseLevel": 10,
+    "base": 16,
+    "maxLevel": 20,
+    "max": 27,
+    "levels": {
+     "10": 16,
+     "11": 17,
+     "12": 18,
+     "13": 19,
+     "14": 20,
+     "15": 21,
+     "16": 22,
+     "17": 24,
+     "18": 25,
+     "19": 26,
+     "20": 27
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Iron Bow",
+  "slug": "Iron_Bow",
+  "desc": "A sturdy bow to shoot foes from afar.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 56,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 7
+   },
+   {
+    "id": "GoldBar",
+    "amount": 1
+   },
+   {
+    "id": "Wood",
+    "amount": 5
+   }
+  ],
+  "durability": 257,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 111,
+   "maxLevel": 20,
+   "max": 291,
+   "levels": {
+    "7": 111,
+    "8": 125,
+    "9": 138,
+    "10": 152,
+    "11": 166,
+    "12": 180,
+    "13": 194,
+    "14": 208,
+    "15": 221,
+    "16": 235,
+    "17": 249,
+    "18": 263,
+    "19": 277,
+    "20": 291
+   }
+  },
+  "dps": 415.7,
+  "cooldown": 0.7,
+  "conds": {
+   "PhysicalRangeDamageIncrease": {
+    "baseLevel": 7,
+    "base": 179,
+    "maxLevel": 20,
+    "max": 453,
+    "levels": {
+     "7": 179,
+     "8": 200,
+     "9": 221,
+     "10": 242,
+     "11": 263,
+     "12": 284,
+     "13": 305,
+     "14": 326,
+     "15": 347,
+     "16": 368,
+     "17": 389,
+     "18": 411,
+     "19": 432,
+     "20": 453
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Iron_Bow.png"
+ },
+ {
+  "name": "Bubble Gun",
+  "slug": "Bubble_Gun",
+  "desc": "A strange ranged weapon that shoots out hovering bubbles, adding slippery movement on contact.",
+  "rarity": "Rare",
+  "level": 12,
+  "area": "Sea",
+  "sell": 167,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 15
+   }
+  ],
+  "durability": 375,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 12,
+   "base": 103,
+   "maxLevel": 20,
+   "max": 166,
+   "levels": {
+    "12": 103,
+    "13": 110,
+    "14": 118,
+    "15": 126,
+    "16": 134,
+    "17": 142,
+    "18": 150,
+    "19": 158,
+    "20": 166
+   }
+  },
+  "dps": 415.0,
+  "cooldown": 0.4,
+  "conds": {
+   "ChanceOnHitToApplySlipperyMovement": {
+    "baseLevel": 12,
+    "base": 35,
+    "maxLevel": 20,
+    "max": 52,
+    "levels": {
+     "12": 35,
+     "13": 38,
+     "14": 40,
+     "15": 42,
+     "16": 44,
+     "17": 46,
+     "18": 48,
+     "19": 50,
+     "20": 52
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Phantom Spark",
+  "slug": "Phantom_Spark",
+  "desc": "A legendary, masterfully crafted bow that shoots pure energy projectiles. Sometimes those pierce the veil of time and space, calling upon the spirits of the past.",
+  "rarity": "Legendary",
+  "level": 15,
+  "area": "City",
+  "sell": null,
+  "materials": [
+   {
+    "id": "LegendaryBowPart1",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryBowPart2",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryBowPart3",
+    "amount": 1
+   },
+   {
+    "id": "OctarineBar",
+    "amount": 100
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 20
+   }
+  ],
+  "durability": "Infinite",
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 15,
+   "base": 220,
+   "maxLevel": 20,
+   "max": 289,
+   "levels": {
+    "15": 220,
+    "16": 234,
+    "17": 247,
+    "18": 261,
+    "19": 275,
+    "20": 289
+   }
+  },
+  "dps": 412.9,
+  "cooldown": 0.7,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 15,
+    "base": 10,
+    "maxLevel": 20,
+    "max": 12,
+    "levels": {
+     "15": 10,
+     "16": 10,
+     "17": 10,
+     "18": 11,
+     "19": 11,
+     "20": 12
+    }
+   },
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 15,
+    "base": 27,
+    "maxLevel": 20,
+    "max": 34,
+    "levels": {
+     "15": 27,
+     "16": 28,
+     "17": 30,
+     "18": 31,
+     "19": 33,
+     "20": 34
+    }
+   },
+   "ChanceOnKillToSummonGhost": {
+    "baseLevel": 15,
+    "base": 20,
+    "maxLevel": 20,
+    "max": 20,
+    "levels": {
+     "15": 20,
+     "16": 20,
+     "17": 20,
+     "18": 20,
+     "19": 20,
+     "20": 20
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Phantom_Spark.png"
+ },
+ {
+  "name": "Slingshot",
+  "slug": "Slingshot",
+  "desc": "Simple ranged weapon to fire away at enemies.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 5,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 3
+   },
+   {
+    "id": "Wood",
+    "amount": 10
+   }
+  ],
+  "durability": 300,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 58,
+   "maxLevel": 20,
+   "max": 205,
+   "levels": {
+    "5": 58,
+    "6": 68,
+    "7": 78,
+    "8": 88,
+    "9": 97,
+    "10": 107,
+    "11": 117,
+    "12": 127,
+    "13": 136,
+    "14": 146,
+    "15": 156,
+    "16": 166,
+    "17": 175,
+    "18": 185,
+    "19": 195,
+    "20": 205
+   }
+  },
+  "dps": 410.0,
+  "cooldown": 0.5,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Snowball",
+  "slug": "Snowball",
+  "desc": "A handy projectile to start some fights with the neighbours' children. Can also be collected and further processed.",
+  "rarity": "Common",
+  "level": 4,
+  "area": "Clay",
+  "sell": 1,
+  "materials": null,
+  "durability": null,
+  "type": "RangeWeapon",
+  "categories": [
+   "Seasonal",
+   "Christmas"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 4,
+   "base": 49,
+   "maxLevel": 20,
+   "max": 205,
+   "levels": {
+    "4": 49,
+    "5": 59,
+    "6": 68,
+    "7": 78,
+    "8": 88,
+    "9": 98,
+    "10": 107,
+    "11": 117,
+    "12": 127,
+    "13": 137,
+    "14": 146,
+    "15": 156,
+    "16": 166,
+    "17": 176,
+    "18": 186,
+    "19": 195,
+    "20": 205
+   }
+  },
+  "dps": 410.0,
+  "cooldown": 0.5,
+  "conds": {
+   "ChanceOnRangeShotToStun": {
+    "baseLevel": 4,
+    "base": 25,
+    "maxLevel": 20,
+    "max": 25,
+    "levels": {
+     "4": 25,
+     "5": 25,
+     "6": 25,
+     "7": 25,
+     "8": 25,
+     "9": 25,
+     "10": 25,
+     "11": 25,
+     "12": 25,
+     "13": 25,
+     "14": 25,
+     "15": 25,
+     "16": 25,
+     "17": 25,
+     "18": 25,
+     "19": 25,
+     "20": 25
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Solarite Crossbow",
+  "slug": "Solarite_Crossbow",
+  "desc": "A grand glimmering crossbow that shoots mighty bolts.",
+  "rarity": "Rare",
+  "level": 16,
+  "area": "Crystal",
+  "sell": 227,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 20
+   },
+   {
+    "id": "GleamWood",
+    "amount": 15
+   }
+  ],
+  "durability": 257,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 232,
+   "maxLevel": 20,
+   "max": 286,
+   "levels": {
+    "16": 232,
+    "17": 245,
+    "18": 259,
+    "19": 273,
+    "20": 286
+   }
+  },
+  "dps": 408.6,
+  "cooldown": 0.7,
+  "conds": {
+   "CritChance": {
+    "baseLevel": 16,
+    "base": 7,
+    "maxLevel": 20,
+    "max": 8,
+    "levels": {
+     "16": 7,
+     "17": 7,
+     "18": 8,
+     "19": 8,
+     "20": 8
+    }
+   },
+   "PhysicalRangeDamageIncrease": {
+    "baseLevel": 16,
+    "base": 180,
+    "maxLevel": 20,
+    "max": 221,
+    "levels": {
+     "16": 180,
+     "17": 190,
+     "18": 200,
+     "19": 210,
+     "20": 221
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Solarite_Crossbow.png"
+ },
+ {
+  "name": "Flintlock Musket",
+  "slug": "Flintlock_Musket",
+  "desc": "Can't argue much with a handful of lead coming right at you.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 12,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 10
+   },
+   {
+    "id": "Wood",
+    "amount": 10
+   }
+  ],
+  "durability": 150,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 230,
+   "maxLevel": 20,
+   "max": 805,
+   "levels": {
+    "5": 230,
+    "6": 268,
+    "7": 307,
+    "8": 345,
+    "9": 383,
+    "10": 422,
+    "11": 460,
+    "12": 498,
+    "13": 536,
+    "14": 575,
+    "15": 613,
+    "16": 651,
+    "17": 690,
+    "18": 728,
+    "19": 766,
+    "20": 805
+   }
+  },
+  "dps": 402.5,
+  "cooldown": 2.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Octarine Bow",
+  "slug": "Octarine_Bow",
+  "desc": "A strange bow that enhances the way arrows fly, allowing for quicker shots.",
+  "rarity": "Rare",
+  "level": 12,
+  "area": "Sea",
+  "sell": 175,
+  "materials": [
+   {
+    "id": "OctarineBar",
+    "amount": 15
+   },
+   {
+    "id": "CoralWood",
+    "amount": 15
+   }
+  ],
+  "durability": 257,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 12,
+   "base": 174,
+   "maxLevel": 20,
+   "max": 280,
+   "levels": {
+    "12": 174,
+    "13": 187,
+    "14": 200,
+    "15": 214,
+    "16": 227,
+    "17": 240,
+    "18": 254,
+    "19": 267,
+    "20": 280
+   }
+  },
+  "dps": 400.0,
+  "cooldown": 0.7,
+  "conds": {
+   "RangeAttackSpeedIncrease": {
+    "baseLevel": 12,
+    "base": 62,
+    "maxLevel": 20,
+    "max": 91,
+    "levels": {
+     "12": 62,
+     "13": 66,
+     "14": 70,
+     "15": 73,
+     "16": 77,
+     "17": 80,
+     "18": 84,
+     "19": 88,
+     "20": 91
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Flamethrower",
+  "slug": "Flamethrower",
+  "desc": "A bulky tank attached to a hose spraying ignited fuel, ready to set the world ablaze.",
+  "rarity": "Rare",
+  "level": 18,
+  "area": "Excavation",
+  "sell": 333,
+  "materials": [
+   {
+    "id": "ReluciteBar",
+    "amount": 20
+   },
+   {
+    "id": "CorruptedAlloy",
+    "amount": 15
+   }
+  ],
+  "durability": 875,
+  "type": "BeamWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Beam",
+  "dmg": {
+   "baseLevel": 18,
+   "base": 69,
+   "maxLevel": 20,
+   "max": 76,
+   "levels": {
+    "18": 69,
+    "19": 72,
+    "20": 76
+   }
+  },
+  "dps": 380.0,
+  "cooldown": 0.2,
+  "conds": {
+   "ApplyBurning": {
+    "baseLevel": 18,
+    "base": 58,
+    "maxLevel": 20,
+    "max": 64,
+    "levels": {
+     "18": 58,
+     "19": 61,
+     "20": 64
+    }
+   },
+   "ChanceToSpawnFireOnAttack": {
+    "baseLevel": 18,
+    "base": 100,
+    "maxLevel": 20,
+    "max": 100,
+    "levels": {
+     "18": 100,
+     "19": 100,
+     "20": 100
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Quill Rifle",
+  "slug": "Quill_Rifle",
+  "desc": "A re-engineered bioweapon, discharging quills as deadly bolts.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 55,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 7
+   },
+   {
+    "id": "GoldBar",
+    "amount": 1
+   },
+   {
+    "id": "Wood",
+    "amount": 5
+   }
+  ],
+  "durability": 720,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 36,
+   "maxLevel": 20,
+   "max": 94,
+   "levels": {
+    "7": 36,
+    "8": 40,
+    "9": 45,
+    "10": 49,
+    "11": 54,
+    "12": 58,
+    "13": 63,
+    "14": 67,
+    "15": 72,
+    "16": 76,
+    "17": 81,
+    "18": 85,
+    "19": 90,
+    "20": 94
+   }
+  },
+  "dps": 376.0,
+  "cooldown": 0.25,
+  "conds": {
+   "PhysicalRangeDamageIncrease": {
+    "baseLevel": 7,
+    "base": 187,
+    "maxLevel": 20,
+    "max": 472,
+    "levels": {
+     "7": 187,
+     "8": 209,
+     "9": 231,
+     "10": 253,
+     "11": 275,
+     "12": 297,
+     "13": 319,
+     "14": 340,
+     "15": 362,
+     "16": 384,
+     "17": 406,
+     "18": 428,
+     "19": 450,
+     "20": 472
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": "/icons/Quill_Rifle.png"
+ },
+ {
+  "name": "Void Gun",
+  "slug": "Void_Gun",
+  "desc": "A particle weapon with unknown inner workings. It emits balls of void that distort spacetime to inflict high damage.",
+  "rarity": "Epic",
+  "level": 17,
+  "area": "Crystal",
+  "sell": 355,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 25
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 5
+   }
+  ],
+  "durability": 225,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 17,
+   "base": 283,
+   "maxLevel": 20,
+   "max": 330,
+   "levels": {
+    "17": 283,
+    "18": 299,
+    "19": 314,
+    "20": 330
+   }
+  },
+  "dps": 330.0,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Void_Gun.png"
+ },
+ {
+  "name": "Wood Crossbow",
+  "slug": "Wood_Crossbow",
+  "desc": "A small wooden crossbow that swiftly shoots bolts.",
+  "rarity": "Common",
+  "level": 2,
+  "area": "Slime",
+  "sell": 6,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 15
+   },
+   {
+    "id": "Fiber",
+    "amount": 5
+   }
+  ],
+  "durability": 255,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 2,
+   "base": 47,
+   "maxLevel": 20,
+   "max": 329,
+   "levels": {
+    "2": 47,
+    "3": 63,
+    "4": 78,
+    "5": 94,
+    "6": 110,
+    "7": 125,
+    "8": 141,
+    "9": 157,
+    "10": 172,
+    "11": 188,
+    "12": 204,
+    "13": 219,
+    "14": 235,
+    "15": 250,
+    "16": 266,
+    "17": 282,
+    "18": 297,
+    "19": 313,
+    "20": 329
+   }
+  },
+  "dps": 329.0,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": "/icons/Wood_Crossbow.png"
+ },
+ {
+  "name": "Scarlet Crossbow",
+  "slug": "Scarlet_Crossbow",
+  "desc": "A heavy metallic crossbow that shoots potent bolts.",
+  "rarity": "Uncommon",
+  "level": 9,
+  "area": "Nature",
+  "sell": 149,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 5
+   },
+   {
+    "id": "ScarletBar",
+    "amount": 10
+   },
+   {
+    "id": "Fiber",
+    "amount": 5
+   }
+  ],
+  "durability": 300,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 9,
+   "base": 157,
+   "maxLevel": 20,
+   "max": 329,
+   "levels": {
+    "9": 157,
+    "10": 172,
+    "11": 188,
+    "12": 204,
+    "13": 219,
+    "14": 235,
+    "15": 251,
+    "16": 266,
+    "17": 282,
+    "18": 298,
+    "19": 313,
+    "20": 329
+   }
+  },
+  "dps": 329.0,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Wood Bow",
+  "slug": "Wood_Bow",
+  "desc": "A crude bow to shoot foes from afar.",
+  "rarity": "Common",
+  "level": 2,
+  "area": "Slime",
+  "sell": 1,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 15
+   }
+  ],
+  "durability": 257,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 2,
+   "base": 33,
+   "maxLevel": 20,
+   "max": 230,
+   "levels": {
+    "2": 33,
+    "3": 44,
+    "4": 55,
+    "5": 66,
+    "6": 77,
+    "7": 88,
+    "8": 99,
+    "9": 109,
+    "10": 120,
+    "11": 131,
+    "12": 142,
+    "13": 153,
+    "14": 164,
+    "15": 175,
+    "16": 186,
+    "17": 197,
+    "18": 208,
+    "19": 219,
+    "20": 230
+   }
+  },
+  "dps": 328.6,
+  "cooldown": 0.7,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Ricochet Shuriken",
+  "slug": "Ricochet_Shuriken",
+  "desc": "A four-bladed throwing weapon that bounces back and forth across the room. Slicing any enemy in its path.",
+  "rarity": "Rare",
+  "level": 16,
+  "area": "Crystal",
+  "sell": 255,
+  "materials": [
+   {
+    "id": "SolariteBar",
+    "amount": 20
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 3
+   }
+  ],
+  "durability": 375,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 94,
+   "maxLevel": 20,
+   "max": 116,
+   "levels": {
+    "16": 94,
+    "17": 100,
+    "18": 105,
+    "19": 111,
+    "20": 116
+   }
+  },
+  "dps": 290.0,
+  "cooldown": 0.4,
+  "conds": {
+   "RangeAttackSpeedIncrease": {
+    "baseLevel": 16,
+    "base": 45,
+    "maxLevel": 20,
+    "max": 53,
+    "levels": {
+     "16": 45,
+     "17": 47,
+     "18": 49,
+     "19": 51,
+     "20": 53
+    }
+   },
+   "CriticalDamagePercentageIncrease": {
+    "baseLevel": 16,
+    "base": 22,
+    "maxLevel": 20,
+    "max": 26,
+    "levels": {
+     "16": 22,
+     "17": 23,
+     "18": 24,
+     "19": 25,
+     "20": 26
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Ricochet_Shuriken.png"
+ },
+ {
+  "name": "Titan Breath",
+  "slug": "Titan_Breath",
+  "desc": "Wrought by restrained paradox, it inhales energy to exhale a controlled cut through the aether. Anything trapped within is overwhelmed by the distilled entropy.",
+  "rarity": "Legendary",
+  "level": 18,
+  "area": "Crystal",
+  "sell": null,
+  "materials": [
+   {
+    "id": "LegendaryStaffPart1",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryStaffPart2",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryStaffPart3",
+    "amount": 1
+   }
+  ],
+  "durability": "Infinite",
+  "type": "BeamWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Beam",
+  "dmg": {
+   "baseLevel": 18,
+   "base": 48,
+   "maxLevel": 20,
+   "max": 53,
+   "levels": {
+    "18": 48,
+    "19": 51,
+    "20": 53
+   }
+  },
+  "dps": 265.0,
+  "cooldown": 0.2,
+  "conds": {
+   "MiningIncrease": {
+    "baseLevel": 18,
+    "base": 421,
+    "maxLevel": 20,
+    "max": 510,
+    "levels": {
+     "18": 421,
+     "19": 465,
+     "20": 510
+    }
+   },
+   "CritChance": {
+    "baseLevel": 18,
+    "base": 11,
+    "maxLevel": 20,
+    "max": 12,
+    "levels": {
+     "18": 11,
+     "19": 11,
+     "20": 12
+    }
+   },
+   "IncreaseManaCostAndMagicDamagePercentagePerSecond": {
+    "baseLevel": 18,
+    "base": 10,
+    "maxLevel": 20,
+    "max": 10,
+    "levels": {
+     "18": 10,
+     "19": 10,
+     "20": 10
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Titan_Breath.png"
+ },
+ {
+  "name": "Burnzooka",
+  "slug": "Burnzooka",
+  "desc": "This fiery weapon was modeled after the grubzooka but enhanced with lava rock shielding to contain its power. Can blast away stone walls and anything weaker.",
+  "rarity": "Epic",
+  "level": 16,
+  "area": "Lava",
+  "sell": 267,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   },
+   {
+    "id": "LavaSlime",
+    "amount": 20
+   }
+  ],
+  "durability": 200,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 200,
+   "maxLevel": 20,
+   "max": 247,
+   "levels": {
+    "16": 200,
+    "17": 212,
+    "18": 224,
+    "19": 235,
+    "20": 247
+   }
+  },
+  "dps": 164.7,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Burnzooka.png"
+ },
+ {
+  "name": "Grubzooka",
+  "slug": "Grubzooka",
+  "desc": "The heavy shots from the Grubzooka also tear down any dirt, sand and turf walls in its path.",
+  "rarity": "Epic",
+  "level": 9,
+  "area": "LarvaHive",
+  "sell": 36,
+  "materials": [
+   {
+    "id": "TinBar",
+    "amount": 18
+   },
+   {
+    "id": "LarvaMeat",
+    "amount": 15
+   }
+  ],
+  "durability": 150,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 9,
+   "base": 115,
+   "maxLevel": 20,
+   "max": 241,
+   "levels": {
+    "9": 115,
+    "10": 126,
+    "11": 137,
+    "12": 149,
+    "13": 160,
+    "14": 172,
+    "15": 183,
+    "16": 195,
+    "17": 206,
+    "18": 218,
+    "19": 229,
+    "20": 241
+   }
+  },
+  "dps": 160.7,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Grubzooka.png"
+ },
+ {
+  "name": "Credence of Ruin",
+  "slug": "Credence_of_Ruin",
+  "desc": "A relic born of cult devotion and void corruption. Forged from S.A.H.A.B.A.R.'s own frame and sanctified components of Breaker's Reach.",
+  "rarity": "Legendary",
+  "level": 20,
+  "area": "Excavation",
+  "sell": null,
+  "materials": [
+   {
+    "id": "LegendaryMortarPart3",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryMortarPart1",
+    "amount": 1
+   },
+   {
+    "id": "LegendaryMortarPart2",
+    "amount": 1
+   }
+  ],
+  "durability": "Infinite",
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 20,
+   "base": 30,
+   "maxLevel": 20,
+   "max": 30,
+   "levels": {
+    "20": 30
+   }
+  },
+  "dps": 50.0,
+  "cooldown": 0.6,
+  "conds": {
+   "IncreaseSequenceExplosionTotalMaxExplosionsOnHit": {
+    "baseLevel": 20,
+    "base": 1,
+    "maxLevel": 20,
+    "max": 1,
+    "levels": {
+     "20": 1
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Credence_of_Ruin.png"
+ },
+ {
+  "name": "Volcano Mortar",
+  "slug": "Volcano_Mortar",
+  "desc": "Erupts molten chunks into the air to crash like meteoroids.",
+  "rarity": "Epic",
+  "level": 16,
+  "area": "Lava",
+  "sell": 356,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 27
+   },
+   {
+    "id": "LavaSlime",
+    "amount": 25
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 16,
+   "base": 24,
+   "maxLevel": 20,
+   "max": 29,
+   "levels": {
+    "16": 24,
+    "17": 25,
+    "18": 26,
+    "19": 28,
+    "20": 29
+   }
+  },
+  "dps": 48.3,
+  "cooldown": 0.6,
+  "conds": {
+   "ApplyBurning": {
+    "baseLevel": 16,
+    "base": 56,
+    "maxLevel": 20,
+    "max": 68,
+    "levels": {
+     "16": 56,
+     "17": 59,
+     "18": 62,
+     "19": 65,
+     "20": 68
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Stone Mortar",
+  "slug": "Stone_Mortar",
+  "desc": "A handheld cannon hurling rocks into the air. They won't know what hit 'em!",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 60,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 10
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 7,
+   "base": 11,
+   "maxLevel": 20,
+   "max": 29,
+   "levels": {
+    "7": 11,
+    "8": 13,
+    "9": 14,
+    "10": 15,
+    "11": 17,
+    "12": 18,
+    "13": 20,
+    "14": 21,
+    "15": 22,
+    "16": 24,
+    "17": 25,
+    "18": 26,
+    "19": 28,
+    "20": 29
+   }
+  },
+  "dps": 48.3,
+  "cooldown": 0.6,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Scrapzooka",
+  "slug": "Scrapzooka",
+  "desc": "A weapon of scrap. Because some problems are best blasted away.",
+  "rarity": "Rare",
+  "level": 8,
+  "area": "Stone",
+  "sell": 58,
+  "materials": [
+   {
+    "id": "IronBar",
+    "amount": 10
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 8,
+   "base": 27,
+   "maxLevel": 20,
+   "max": 63,
+   "levels": {
+    "8": 27,
+    "9": 30,
+    "10": 33,
+    "11": 36,
+    "12": 39,
+    "13": 42,
+    "14": 45,
+    "15": 48,
+    "16": 51,
+    "17": 54,
+    "18": 57,
+    "19": 60,
+    "20": 63
+   }
+  },
+  "dps": 42.0,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Bomb Scarab Mortar",
+  "slug": "Bomb_Scarab_Mortar",
+  "desc": "A powerful weapon launching explosive projectiles that resemble the center eye of a bomb scarab.",
+  "rarity": "Rare",
+  "level": 14,
+  "area": "Desert",
+  "sell": 228,
+  "materials": [
+   {
+    "id": "GalaxiteBar",
+    "amount": 20
+   }
+  ],
+  "durability": 250,
+  "type": "RangeWeapon",
+  "categories": [
+   "Equipment",
+   "RangeWeapon"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 14,
+   "base": 45,
+   "maxLevel": 20,
+   "max": 63,
+   "levels": {
+    "14": 45,
+    "15": 48,
+    "16": 51,
+    "17": 54,
+    "18": 57,
+    "19": 60,
+    "20": 63
+   }
+  },
+  "dps": 42.0,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Bomb_Scarab_Mortar.png"
+ },
+ {
+  "name": "Cupid Bow",
+  "slug": "Cupid_Bow",
+  "desc": "A bow that hits right into the heart of its target and has a chance to infatuate it with the archer.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 6,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 15
+   }
+  ],
+  "durability": 30,
+  "type": "RangeWeapon",
+  "categories": [
+   "Seasonal",
+   "Valentine"
+  ],
+  "group": "Ranged",
+  "dmg": {
+   "baseLevel": 5,
+   "base": 12,
+   "maxLevel": 20,
+   "max": 42,
+   "levels": {
+    "5": 12,
+    "6": 14,
+    "7": 16,
+    "8": 18,
+    "9": 20,
+    "10": 22,
+    "11": 24,
+    "12": 26,
+    "13": 28,
+    "14": 30,
+    "15": 32,
+    "16": 34,
+    "17": 36,
+    "18": 38,
+    "19": 40,
+    "20": 42
+   }
+  },
+  "dps": 8.4,
+  "cooldown": 5.0,
+  "conds": {
+   "ChanceToApplyCharmed": {
+    "baseLevel": 5,
+    "base": 100,
+    "maxLevel": 20,
+    "max": 100,
+    "levels": {
+     "5": 100,
+     "6": 100,
+     "7": 100,
+     "8": 100,
+     "9": 100,
+     "10": 100,
+     "11": 100,
+     "12": 100,
+     "13": 100,
+     "14": 100,
+     "15": 100,
+     "16": 100,
+     "17": 100,
+     "18": 100,
+     "19": 100,
+     "20": 100
+    }
+   }
+  },
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Wooden Sword",
+  "slug": "Wooden_Sword",
+  "desc": "A crude weapon to fend off foes.",
+  "rarity": "Common",
+  "level": 1,
+  "area": "StartArea",
+  "sell": 1,
+  "materials": [
+   {
+    "id": "Wood",
+    "amount": 5
+   }
+  ],
+  "durability": 88,
+  "type": "MeleeWeapon",
+  "categories": [
+   "Equipment",
+   "MeleeWeapon"
+  ],
+  "group": "Melee",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 0.4,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ },
+ {
+  "name": "Fire Grenade",
+  "slug": "Fire_Grenade",
+  "desc": "An explosive fit for those who want to set the world on fire!",
+  "rarity": "Uncommon",
+  "level": 13,
+  "area": "Desert",
+  "sell": 5,
+  "materials": [
+   {
+    "id": "BlastingDung",
+    "amount": 1
+   },
+   {
+    "id": "LavaSlime",
+    "amount": 2
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {
+   "ChanceToSpawnNapalmFromExplosives": {
+    "baseLevel": 13,
+    "base": 100,
+    "maxLevel": 20,
+    "max": 154,
+    "levels": {
+     "13": 100,
+     "14": 108,
+     "15": 116,
+     "16": 123,
+     "17": 131,
+     "18": 139,
+     "19": 146,
+     "20": 154
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Fire_Grenade.png"
+ },
+ {
+  "name": "Poison Grenade",
+  "slug": "Poison_Grenade",
+  "desc": "An explosive that is hard to recover from.",
+  "rarity": "Uncommon",
+  "level": 13,
+  "area": "Desert",
+  "sell": 5,
+  "materials": [
+   {
+    "id": "BlastingDung",
+    "amount": 1
+   },
+   {
+    "id": "PoisonSlime",
+    "amount": 2
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {
+   "ChanceToApplyPoisoned": {
+    "baseLevel": 13,
+    "base": 100,
+    "maxLevel": 20,
+    "max": 139,
+    "levels": {
+     "13": 100,
+     "14": 106,
+     "15": 111,
+     "16": 117,
+     "17": 122,
+     "18": 128,
+     "19": 133,
+     "20": 139
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Poison_Grenade.png"
+ },
+ {
+  "name": "Grenade",
+  "slug": "Grenade",
+  "desc": "A throwable explosive that bounces on impact.",
+  "rarity": "Common",
+  "level": 4,
+  "area": "Clay",
+  "sell": 9,
+  "materials": [
+   {
+    "id": "BombPepper",
+    "amount": 1
+   },
+   {
+    "id": "CopperBar",
+    "amount": 1
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": "/icons/Grenade.png"
+ },
+ {
+  "name": "Stun Grenade",
+  "slug": "Stun_Grenade",
+  "desc": "Creates a blast that overwhelms the senses.",
+  "rarity": "Common",
+  "level": 4,
+  "area": "Clay",
+  "sell": 8,
+  "materials": [
+   {
+    "id": "BombPepper",
+    "amount": 1
+   },
+   {
+    "id": "TinBar",
+    "amount": 1
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {
+   "ChanceOnHitToStun": {
+    "baseLevel": 4,
+    "base": 100,
+    "maxLevel": 20,
+    "max": 100,
+    "levels": {
+     "4": 100,
+     "5": 100,
+     "6": 100,
+     "7": 100,
+     "8": 100,
+     "9": 100,
+     "10": 100,
+     "11": 100,
+     "12": 100,
+     "13": 100,
+     "14": 100,
+     "15": 100,
+     "16": 100,
+     "17": 100,
+     "18": 100,
+     "19": 100,
+     "20": 100
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Stun_Grenade.png"
+ },
+ {
+  "name": "Charm Grenade",
+  "slug": "Charm_Grenade",
+  "desc": "Nothing is as persuasive as a little explosive charm.",
+  "rarity": "Uncommon",
+  "level": 13,
+  "area": "Desert",
+  "sell": 7,
+  "materials": [
+   {
+    "id": "BlastingDung",
+    "amount": 1
+   },
+   {
+    "id": "HeartBerry",
+    "amount": 3
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {
+   "ChanceToApplyCharmed": {
+    "baseLevel": 13,
+    "base": 25,
+    "maxLevel": 20,
+    "max": 25,
+    "levels": {
+     "13": 25,
+     "14": 25,
+     "15": 25,
+     "16": 25,
+     "17": 25,
+     "18": 25,
+     "19": 25,
+     "20": 25
+    }
+   }
+  },
+  "secondaryUse": true,
+  "icon": "/icons/Charm_Grenade.png"
+ },
+ {
+  "name": "Oil Grenade",
+  "slug": "Oil_Grenade",
+  "desc": "Splatters combustible oil all over the ground.",
+  "rarity": "Uncommon",
+  "level": 17,
+  "area": "Excavation",
+  "sell": 14,
+  "materials": [
+   {
+    "id": "BlastingDung",
+    "amount": 1
+   },
+   {
+    "id": "ReluciteBar",
+    "amount": 1
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Blast Bundle",
+  "slug": "Blast_Bundle",
+  "desc": "Thrown much like a regular grenade... but creates a stronger blast!",
+  "rarity": "Uncommon",
+  "level": 17,
+  "area": "Excavation",
+  "sell": 14,
+  "materials": [
+   {
+    "id": "BlastingDung",
+    "amount": 1
+   },
+   {
+    "id": "ReluciteBar",
+    "amount": 1
+   }
+  ],
+  "durability": null,
+  "type": "ThrowingWeapon",
+  "categories": [
+   "Technology",
+   "Explosives"
+  ],
+  "group": "Throwing",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.5,
+  "conds": {},
+  "secondaryUse": true,
+  "icon": ""
+ },
+ {
+  "name": "Tome of the Dark",
+  "slug": "Tome_of_the_Dark",
+  "desc": "More of a pamphlet, beginners guide to shadowmancy.",
+  "rarity": "Common",
+  "level": 2,
+  "area": "Slime",
+  "sell": 18,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_the_Dark.png"
+ },
+ {
+  "name": "Tome of the Deep",
+  "slug": "Tome_of_the_Deep",
+  "desc": "A tome that contains powerful incantions barely utterable by the human tongue.",
+  "rarity": "Rare",
+  "level": 12,
+  "area": "Sea",
+  "sell": 62,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 5
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_the_Deep.png"
+ },
+ {
+  "name": "Tome of the Dead",
+  "slug": "Tome_of_the_Dead",
+  "desc": "A vile treatise on the conjuring of restless spirits.",
+  "rarity": "Uncommon",
+  "level": 10,
+  "area": "Mold",
+  "sell": 37,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 3
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_the_Dead.png"
+ },
+ {
+  "name": "Tome of Ashes",
+  "slug": "Tome_of_Ashes",
+  "desc": "Reeks of sulfur and is hot to the touch.",
+  "rarity": "Uncommon",
+  "level": 7,
+  "area": "Stone",
+  "sell": 17,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_Ashes.png"
+ },
+ {
+  "name": "Tome of Sprouts",
+  "slug": "Tome_of_Sprouts",
+  "desc": "A mystical tome germinating with verdant potential.",
+  "rarity": "Rare",
+  "level": 10,
+  "area": "Nature",
+  "sell": 21,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_Sprouts.png"
+ },
+ {
+  "name": "Tome of Decay",
+  "slug": "Tome_of_Decay",
+  "desc": "Flipping through its pages causes your fingers to go numb.",
+  "rarity": "Epic",
+  "level": 17,
+  "area": "Crystal",
+  "sell": 22,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": "/icons/Tome_of_Decay.png"
+ },
+ {
+  "name": "Tome of Breach",
+  "slug": "Tome_of_Breach",
+  "desc": "More of an unfinished journal detailing the author's obsession with unearthing secrets.",
+  "rarity": "Uncommon",
+  "level": 5,
+  "area": "Clay",
+  "sell": 20,
+  "materials": [
+   {
+    "id": "Fiber",
+    "amount": 5
+   },
+   {
+    "id": "AncientGemstone",
+    "amount": 1
+   }
+  ],
+  "durability": 100,
+  "type": "SummoningWeapon",
+  "categories": [
+   "Equipment",
+   "MagicWeapon"
+  ],
+  "group": "Summoning",
+  "dmg": null,
+  "dps": null,
+  "cooldown": 1.0,
+  "conds": {},
+  "secondaryUse": false,
+  "icon": ""
+ }
+]

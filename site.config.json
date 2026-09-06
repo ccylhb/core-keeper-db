@@ -19,15 +19,46 @@
   },
   "favicon": "⛏️",
   "nav": [
-    { "label": "Home", "href": "/" },
-    { "label": "Weapons", "href": "/weapons/" },
-    { "label": "Armor", "href": "/armor/" },
-    { "label": "Accessories", "href": "/accessories/" },
-    { "label": "Food", "href": "/food/" },
-    { "label": "Enemies", "href": "/enemies/" },
-    { "label": "Rankings", "href": "/rankings/" },
-    { "label": "Calculator", "href": "/calculator/" },
-    { "label": "About", "href": "/about/" }
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Weapons",
+      "href": "/weapons/"
+    },
+    {
+      "label": "Armor",
+      "href": "/armor/"
+    },
+    {
+      "label": "Accessories",
+      "href": "/accessories/"
+    },
+    {
+      "label": "Food",
+      "href": "/food/"
+    },
+    {
+      "label": "Enemies",
+      "href": "/enemies/"
+    },
+    {
+      "label": "Rankings",
+      "href": "/rankings/",
+      "tool": true
+    },
+    {
+      "label": "Calculator",
+      "href": "/calculator/",
+      "tool": true
+    },
+    {
+      "label": "About",
+      "href": "/about/"
+    }
   ],
-  "footerNote": "Fan-made database. Not affiliated with the game publisher."
+  "footerNote": "Fan-made database. Not affiliated with the game publisher.",
+  "gameVersion": "1.2.0.7",
+  "dataUpdated": "2026-09-06"
 }

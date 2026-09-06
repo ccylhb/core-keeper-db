@@ -1,1 +1,1629 @@
-[{"name": "Core Commander", "slug": "Core_Commander", "desc": "", "boss": true, "level": 17, "area": "Crystal", "faction": "CoreBoss", "health": 465385, "moveSpeed": null, "drops": []}, {"name": "Urschleim", "slug": "Urschleim", "desc": "", "boss": true, "level": 18, "area": "Passage", "faction": "PassageEnemy", "health": 249826, "moveSpeed": null, "drops": [{"id": "GiantMitochondrion", "amount": 1, "chance": 1.0}]}, {"name": "Nimruza, Queen of the Burrowed Sands", "slug": "Nimruza,_Queen_of_the_Burrowed_Sands", "desc": "", "boss": true, "level": 15, "area": "Passage", "faction": "Scarab", "health": 228320, "moveSpeed": null, "drops": [{"id": "VoidNeuronCicada", "amount": 1, "chance": 1.0}]}, {"name": "Igneous the Molten Mass", "slug": "Igneous_the_Molten_Mass", "desc": "", "boss": true, "level": 13, "area": "Lava", "faction": "Slime", "health": 160799, "moveSpeed": null, "drops": [{"id": "EchoMapTitanTemple", "amount": 1, "chance": 1.0}]}, {"name": "Ra-Akar the Sand Titan", "slug": "Ra-Akar_the_Sand_Titan", "desc": "", "boss": true, "level": 13, "area": "Desert", "faction": "VoidScarab", "health": 160799, "moveSpeed": null, "drops": [{"id": "EchoMapBindingString", "amount": 1, "chance": 1.0}]}, {"name": "Oblidra the Void Lord", "slug": "Oblidra_the_Void_Lord", "desc": "", "boss": true, "level": 17, "area": "Excavation", "faction": "UnfriendlyAgainstAll", "health": 160092, "moveSpeed": 5.0, "drops": [{"id": "DesertGemstone", "amount": 2, "chance": 1.0}, {"id": "SeaGemstone", "amount": 2, "chance": 1.0}, {"id": "NatureGemstone", "amount": 2, "chance": 1.0}, {"id": "VoidHydraHeart", "amount": 1, "chance": 1.0}]}, {"name": "S.A.H.A.B.A.R.", "slug": "SAHABAR", "desc": "", "boss": true, "level": 16, "area": "Excavation", "faction": "VoidRobot", "health": 144414, "moveSpeed": 44.0, "drops": [{"id": "VoidNeuronRobotBoss", "amount": 1, "chance": 1.0}, {"id": "VoidMerchantIdol", "amount": 1, "chance": 1.0}]}, {"name": "Druidra the Wild Titan", "slug": "Druidra_the_Wild_Titan", "desc": "", "boss": true, "level": 15, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 136992, "moveSpeed": 5.0, "drops": [{"id": "HydraBossNatureCraftingItem", "amount": 3, "chance": 1.0}, {"id": "NatureGemstone", "amount": 2, "chance": 1.0}, {"id": "EchoMapAlienTerminal1", "amount": 1, "chance": 1.0}]}, {"name": "Crydra the Ice Titan", "slug": "Crydra_the_Ice_Titan", "desc": "", "boss": true, "level": 15, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 136992, "moveSpeed": 5.0, "drops": [{"id": "HydraBossSeaCraftingItem", "amount": 3, "chance": 1.0}, {"id": "SeaGemstone", "amount": 2, "chance": 1.0}, {"id": "EchoMapAlienTerminal2", "amount": 1, "chance": 1.0}]}, {"name": "Pyrdra the Fire Titan", "slug": "Pyrdra_the_Fire_Titan", "desc": "", "boss": true, "level": 15, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 136992, "moveSpeed": 5.0, "drops": [{"id": "DesertGemstone", "amount": 2, "chance": 1.0}, {"id": "EchoMapAlienTerminal3", "amount": 1, "chance": 1.0}]}, {"name": "Omoroth the Sea Titan", "slug": "Omoroth_the_Sea_Titan", "desc": "", "boss": true, "level": 11, "area": "Sea", "faction": "SeaCreature", "health": 90772, "moveSpeed": null, "drops": [{"id": "EchoMapShrineRoom", "amount": 1, "chance": 1.0}]}, {"name": "Morpha the Aquatic Mass", "slug": "Morpha_the_Aquatic_Mass", "desc": "", "boss": true, "level": 10, "area": "Sea", "faction": "Slime", "health": 84551, "moveSpeed": null, "drops": []}, {"name": "Ivy the Poisonous Mass", "slug": "Ivy_the_Poisonous_Mass", "desc": "", "boss": true, "level": 8, "area": "Nature", "faction": "Slime", "health": 39155, "moveSpeed": null, "drops": [{"id": "EchoMapWorshipMural", "amount": 1, "chance": 1.0}]}, {"name": "Azeos the Sky Titan", "slug": "Azeos_the_Sky_Titan", "desc": "", "boss": true, "level": 8, "area": "Nature", "faction": "Bird", "health": 31813, "moveSpeed": null, "drops": [{"id": "PileOfChum", "amount": 1, "chance": 1.0}, {"id": "EchoMapFishingMerchant", "amount": 1, "chance": 1.0}]}, {"name": "The Hive Mother", "slug": "The_Hive_Mother", "desc": "", "boss": true, "level": 6, "area": "LarvaHive", "faction": "Larva", "health": 24671, "moveSpeed": null, "drops": [{"id": "LarvaMeat", "amount": 15, "chance": 1.0}]}, {"name": "Haunted Hive Mother", "slug": "Haunted_Hive_Mother", "desc": "", "boss": true, "level": 6, "area": "LarvaHive", "faction": "Larva", "health": 24671, "moveSpeed": null, "drops": [{"id": "HiveHalloweenBossTrophy", "amount": 1, "chance": 1.0}, {"id": "SamhainCurseRing", "amount": 1, "chance": 1.0}, {"id": "SamhainOfferingNecklace", "amount": 1, "chance": 1.0}, {"id": "LarvaMeat", "amount": 15, "chance": 1.0}]}, {"name": "King Slime", "slug": "King_Slime", "desc": "", "boss": true, "level": 6, "area": "LarvaHive", "faction": "Slime", "health": 24188, "moveSpeed": null, "drops": [{"id": "KingSlimeCrown", "amount": 1, "chance": 1.0}, {"id": "RoyalGel", "amount": 1, "chance": 1.0}, {"id": "PetPrinceSlimeBlobEgg", "amount": 1, "chance": 1.0}, {"id": "KingSlimeTrophy", "amount": 1, "chance": 1.0}, {"id": "MusicSheetTerrariaJourneysBeginning", "amount": 1, "chance": 1.0}, {"id": "HealingPotion", "amount": 5, "chance": 1.0}]}, {"name": "Malugaz the Corrupted", "slug": "Malugaz_the_Corrupted", "desc": "", "boss": true, "level": 6, "area": "Stone", "faction": "Caveling", "health": 14513, "moveSpeed": 60.0, "drops": [{"id": "HiveBossCrystal", "amount": 1, "chance": 1.0}]}, {"name": "Atlantean Worm", "slug": "Atlantean_Worm", "desc": "", "boss": true, "level": 14, "area": "Crystal", "faction": "SeaCreature", "health": 9641, "moveSpeed": 50.0, "drops": [{"id": "AtlantianWormHeart", "amount": 1, "chance": 1.0}]}, {"name": "Ghorm the Devourer", "slug": "Ghorm_the_Devourer", "desc": "", "boss": true, "level": 4, "area": "Clay", "faction": "AttacksAllButNotAttacked", "health": 8061, "moveSpeed": 60.0, "drops": [{"id": "LarvaBossCrystal", "amount": 1, "chance": 1.0}, {"id": "LarvaMeat", "amount": 20, "chance": 1.0}, {"id": "GhormsStomachBag", "amount": 1, "chance": 1.0}, {"id": "MysteriousIdol", "amount": 1, "chance": 1.0}]}, {"name": "Glurch the Abominous Mass", "slug": "Glurch_the_Abominous_Mass", "desc": "", "boss": true, "level": 2, "area": "Slime", "faction": "Slime", "health": 2459, "moveSpeed": null, "drops": [{"id": "SlimeBossCrystal", "amount": 1, "chance": 1.0}, {"id": "SlimeOil", "amount": 1, "chance": 1.0}]}, {"name": "WallBossHead", "slug": "WallBossHead", "desc": "", "boss": false, "level": 18, "area": "Passage", "faction": "PassageEnemy", "health": 178800, "moveSpeed": null, "drops": []}, {"name": "Void Caveling Brute", "slug": "Void_Caveling_Brute", "desc": "", "boss": false, "level": 19, "area": "Excavation", "faction": "Void", "health": 29970, "moveSpeed": 25.0, "drops": [{"id": "Wood", "amount": 4, "chance": 1.0}]}, {"name": "Core Sphere", "slug": "Core_Sphere", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "CoreBoss", "health": 26700, "moveSpeed": null, "drops": []}, {"name": "Void Caveling", "slug": "Void_Caveling", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Void", "health": 19305, "moveSpeed": 60.0, "drops": []}, {"name": "Bulb", "slug": "Bulb", "desc": "", "boss": false, "level": 18, "area": "Passage", "faction": "PassageEnemy", "health": 17880, "moveSpeed": null, "drops": []}, {"name": "Void Caveling Shaman", "slug": "Void_Caveling_Shaman", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Void", "health": 17550, "moveSpeed": 40.0, "drops": []}, {"name": "Geobot Patroller", "slug": "Geobot_Patroller", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Robot", "health": 14040, "moveSpeed": 30.0, "drops": []}, {"name": "GiantCicadaBossShield", "slug": "GiantCicadaBossShield", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "Scarab", "health": 12300, "moveSpeed": null, "drops": []}, {"name": "Geobot Miner", "slug": "Geobot_Miner", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Robot", "health": 10530, "moveSpeed": 10.0, "drops": []}, {"name": "RobotBossLeg", "slug": "RobotBossLeg", "desc": "", "boss": false, "level": 19, "area": "Excavation", "faction": "VoidRobot", "health": 8741, "moveSpeed": null, "drops": []}, {"name": "Desert Cicada", "slug": "Desert_Cicada", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "Scarab", "health": 6457, "moveSpeed": 70.0, "drops": []}, {"name": "AmoebaGiantSegmentTail", "slug": "AmoebaGiantSegmentTail", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "PassageEnemy", "health": 6150, "moveSpeed": 40.0, "drops": []}, {"name": "Colossal Amoeba", "slug": "Colossal_Amoeba", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "PassageEnemy", "health": 5535, "moveSpeed": 70.0, "drops": []}, {"name": "AmoebaGiantSegmentBody", "slug": "AmoebaGiantSegmentBody", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "PassageEnemy", "health": 4612, "moveSpeed": 40.0, "drops": []}, {"name": "Geobot Scourer", "slug": "Geobot_Scourer", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Robot", "health": 4563, "moveSpeed": 15.0, "drops": []}, {"name": "Nature Worm", "slug": "Nature_Worm", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 4005, "moveSpeed": 60.0, "drops": []}, {"name": "NatureWormSegmentTail", "slug": "NatureWormSegmentTail", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 4005, "moveSpeed": 60.0, "drops": []}, {"name": "Crystal Snail", "slug": "Crystal_Snail", "desc": "", "boss": false, "level": 16, "area": "Crystal", "faction": "CanOnlyBeAttackedByPlayerOrExplosion", "health": 3510, "moveSpeed": 10.0, "drops": []}, {"name": "Void Larva Cocoon", "slug": "Void_Larva_Cocoon", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Void", "health": 3510, "moveSpeed": null, "drops": []}, {"name": "Void Larva", "slug": "Void_Larva", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "Robot", "health": 3510, "moveSpeed": 17.0, "drops": []}, {"name": "Sulfur Worm", "slug": "Sulfur_Worm", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "PassageEnemy", "health": 3075, "moveSpeed": 70.0, "drops": []}, {"name": "Floracada", "slug": "Floracada", "desc": "", "boss": false, "level": 12, "area": "Desert", "faction": "Scarab", "health": 3022, "moveSpeed": 65.0, "drops": []}, {"name": "Gold Scarab", "slug": "Gold_Scarab", "desc": "", "boss": false, "level": 12, "area": "Desert", "faction": "Scarab", "health": 2925, "moveSpeed": 20.0, "drops": []}, {"name": "AmoebaWormSegmentTail", "slug": "AmoebaWormSegmentTail", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "PassageEnemy", "health": 2768, "moveSpeed": 40.0, "drops": []}, {"name": "Nilipede", "slug": "Nilipede", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "CrystalCreature", "health": 2670, "moveSpeed": 70.0, "drops": []}, {"name": "WormSegmentTail", "slug": "WormSegmentTail", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "CrystalCreature", "health": 2670, "moveSpeed": 70.0, "drops": []}, {"name": "Bomb Scarab", "slug": "Bomb_Scarab", "desc": "", "boss": false, "level": 12, "area": "Desert", "faction": "Scarab", "health": 2535, "moveSpeed": 20.0, "drops": []}, {"name": "Core Sentry", "slug": "Core_Sentry", "desc": "", "boss": false, "level": 11, "area": "City", "faction": "SeaCaveling", "health": 2452, "moveSpeed": 15.0, "drops": []}, {"name": "Lava Slime", "slug": "Lava_Slime", "desc": "", "boss": false, "level": 13, "area": "Lava", "faction": "Slime", "health": 2295, "moveSpeed": 10.0, "drops": []}, {"name": "Lava Butterfly", "slug": "Lava_Butterfly", "desc": "", "boss": false, "level": 13, "area": "Lava", "faction": "LavaCreature", "health": 2295, "moveSpeed": 20.0, "drops": []}, {"name": "Caveling Assassin", "slug": "Caveling_Assassin", "desc": "", "boss": false, "level": 12, "area": "Desert", "faction": "DesertCaveling", "health": 1950, "moveSpeed": 50.0, "drops": []}, {"name": "Mimite", "slug": "Mimite", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "CrystalCreature", "health": 1869, "moveSpeed": 5.0, "drops": []}, {"name": "Caveling Mummy", "slug": "Caveling_Mummy", "desc": "", "boss": false, "level": 13, "area": "Desert", "faction": "MoldInfected", "health": 1836, "moveSpeed": 10.0, "drops": []}, {"name": "Orbital Turret", "slug": "Orbital_Turret", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "CrystalCreature", "health": 1735, "moveSpeed": 30.0, "drops": []}, {"name": "Larva Hive Egg", "slug": "Larva_Hive_Egg", "desc": "", "boss": false, "level": 6, "area": "LarvaHive", "faction": "Larva", "health": 1530, "moveSpeed": null, "drops": []}, {"name": "Caveling Scholar", "slug": "Caveling_Scholar", "desc": "", "boss": false, "level": 11, "area": "City", "faction": "SeaCaveling", "health": 1390, "moveSpeed": 30.0, "drops": []}, {"name": "Blue Slime", "slug": "Blue_Slime", "desc": "", "boss": false, "level": 10, "area": "Sea", "faction": "Slime", "health": 1350, "moveSpeed": 10.0, "drops": []}, {"name": "Bubble Crab", "slug": "Bubble_Crab", "desc": "", "boss": false, "level": 10, "area": "Sea", "faction": "SeaCreature", "health": 1350, "moveSpeed": 30.0, "drops": []}, {"name": "Caveling Brute", "slug": "Caveling_Brute", "desc": "", "boss": false, "level": 9, "area": "Stone", "faction": "Caveling", "health": 1095, "moveSpeed": 15.0, "drops": [{"id": "Wood", "amount": 4, "chance": 1.0}]}, {"name": "Mold Tentacle", "slug": "Mold_Tentacle", "desc": "", "boss": false, "level": 9, "area": "Mold", "faction": "MoldInfected", "health": 1095, "moveSpeed": null, "drops": []}, {"name": "DesertBrute", "slug": "DesertBrute", "desc": "", "boss": false, "level": 9, "area": "Stone", "faction": "Caveling", "health": 1095, "moveSpeed": 15.0, "drops": [{"id": "Wood", "amount": 4, "chance": 1.0}]}, {"name": "Ghost Scholar", "slug": "Ghost_Scholar", "desc": "", "boss": false, "level": 10, "area": "Sea", "faction": "Player", "health": 1080, "moveSpeed": 30.0, "drops": []}, {"name": "Cicada Nymph", "slug": "Cicada_Nymph", "desc": "", "boss": false, "level": 15, "area": "Passage", "faction": "Scarab", "health": 1076, "moveSpeed": 48.0, "drops": []}, {"name": "Tentacle", "slug": "Tentacle", "desc": "", "boss": false, "level": 10, "area": "Sea", "faction": "SeaCreature", "health": 945, "moveSpeed": null, "drops": []}, {"name": "Infected Caveling", "slug": "Infected_Caveling", "desc": "", "boss": false, "level": 9, "area": "Mold", "faction": "MoldInfected", "health": 931, "moveSpeed": 15.0, "drops": []}, {"name": "Purple Slime", "slug": "Purple_Slime", "desc": "", "boss": false, "level": 8, "area": "Nature", "faction": "Slime", "health": 870, "moveSpeed": 10.0, "drops": []}, {"name": "Caveling Gardener", "slug": "Caveling_Gardener", "desc": "", "boss": false, "level": 8, "area": "Nature", "faction": "NatureCaveling", "health": 870, "moveSpeed": 50.0, "drops": []}, {"name": "Caveling Hunter", "slug": "Caveling_Hunter", "desc": "", "boss": false, "level": 8, "area": "Nature", "faction": "NatureCaveling", "health": 870, "moveSpeed": 30.0, "drops": []}, {"name": "Omoroth's Tentacle", "slug": "Omoroths_Tentacle", "desc": "", "boss": false, "level": 13, "area": "Sea", "faction": "SeaCreature", "health": 688, "moveSpeed": null, "drops": []}, {"name": "Shrooman Brute", "slug": "Shrooman_Brute", "desc": "", "boss": false, "level": 4, "area": "Slime", "faction": "MushroomEnemy", "health": 540, "moveSpeed": 5.0, "drops": []}, {"name": "Royal Slime", "slug": "Royal_Slime", "desc": "", "boss": false, "level": 6, "area": "LarvaHive", "faction": "Slime", "health": 510, "moveSpeed": 10.0, "drops": []}, {"name": "Caveling", "slug": "Caveling", "desc": "", "boss": false, "level": 6, "area": "Stone", "faction": "Caveling", "health": 510, "moveSpeed": 50.0, "drops": []}, {"name": "Kelple", "slug": "Kelple", "desc": "A marine reptile and natural gardener, that chews down on kelp when it grows too plenty. It doesn't need many nutrients, so whatever it eats comes out again in a condensed ball shape that is free for the taking.", "boss": false, "level": 2, "area": "Slime", "faction": "SeaCreature", "health": 500, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Snare Plant", "slug": "Snare_Plant", "desc": "", "boss": false, "level": 8, "area": "Nature", "faction": "OnlyAttacksPlayer", "health": 435, "moveSpeed": null, "drops": []}, {"name": "Big Larva", "slug": "Big_Larva", "desc": "", "boss": false, "level": 5, "area": "Clay", "faction": "Larva", "health": 412, "moveSpeed": 10.0, "drops": []}, {"name": "Caveling Shaman", "slug": "Caveling_Shaman", "desc": "", "boss": false, "level": 6, "area": "Stone", "faction": "Caveling", "health": 408, "moveSpeed": 30.0, "drops": []}, {"name": "Clay Burrower", "slug": "Clay_Burrower", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Larva", "health": 405, "moveSpeed": 40.0, "drops": []}, {"name": "ClayWormSegmentTail", "slug": "ClayWormSegmentTail", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Larva", "health": 405, "moveSpeed": 40.0, "drops": []}, {"name": "Electro-Pest", "slug": "Electro-Pest", "desc": "IS-0173-B is a cybernetically augmented Pest (IS-0173), a spiky, loaf-shaped juvenile creature. It lunges to pierce prey with its jaws, quills, and its now inadvertent electricity.", "boss": false, "level": 7, "area": "Stone", "faction": "None", "health": 405, "moveSpeed": 20.0, "drops": []}, {"name": "Strolly Poly", "slug": "Strolly_Poly", "desc": "Content with everything going on around it, this gentle giant waddles through the darkness, always in search of a skittering, crunchy snack. Did you know that it is not even an insect?", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 300, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Drohmble", "slug": "Drohmble", "desc": "Evolved to survive the harsh desert climate, it produces a potent chemical base.", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 300, "moveSpeed": 10.0, "drops": [{"id": "BlastingDung", "amount": 4, "chance": 1.0}]}, {"name": "Cocoon", "slug": "Cocoon", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Larva", "health": 270, "moveSpeed": null, "drops": []}, {"name": "Caveling Skirmisher", "slug": "Caveling_Skirmisher", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Caveling", "health": 270, "moveSpeed": 50.0, "drops": []}, {"name": "Caveling Spearman", "slug": "Caveling_Spearman", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Caveling", "health": 270, "moveSpeed": 50.0, "drops": []}, {"name": "Bambuck", "slug": "Bambuck", "desc": "The fuzzy Bambuck has more wool than patience, which is why it's quite bold by nature. It doesn't even see that much, so if it runs into you by accident be easy on it.", "boss": false, "level": 2, "area": "Slime", "faction": "None", "health": 220, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Moolin", "slug": "Moolin", "desc": "Home to the meadows, this violet bovine is living its life away from danger, happily grazing all day and producing some of the finest milk.", "boss": false, "level": 2, "area": "Slime", "faction": "None", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Strolly Poly Nymph", "slug": "Strolly_Poly_Nymph", "desc": "The young version of a Strolly Poly. Unlike its grown up parents, this one is in constant danger of being stepped on or being mistaken for a larva by careless explorers.", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Kelple Hatchling", "slug": "Kelple_Hatchling", "desc": "A young that comes up from the ground once it had enough time to slumber in the dark. Its shell is still blank but in time it will be populated by the kelp that it feeds on.", "boss": false, "level": 2, "area": "Slime", "faction": "SeaCreature", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Dodo", "slug": "Dodo", "desc": "Long believed to be extinct this species is still thriving in the underground: the dodo! If only Darwin could have seen this...", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Dodo Chick", "slug": "Dodo_Chick", "desc": "A cute chick full of determination to one day become a graceful dodo. It struggles with the size of its beak.", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Drohmble Calf", "slug": "Drohmble_Calf", "desc": "A young Drohmble, eager to explore the desert.", "boss": false, "level": 2, "area": "Slime", "faction": "Neutral", "health": 180, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Larva", "slug": "Larva", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Larva", "health": 176, "moveSpeed": 10.0, "drops": []}, {"name": "Red Slime", "slug": "Red_Slime", "desc": "", "boss": false, "level": 2, "area": "Slime", "faction": "Slime", "health": 150, "moveSpeed": 10.0, "drops": []}, {"name": "Moolin Calf", "slug": "Moolin_Calf", "desc": "The innocent juvenile of a Moolin, who has just learned how to stand on its own hoofs. It grows up faster than you think, so give it all the love you have.", "boss": false, "level": 2, "area": "Slime", "faction": "None", "health": 120, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Bambuck Kid", "slug": "Bambuck_Kid", "desc": "Not (yet) as stubborn as its parents, this kid is mostly concerned with charging at butterflies while its oversized ears flop around in the breeze. Truly a heartwarming sight to behold.", "boss": false, "level": 2, "area": "Slime", "faction": "None", "health": 120, "moveSpeed": 10.0, "drops": [{"id": "Meat", "amount": 1, "chance": 1.0}]}, {"name": "Orange Slime", "slug": "Orange_Slime", "desc": "", "boss": false, "level": 2, "area": "Slime", "faction": "Slime", "health": 105, "moveSpeed": 10.0, "drops": []}, {"name": "Shrooman", "slug": "Shrooman", "desc": "", "boss": false, "level": 2, "area": "Slime", "faction": "MushroomEnemy", "health": 105, "moveSpeed": 5.0, "drops": []}, {"name": "Ice Crystal", "slug": "Ice_Crystal", "desc": "", "boss": false, "level": 14, "area": "Crystal", "faction": "UnfriendlyAgainstAll", "health": 5, "moveSpeed": null, "drops": []}, {"name": "Acid Larva", "slug": "Acid_Larva", "desc": "", "boss": false, "level": 4, "area": "Clay", "faction": "Larva", "health": 1, "moveSpeed": 10.0, "drops": []}, {"name": "MovingVoidTrap", "slug": "MovingVoidTrap", "desc": "", "boss": false, "level": 16, "area": "Excavation", "faction": "PassageEnemy", "health": null, "moveSpeed": 18.0, "drops": []}]
+[
+ {
+  "name": "Core Commander",
+  "slug": "Core_Commander",
+  "desc": "",
+  "boss": true,
+  "level": 17,
+  "area": "Crystal",
+  "faction": "CoreBoss",
+  "health": 465385,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Core_Commander.png"
+ },
+ {
+  "name": "Urschleim",
+  "slug": "Urschleim",
+  "desc": "",
+  "boss": true,
+  "level": 18,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 249826,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "GiantMitochondrion",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Urschleim.png"
+ },
+ {
+  "name": "Nimruza, Queen of the Burrowed Sands",
+  "slug": "Nimruza,_Queen_of_the_Burrowed_Sands",
+  "desc": "",
+  "boss": true,
+  "level": 15,
+  "area": "Passage",
+  "faction": "Scarab",
+  "health": 228320,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "VoidNeuronCicada",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Nimruza_Queen_of_the_Burrowed_Sands.png"
+ },
+ {
+  "name": "Igneous the Molten Mass",
+  "slug": "Igneous_the_Molten_Mass",
+  "desc": "",
+  "boss": true,
+  "level": 13,
+  "area": "Lava",
+  "faction": "Slime",
+  "health": 160799,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "EchoMapTitanTemple",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Igneous_the_Molten_Mass.png"
+ },
+ {
+  "name": "Ra-Akar the Sand Titan",
+  "slug": "Ra-Akar_the_Sand_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 13,
+  "area": "Desert",
+  "faction": "VoidScarab",
+  "health": 160799,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "EchoMapBindingString",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Ra_Akar_the_Sand_Titan.png"
+ },
+ {
+  "name": "Oblidra the Void Lord",
+  "slug": "Oblidra_the_Void_Lord",
+  "desc": "",
+  "boss": true,
+  "level": 17,
+  "area": "Excavation",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 160092,
+  "moveSpeed": 5.0,
+  "drops": [
+   {
+    "id": "DesertGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "SeaGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "NatureGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "VoidHydraHeart",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": ""
+ },
+ {
+  "name": "S.A.H.A.B.A.R.",
+  "slug": "SAHABAR",
+  "desc": "",
+  "boss": true,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "VoidRobot",
+  "health": 144414,
+  "moveSpeed": 44.0,
+  "drops": [
+   {
+    "id": "VoidNeuronRobotBoss",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "VoidMerchantIdol",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/S_A_H_A_B_A_R.png"
+ },
+ {
+  "name": "Druidra the Wild Titan",
+  "slug": "Druidra_the_Wild_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 15,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 136992,
+  "moveSpeed": 5.0,
+  "drops": [
+   {
+    "id": "HydraBossNatureCraftingItem",
+    "amount": 3,
+    "chance": 1.0
+   },
+   {
+    "id": "NatureGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "EchoMapAlienTerminal1",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Druidra_the_Wild_Titan.png"
+ },
+ {
+  "name": "Crydra the Ice Titan",
+  "slug": "Crydra_the_Ice_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 15,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 136992,
+  "moveSpeed": 5.0,
+  "drops": [
+   {
+    "id": "HydraBossSeaCraftingItem",
+    "amount": 3,
+    "chance": 1.0
+   },
+   {
+    "id": "SeaGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "EchoMapAlienTerminal2",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Crydra_the_Ice_Titan.png"
+ },
+ {
+  "name": "Pyrdra the Fire Titan",
+  "slug": "Pyrdra_the_Fire_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 15,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 136992,
+  "moveSpeed": 5.0,
+  "drops": [
+   {
+    "id": "DesertGemstone",
+    "amount": 2,
+    "chance": 1.0
+   },
+   {
+    "id": "EchoMapAlienTerminal3",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Pyrdra_the_Fire_Titan.png"
+ },
+ {
+  "name": "Omoroth the Sea Titan",
+  "slug": "Omoroth_the_Sea_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 11,
+  "area": "Sea",
+  "faction": "SeaCreature",
+  "health": 90772,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "EchoMapShrineRoom",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Omoroth_the_Sea_Titan.png"
+ },
+ {
+  "name": "Morpha the Aquatic Mass",
+  "slug": "Morpha_the_Aquatic_Mass",
+  "desc": "",
+  "boss": true,
+  "level": 10,
+  "area": "Sea",
+  "faction": "Slime",
+  "health": 84551,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Morpha_the_Aquatic_Mass.png"
+ },
+ {
+  "name": "Ivy the Poisonous Mass",
+  "slug": "Ivy_the_Poisonous_Mass",
+  "desc": "",
+  "boss": true,
+  "level": 8,
+  "area": "Nature",
+  "faction": "Slime",
+  "health": 39155,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "EchoMapWorshipMural",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Ivy_the_Poisonous_Mass.png"
+ },
+ {
+  "name": "Azeos the Sky Titan",
+  "slug": "Azeos_the_Sky_Titan",
+  "desc": "",
+  "boss": true,
+  "level": 8,
+  "area": "Nature",
+  "faction": "Bird",
+  "health": 31813,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "PileOfChum",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "EchoMapFishingMerchant",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Azeos_the_Sky_Titan.png"
+ },
+ {
+  "name": "The Hive Mother",
+  "slug": "The_Hive_Mother",
+  "desc": "",
+  "boss": true,
+  "level": 6,
+  "area": "LarvaHive",
+  "faction": "Larva",
+  "health": 24671,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "LarvaMeat",
+    "amount": 15,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/The_Hive_Mother.png"
+ },
+ {
+  "name": "Haunted Hive Mother",
+  "slug": "Haunted_Hive_Mother",
+  "desc": "",
+  "boss": true,
+  "level": 6,
+  "area": "LarvaHive",
+  "faction": "Larva",
+  "health": 24671,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "HiveHalloweenBossTrophy",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "SamhainCurseRing",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "SamhainOfferingNecklace",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "LarvaMeat",
+    "amount": 15,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Haunted_Hive_Mother.png"
+ },
+ {
+  "name": "King Slime",
+  "slug": "King_Slime",
+  "desc": "",
+  "boss": true,
+  "level": 6,
+  "area": "LarvaHive",
+  "faction": "Slime",
+  "health": 24188,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "KingSlimeCrown",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "RoyalGel",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "PetPrinceSlimeBlobEgg",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "KingSlimeTrophy",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "MusicSheetTerrariaJourneysBeginning",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "HealingPotion",
+    "amount": 5,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/King_Slime.png"
+ },
+ {
+  "name": "Malugaz the Corrupted",
+  "slug": "Malugaz_the_Corrupted",
+  "desc": "",
+  "boss": true,
+  "level": 6,
+  "area": "Stone",
+  "faction": "Caveling",
+  "health": 14513,
+  "moveSpeed": 60.0,
+  "drops": [
+   {
+    "id": "HiveBossCrystal",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": ""
+ },
+ {
+  "name": "Atlantean Worm",
+  "slug": "Atlantean_Worm",
+  "desc": "",
+  "boss": true,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "SeaCreature",
+  "health": 9641,
+  "moveSpeed": 50.0,
+  "drops": [
+   {
+    "id": "AtlantianWormHeart",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Atlantean_Worm.png"
+ },
+ {
+  "name": "Ghorm the Devourer",
+  "slug": "Ghorm_the_Devourer",
+  "desc": "",
+  "boss": true,
+  "level": 4,
+  "area": "Clay",
+  "faction": "AttacksAllButNotAttacked",
+  "health": 8061,
+  "moveSpeed": 60.0,
+  "drops": [
+   {
+    "id": "LarvaBossCrystal",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "LarvaMeat",
+    "amount": 20,
+    "chance": 1.0
+   },
+   {
+    "id": "GhormsStomachBag",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "MysteriousIdol",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Ghorm_the_Devourer.png"
+ },
+ {
+  "name": "Glurch the Abominous Mass",
+  "slug": "Glurch_the_Abominous_Mass",
+  "desc": "",
+  "boss": true,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Slime",
+  "health": 2459,
+  "moveSpeed": null,
+  "drops": [
+   {
+    "id": "SlimeBossCrystal",
+    "amount": 1,
+    "chance": 1.0
+   },
+   {
+    "id": "SlimeOil",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Glurch_the_Abominous_Mass.png"
+ },
+ {
+  "name": "WallBossHead",
+  "slug": "WallBossHead",
+  "desc": "",
+  "boss": false,
+  "level": 18,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 178800,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Void Caveling Brute",
+  "slug": "Void_Caveling_Brute",
+  "desc": "",
+  "boss": false,
+  "level": 19,
+  "area": "Excavation",
+  "faction": "Void",
+  "health": 29970,
+  "moveSpeed": 25.0,
+  "drops": [
+   {
+    "id": "Wood",
+    "amount": 4,
+    "chance": 1.0
+   }
+  ],
+  "icon": ""
+ },
+ {
+  "name": "Core Sphere",
+  "slug": "Core_Sphere",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "CoreBoss",
+  "health": 26700,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Core_Sphere.png"
+ },
+ {
+  "name": "Void Caveling",
+  "slug": "Void_Caveling",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Void",
+  "health": 19305,
+  "moveSpeed": 60.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Bulb",
+  "slug": "Bulb",
+  "desc": "",
+  "boss": false,
+  "level": 18,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 17880,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Bulb.png"
+ },
+ {
+  "name": "Void Caveling Shaman",
+  "slug": "Void_Caveling_Shaman",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Void",
+  "health": 17550,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Geobot Patroller",
+  "slug": "Geobot_Patroller",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Robot",
+  "health": 14040,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "GiantCicadaBossShield",
+  "slug": "GiantCicadaBossShield",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "Scarab",
+  "health": 12300,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Geobot Miner",
+  "slug": "Geobot_Miner",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Robot",
+  "health": 10530,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "RobotBossLeg",
+  "slug": "RobotBossLeg",
+  "desc": "",
+  "boss": false,
+  "level": 19,
+  "area": "Excavation",
+  "faction": "VoidRobot",
+  "health": 8741,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Desert Cicada",
+  "slug": "Desert_Cicada",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "Scarab",
+  "health": 6457,
+  "moveSpeed": 70.0,
+  "drops": [],
+  "icon": "/icons/Desert_Cicada.png"
+ },
+ {
+  "name": "AmoebaGiantSegmentTail",
+  "slug": "AmoebaGiantSegmentTail",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 6150,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Colossal Amoeba",
+  "slug": "Colossal_Amoeba",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 5535,
+  "moveSpeed": 70.0,
+  "drops": [],
+  "icon": "/icons/Colossal_Amoeba.png"
+ },
+ {
+  "name": "AmoebaGiantSegmentBody",
+  "slug": "AmoebaGiantSegmentBody",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 4612,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Geobot Scourer",
+  "slug": "Geobot_Scourer",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Robot",
+  "health": 4563,
+  "moveSpeed": 15.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Nature Worm",
+  "slug": "Nature_Worm",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 4005,
+  "moveSpeed": 60.0,
+  "drops": [],
+  "icon": "/icons/Nature_Worm.png"
+ },
+ {
+  "name": "NatureWormSegmentTail",
+  "slug": "NatureWormSegmentTail",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 4005,
+  "moveSpeed": 60.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Crystal Snail",
+  "slug": "Crystal_Snail",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Crystal",
+  "faction": "CanOnlyBeAttackedByPlayerOrExplosion",
+  "health": 3510,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Crystal_Snail.png"
+ },
+ {
+  "name": "Void Larva Cocoon",
+  "slug": "Void_Larva_Cocoon",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Void",
+  "health": 3510,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Void Larva",
+  "slug": "Void_Larva",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "Robot",
+  "health": 3510,
+  "moveSpeed": 17.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Sulfur Worm",
+  "slug": "Sulfur_Worm",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 3075,
+  "moveSpeed": 70.0,
+  "drops": [],
+  "icon": "/icons/Sulfur_Worm.png"
+ },
+ {
+  "name": "Floracada",
+  "slug": "Floracada",
+  "desc": "",
+  "boss": false,
+  "level": 12,
+  "area": "Desert",
+  "faction": "Scarab",
+  "health": 3022,
+  "moveSpeed": 65.0,
+  "drops": [],
+  "icon": "/icons/Floracada.png"
+ },
+ {
+  "name": "Gold Scarab",
+  "slug": "Gold_Scarab",
+  "desc": "",
+  "boss": false,
+  "level": 12,
+  "area": "Desert",
+  "faction": "Scarab",
+  "health": 2925,
+  "moveSpeed": 20.0,
+  "drops": [],
+  "icon": "/icons/Gold_Scarab.png"
+ },
+ {
+  "name": "AmoebaWormSegmentTail",
+  "slug": "AmoebaWormSegmentTail",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "PassageEnemy",
+  "health": 2768,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Nilipede",
+  "slug": "Nilipede",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "CrystalCreature",
+  "health": 2670,
+  "moveSpeed": 70.0,
+  "drops": [],
+  "icon": "/icons/Nilipede.png"
+ },
+ {
+  "name": "WormSegmentTail",
+  "slug": "WormSegmentTail",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "CrystalCreature",
+  "health": 2670,
+  "moveSpeed": 70.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Bomb Scarab",
+  "slug": "Bomb_Scarab",
+  "desc": "",
+  "boss": false,
+  "level": 12,
+  "area": "Desert",
+  "faction": "Scarab",
+  "health": 2535,
+  "moveSpeed": 20.0,
+  "drops": [],
+  "icon": "/icons/Bomb_Scarab.png"
+ },
+ {
+  "name": "Core Sentry",
+  "slug": "Core_Sentry",
+  "desc": "",
+  "boss": false,
+  "level": 11,
+  "area": "City",
+  "faction": "SeaCaveling",
+  "health": 2452,
+  "moveSpeed": 15.0,
+  "drops": [],
+  "icon": "/icons/Core_Sentry.png"
+ },
+ {
+  "name": "Lava Slime",
+  "slug": "Lava_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 13,
+  "area": "Lava",
+  "faction": "Slime",
+  "health": 2295,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Lava_Slime.png"
+ },
+ {
+  "name": "Lava Butterfly",
+  "slug": "Lava_Butterfly",
+  "desc": "",
+  "boss": false,
+  "level": 13,
+  "area": "Lava",
+  "faction": "LavaCreature",
+  "health": 2295,
+  "moveSpeed": 20.0,
+  "drops": [],
+  "icon": "/icons/Lava_Butterfly.png"
+ },
+ {
+  "name": "Caveling Assassin",
+  "slug": "Caveling_Assassin",
+  "desc": "",
+  "boss": false,
+  "level": 12,
+  "area": "Desert",
+  "faction": "DesertCaveling",
+  "health": 1950,
+  "moveSpeed": 50.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Assassin.png"
+ },
+ {
+  "name": "Mimite",
+  "slug": "Mimite",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "CrystalCreature",
+  "health": 1869,
+  "moveSpeed": 5.0,
+  "drops": [],
+  "icon": "/icons/Mimite.png"
+ },
+ {
+  "name": "Caveling Mummy",
+  "slug": "Caveling_Mummy",
+  "desc": "",
+  "boss": false,
+  "level": 13,
+  "area": "Desert",
+  "faction": "MoldInfected",
+  "health": 1836,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Mummy.png"
+ },
+ {
+  "name": "Orbital Turret",
+  "slug": "Orbital_Turret",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "CrystalCreature",
+  "health": 1735,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Orbital_Turret.png"
+ },
+ {
+  "name": "Larva Hive Egg",
+  "slug": "Larva_Hive_Egg",
+  "desc": "",
+  "boss": false,
+  "level": 6,
+  "area": "LarvaHive",
+  "faction": "Larva",
+  "health": 1530,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Larva_Hive_Egg.png"
+ },
+ {
+  "name": "Caveling Scholar",
+  "slug": "Caveling_Scholar",
+  "desc": "",
+  "boss": false,
+  "level": 11,
+  "area": "City",
+  "faction": "SeaCaveling",
+  "health": 1390,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Scholar.png"
+ },
+ {
+  "name": "Blue Slime",
+  "slug": "Blue_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 10,
+  "area": "Sea",
+  "faction": "Slime",
+  "health": 1350,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Bubble Crab",
+  "slug": "Bubble_Crab",
+  "desc": "",
+  "boss": false,
+  "level": 10,
+  "area": "Sea",
+  "faction": "SeaCreature",
+  "health": 1350,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Bubble_Crab.png"
+ },
+ {
+  "name": "Caveling Brute",
+  "slug": "Caveling_Brute",
+  "desc": "",
+  "boss": false,
+  "level": 9,
+  "area": "Stone",
+  "faction": "Caveling",
+  "health": 1095,
+  "moveSpeed": 15.0,
+  "drops": [
+   {
+    "id": "Wood",
+    "amount": 4,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Caveling_Brute.png"
+ },
+ {
+  "name": "Mold Tentacle",
+  "slug": "Mold_Tentacle",
+  "desc": "",
+  "boss": false,
+  "level": 9,
+  "area": "Mold",
+  "faction": "MoldInfected",
+  "health": 1095,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Mold_Tentacle.png"
+ },
+ {
+  "name": "DesertBrute",
+  "slug": "DesertBrute",
+  "desc": "",
+  "boss": false,
+  "level": 9,
+  "area": "Stone",
+  "faction": "Caveling",
+  "health": 1095,
+  "moveSpeed": 15.0,
+  "drops": [
+   {
+    "id": "Wood",
+    "amount": 4,
+    "chance": 1.0
+   }
+  ],
+  "icon": ""
+ },
+ {
+  "name": "Ghost Scholar",
+  "slug": "Ghost_Scholar",
+  "desc": "",
+  "boss": false,
+  "level": 10,
+  "area": "Sea",
+  "faction": "Player",
+  "health": 1080,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Ghost_Scholar.png"
+ },
+ {
+  "name": "Cicada Nymph",
+  "slug": "Cicada_Nymph",
+  "desc": "",
+  "boss": false,
+  "level": 15,
+  "area": "Passage",
+  "faction": "Scarab",
+  "health": 1076,
+  "moveSpeed": 48.0,
+  "drops": [],
+  "icon": "/icons/Cicada_Nymph.png"
+ },
+ {
+  "name": "Tentacle",
+  "slug": "Tentacle",
+  "desc": "",
+  "boss": false,
+  "level": 10,
+  "area": "Sea",
+  "faction": "SeaCreature",
+  "health": 945,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Tentacle.png"
+ },
+ {
+  "name": "Infected Caveling",
+  "slug": "Infected_Caveling",
+  "desc": "",
+  "boss": false,
+  "level": 9,
+  "area": "Mold",
+  "faction": "MoldInfected",
+  "health": 931,
+  "moveSpeed": 15.0,
+  "drops": [],
+  "icon": "/icons/Infected_Caveling.png"
+ },
+ {
+  "name": "Purple Slime",
+  "slug": "Purple_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 8,
+  "area": "Nature",
+  "faction": "Slime",
+  "health": 870,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Caveling Gardener",
+  "slug": "Caveling_Gardener",
+  "desc": "",
+  "boss": false,
+  "level": 8,
+  "area": "Nature",
+  "faction": "NatureCaveling",
+  "health": 870,
+  "moveSpeed": 50.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Gardener.png"
+ },
+ {
+  "name": "Caveling Hunter",
+  "slug": "Caveling_Hunter",
+  "desc": "",
+  "boss": false,
+  "level": 8,
+  "area": "Nature",
+  "faction": "NatureCaveling",
+  "health": 870,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Hunter.png"
+ },
+ {
+  "name": "Omoroth's Tentacle",
+  "slug": "Omoroths_Tentacle",
+  "desc": "",
+  "boss": false,
+  "level": 13,
+  "area": "Sea",
+  "faction": "SeaCreature",
+  "health": 688,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Omoroth_s_Tentacle.png"
+ },
+ {
+  "name": "Shrooman Brute",
+  "slug": "Shrooman_Brute",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Slime",
+  "faction": "MushroomEnemy",
+  "health": 540,
+  "moveSpeed": 5.0,
+  "drops": [],
+  "icon": "/icons/Shrooman_Brute.png"
+ },
+ {
+  "name": "Royal Slime",
+  "slug": "Royal_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 6,
+  "area": "LarvaHive",
+  "faction": "Slime",
+  "health": 510,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Caveling",
+  "slug": "Caveling",
+  "desc": "",
+  "boss": false,
+  "level": 6,
+  "area": "Stone",
+  "faction": "Caveling",
+  "health": 510,
+  "moveSpeed": 50.0,
+  "drops": [],
+  "icon": "/icons/Caveling.png"
+ },
+ {
+  "name": "Kelple",
+  "slug": "Kelple",
+  "desc": "A marine reptile and natural gardener, that chews down on kelp when it grows too plenty. It doesn't need many nutrients, so whatever it eats comes out again in a condensed ball shape that is free for the taking.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "SeaCreature",
+  "health": 500,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Kelple.png"
+ },
+ {
+  "name": "Snare Plant",
+  "slug": "Snare_Plant",
+  "desc": "",
+  "boss": false,
+  "level": 8,
+  "area": "Nature",
+  "faction": "OnlyAttacksPlayer",
+  "health": 435,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Snare_Plant.png"
+ },
+ {
+  "name": "Big Larva",
+  "slug": "Big_Larva",
+  "desc": "",
+  "boss": false,
+  "level": 5,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 412,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Big_Larva.png"
+ },
+ {
+  "name": "Caveling Shaman",
+  "slug": "Caveling_Shaman",
+  "desc": "",
+  "boss": false,
+  "level": 6,
+  "area": "Stone",
+  "faction": "Caveling",
+  "health": 408,
+  "moveSpeed": 30.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Shaman.png"
+ },
+ {
+  "name": "Clay Burrower",
+  "slug": "Clay_Burrower",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 405,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": "/icons/Clay_Burrower.png"
+ },
+ {
+  "name": "ClayWormSegmentTail",
+  "slug": "ClayWormSegmentTail",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 405,
+  "moveSpeed": 40.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Electro-Pest",
+  "slug": "Electro-Pest",
+  "desc": "IS-0173-B is a cybernetically augmented Pest (IS-0173), a spiky, loaf-shaped juvenile creature. It lunges to pierce prey with its jaws, quills, and its now inadvertent electricity.",
+  "boss": false,
+  "level": 7,
+  "area": "Stone",
+  "faction": "None",
+  "health": 405,
+  "moveSpeed": 20.0,
+  "drops": [],
+  "icon": "/icons/Electro_Pest.png"
+ },
+ {
+  "name": "Strolly Poly",
+  "slug": "Strolly_Poly",
+  "desc": "Content with everything going on around it, this gentle giant waddles through the darkness, always in search of a skittering, crunchy snack. Did you know that it is not even an insect?",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 300,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Strolly_Poly.png"
+ },
+ {
+  "name": "Drohmble",
+  "slug": "Drohmble",
+  "desc": "Evolved to survive the harsh desert climate, it produces a potent chemical base.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 300,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "BlastingDung",
+    "amount": 4,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Drohmble.png"
+ },
+ {
+  "name": "Cocoon",
+  "slug": "Cocoon",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 270,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Cocoon.png"
+ },
+ {
+  "name": "Caveling Skirmisher",
+  "slug": "Caveling_Skirmisher",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Caveling",
+  "health": 270,
+  "moveSpeed": 50.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Skirmisher.png"
+ },
+ {
+  "name": "Caveling Spearman",
+  "slug": "Caveling_Spearman",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Caveling",
+  "health": 270,
+  "moveSpeed": 50.0,
+  "drops": [],
+  "icon": "/icons/Caveling_Spearman.png"
+ },
+ {
+  "name": "Bambuck",
+  "slug": "Bambuck",
+  "desc": "The fuzzy Bambuck has more wool than patience, which is why it's quite bold by nature. It doesn't even see that much, so if it runs into you by accident be easy on it.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "None",
+  "health": 220,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Bambuck.png"
+ },
+ {
+  "name": "Moolin",
+  "slug": "Moolin",
+  "desc": "Home to the meadows, this violet bovine is living its life away from danger, happily grazing all day and producing some of the finest milk.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "None",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Moolin.png"
+ },
+ {
+  "name": "Strolly Poly Nymph",
+  "slug": "Strolly_Poly_Nymph",
+  "desc": "The young version of a Strolly Poly. Unlike its grown up parents, this one is in constant danger of being stepped on or being mistaken for a larva by careless explorers.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Strolly_Poly_Nymph.png"
+ },
+ {
+  "name": "Kelple Hatchling",
+  "slug": "Kelple_Hatchling",
+  "desc": "A young that comes up from the ground once it had enough time to slumber in the dark. Its shell is still blank but in time it will be populated by the kelp that it feeds on.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "SeaCreature",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Kelple_Hatchling.png"
+ },
+ {
+  "name": "Dodo",
+  "slug": "Dodo",
+  "desc": "Long believed to be extinct this species is still thriving in the underground: the dodo! If only Darwin could have seen this...",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Dodo.png"
+ },
+ {
+  "name": "Dodo Chick",
+  "slug": "Dodo_Chick",
+  "desc": "A cute chick full of determination to one day become a graceful dodo. It struggles with the size of its beak.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": ""
+ },
+ {
+  "name": "Drohmble Calf",
+  "slug": "Drohmble_Calf",
+  "desc": "A young Drohmble, eager to explore the desert.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Neutral",
+  "health": 180,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Drohmble_Calf.png"
+ },
+ {
+  "name": "Larva",
+  "slug": "Larva",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 176,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Red Slime",
+  "slug": "Red_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Slime",
+  "health": 150,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Red_Slime.png"
+ },
+ {
+  "name": "Moolin Calf",
+  "slug": "Moolin_Calf",
+  "desc": "The innocent juvenile of a Moolin, who has just learned how to stand on its own hoofs. It grows up faster than you think, so give it all the love you have.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "None",
+  "health": 120,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Moolin_Calf.png"
+ },
+ {
+  "name": "Bambuck Kid",
+  "slug": "Bambuck_Kid",
+  "desc": "Not (yet) as stubborn as its parents, this kid is mostly concerned with charging at butterflies while its oversized ears flop around in the breeze. Truly a heartwarming sight to behold.",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "None",
+  "health": 120,
+  "moveSpeed": 10.0,
+  "drops": [
+   {
+    "id": "Meat",
+    "amount": 1,
+    "chance": 1.0
+   }
+  ],
+  "icon": "/icons/Bambuck_Kid.png"
+ },
+ {
+  "name": "Orange Slime",
+  "slug": "Orange_Slime",
+  "desc": "",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "Slime",
+  "health": 105,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": ""
+ },
+ {
+  "name": "Shrooman",
+  "slug": "Shrooman",
+  "desc": "",
+  "boss": false,
+  "level": 2,
+  "area": "Slime",
+  "faction": "MushroomEnemy",
+  "health": 105,
+  "moveSpeed": 5.0,
+  "drops": [],
+  "icon": "/icons/Shrooman.png"
+ },
+ {
+  "name": "Ice Crystal",
+  "slug": "Ice_Crystal",
+  "desc": "",
+  "boss": false,
+  "level": 14,
+  "area": "Crystal",
+  "faction": "UnfriendlyAgainstAll",
+  "health": 5,
+  "moveSpeed": null,
+  "drops": [],
+  "icon": "/icons/Ice_Crystal.png"
+ },
+ {
+  "name": "Acid Larva",
+  "slug": "Acid_Larva",
+  "desc": "",
+  "boss": false,
+  "level": 4,
+  "area": "Clay",
+  "faction": "Larva",
+  "health": 1,
+  "moveSpeed": 10.0,
+  "drops": [],
+  "icon": "/icons/Acid_Larva.png"
+ },
+ {
+  "name": "MovingVoidTrap",
+  "slug": "MovingVoidTrap",
+  "desc": "",
+  "boss": false,
+  "level": 16,
+  "area": "Excavation",
+  "faction": "PassageEnemy",
+  "health": null,
+  "moveSpeed": 18.0,
+  "drops": [],
+  "icon": ""
+ }
+]
