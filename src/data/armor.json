@@ -338,7 +338,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Cooking_Pot_Lid.png"
  },
  {
   "name": "Cooking Pot Tub",
@@ -456,7 +456,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Cooking_Pot_Tub.png"
  },
  {
   "name": "Magma Torso Armor",
@@ -976,7 +976,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Stone_Pants.png"
  },
  {
   "name": "Slime Armor",
@@ -1090,7 +1090,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Slime_Armor.png"
  },
  {
   "name": "Galaxite Torso",
@@ -3955,7 +3955,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Pot_Lid.png"
  },
  {
   "name": "Larva Chest",
@@ -4235,7 +4235,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Copper_Pants.png"
  },
  {
   "name": "Solarite Tassets",
@@ -4952,7 +4952,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Solarite_Cuirass.png"
  },
  {
   "name": "Hazmat Suit Jacket",
@@ -5374,7 +5374,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Iron_Pants.png"
  },
  {
   "name": "Scarlet Pants",
@@ -5651,7 +5651,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Hivebone_Pants.png"
  },
  {
   "name": "Moldweb Pants",
@@ -5869,7 +5869,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Hazmat_Suit_Pants.png"
  },
  {
   "name": "Desert Guardian Pants",
@@ -6736,7 +6736,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Kelp_Mantle.png"
  },
  {
   "name": "Omoroth's Chestplate",
@@ -7448,7 +7448,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Wood_Pants.png"
  },
  {
   "name": "Bronze Pants",
@@ -7601,7 +7601,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Bronze_Pants.png"
  },
  {
   "name": "Dreamer Shalvar",
@@ -7833,7 +7833,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Octarine_Pants.png"
  },
  {
   "name": "Scuba Fins",
@@ -7983,7 +7983,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Scuba_Fins.png"
  },
  {
   "name": "Omoroth's Leg Armor",
@@ -8108,7 +8108,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Omoroths_Leg_Armor.png"
  },
  {
   "name": "Scarab Legs",
@@ -8916,7 +8916,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ranger_Pants.png"
  },
  {
   "name": "Core Commander Greaves",
@@ -9478,7 +9478,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Adventurers_Hat.png"
  },
  {
   "name": "Wildwarden Mask",
@@ -9783,7 +9783,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Shrooman_Cap.png"
  },
  {
   "name": "Welder Helmet",
@@ -10745,7 +10745,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ranger_Hood.png"
  },
  {
   "name": "Hivebone Helm",
@@ -11335,7 +11335,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Assassin_Cloak.png"
  },
  {
   "name": "Carapace Helm",
@@ -12661,7 +12661,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Wood_Helm.png"
  },
  {
   "name": "Octarine Helm",
@@ -14247,7 +14247,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Gingerbreadman_Head.png"
  },
  {
   "name": "Shaman Skull",
@@ -14670,7 +14670,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ninja_Garments.png"
  },
  {
   "name": "Rubber Boots",
@@ -14942,7 +14942,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ninja_Cowl.png"
  },
  {
   "name": "Rain Coat",
@@ -16144,7 +16144,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Tin_pants.png"
  },
  {
   "name": "Tin helm",
@@ -16494,7 +16494,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Researchers_Pants.png"
  },
  {
   "name": "Peasant Hat",
@@ -16520,7 +16520,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Peasant_Hat.png"
  },
  {
   "name": "Caveling Hood",
@@ -16634,7 +16634,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Caveling_Hood.png"
  },
  {
   "name": "Hunter Hood",
@@ -16842,7 +16842,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Farmers_Hat.png"
  },
  {
   "name": "Radical Rabbit Ears",
@@ -16944,7 +16944,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Radical_Rabbit_Ears.png"
  },
  {
   "name": "Scholar's Hood",
@@ -17104,7 +17104,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Sunglasses.png"
  },
  {
   "name": "Spooky Blanket Hood",
@@ -17175,7 +17175,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Spooky_Blanket_Hood.png"
  },
  {
   "name": "Flower Crown",
@@ -17231,7 +17231,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Top_Hat.png"
  },
  {
   "name": "Explorer's Hat",
@@ -17283,7 +17283,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Chefs_Hat.png"
  },
  {
   "name": "Radical Rabbit Headband",
@@ -17385,7 +17385,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Radical_Rabbit_Headband.png"
  },
  {
   "name": "Mercenary Headband",
@@ -18891,7 +18891,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Caveling_Chest.png"
  },
  {
   "name": "Hunter Cloak",
@@ -18993,7 +18993,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Hunter_Cloak.png"
  },
  {
   "name": "Ivy's Thorn Harness",
@@ -19278,7 +19278,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Towel.png"
  },
  {
   "name": "Green Bikini Top",
@@ -19361,7 +19361,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Green_Bikini_Top.png"
  },
  {
   "name": "Blue Bikini Top",
@@ -19444,7 +19444,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Blue_Bikini_Top.png"
  },
  {
   "name": "Red Bikini Top",
@@ -19527,7 +19527,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Red_Bikini_Top.png"
  },
  {
   "name": "Miner's Labor Suit",
@@ -19680,7 +19680,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Spooky_Blanket_Cape.png"
  },
  {
   "name": "Cupid Tunic",
@@ -19804,7 +19804,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Wedding_Dress.png"
  },
  {
   "name": "Suit Jacket",
@@ -19856,7 +19856,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Explorers_Jacket.png"
  },
  {
   "name": "Chef's Jacket",
@@ -20102,7 +20102,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Mercenary_Tank_Top.png"
  },
  {
   "name": "Corrupt Warden Tunic",
@@ -21409,7 +21409,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Caveling_Pants.png"
  },
  {
   "name": "Ivy's Pants",
@@ -21580,7 +21580,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Green_Board_Shorts.png"
  },
  {
   "name": "Blue Board Shorts",
@@ -21663,7 +21663,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Blue_Board_Shorts.png"
  },
  {
   "name": "Red Board Shorts",
@@ -21746,7 +21746,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Red_Board_Shorts.png"
  },
  {
   "name": "Green Bikini Bottom",
@@ -21829,7 +21829,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Green_Bikini_Bottom.png"
  },
  {
   "name": "Blue Bikini Bottom",
@@ -21912,7 +21912,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Blue_Bikini_Bottom.png"
  },
  {
   "name": "Red Bikini Bottom",
@@ -21995,7 +21995,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Red_Bikini_Bottom.png"
  },
  {
   "name": "Miner's Worker Pants",
@@ -22103,7 +22103,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Suit_Pants.png"
  },
  {
   "name": "Explorer's Pants",
@@ -22129,7 +22129,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Explorers_Pants.png"
  },
  {
   "name": "Chef's Pants",
@@ -22261,7 +22261,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Mercenary_Pants.png"
  },
  {
   "name": "Corrupt Warden Shorts",
@@ -23552,7 +23552,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Chicken_Breast_Piece.png"
  },
  {
   "name": "Chicken Pants",
@@ -23590,7 +23590,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Chicken_Pants.png"
  },
  {
   "name": "Eggcellent Hat",
@@ -23628,7 +23628,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Eggcellent_Hat.png"
  },
  {
   "name": "Eggcellent Breast Piece",
@@ -23666,7 +23666,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Eggcellent_Breast_Piece.png"
  },
  {
   "name": "Eggcellent Pants",
@@ -23704,7 +23704,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Eggcellent_Pants.png"
  },
  {
   "name": "Green Party Hat",
@@ -23808,7 +23808,7 @@
   "armor": null,
   "maxHealth": null,
   "conds": {},
-  "icon": ""
+  "icon": "/icons/Purple_Party_Hat.png"
  },
  {
   "name": "Dragon Mask",

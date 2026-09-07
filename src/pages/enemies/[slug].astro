@@ -13,7 +13,10 @@ const { e } = Astro.props;
   description={`${e.name} has ${e.health ?? "unknown"} health in Core Keeper. Full drop table, level and location.`}
 >
   <p style="margin:0"><a href="/enemies/">← All enemies</a></p>
-  <h1>{e.name}</h1>
+  <div class="icon-h1">
+    {e.icon && <img src={e.icon} alt="" width="52" height="52" loading="lazy" />}
+    <h1 style="margin:0">{e.name}</h1>
+  </div>
   <p>
     <span class="tag" style={e.boss ? "color:var(--bad)" : ""}>{e.boss ? "Boss" : "Enemy"}</span>
     {e.level != null && <span class="tag">Level {e.level}</span>}

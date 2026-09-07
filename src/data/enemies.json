@@ -417,7 +417,7 @@
     "chance": 1.0
    }
   ],
-  "icon": ""
+  "icon": "/icons/Malugaz_the_Corrupted.png"
  },
  {
   "name": "Atlantean Worm",
@@ -1110,7 +1110,7 @@
   "health": 870,
   "moveSpeed": 10.0,
   "drops": [],
-  "icon": ""
+  "icon": "/icons/Purple_Slime.png"
  },
  {
   "name": "Caveling Gardener",
@@ -1175,7 +1175,7 @@
   "health": 510,
   "moveSpeed": 10.0,
   "drops": [],
-  "icon": ""
+  "icon": "/icons/Royal_Slime.png"
  },
  {
   "name": "Caveling",
@@ -1476,7 +1476,7 @@
     "chance": 1.0
    }
   ],
-  "icon": ""
+  "icon": "/icons/Dodo_Chick.png"
  },
  {
   "name": "Drohmble Calf",
@@ -1508,7 +1508,7 @@
   "health": 176,
   "moveSpeed": 10.0,
   "drops": [],
-  "icon": ""
+  "icon": "/icons/Larva.png"
  },
  {
   "name": "Red Slime",
@@ -1572,7 +1572,7 @@
   "health": 105,
   "moveSpeed": 10.0,
   "drops": [],
-  "icon": ""
+  "icon": "/icons/Orange_Slime.png"
  },
  {
   "name": "Shrooman",

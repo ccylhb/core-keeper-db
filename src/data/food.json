@@ -156,7 +156,7 @@
   "buffs": {},
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Caveling_Bread.png"
  },
  {
   "name": "Bloat Oat",
@@ -522,7 +522,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Marbled_Meat.png"
  },
  {
   "name": "Shiny Larva Meat",
@@ -593,7 +593,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Food_Ration.png"
  },
  {
   "name": "Larva Meat",
@@ -624,7 +624,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Larva_Meat.png"
  },
  {
   "name": "Amber Larva",
@@ -655,7 +655,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Amber_Larva.png"
  },
  {
   "name": "Vit",
@@ -779,7 +779,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Blue_Cave_Guppy.png"
  },
  {
   "name": "Rock Jaw",
@@ -1182,7 +1182,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Greenhorn_Pico.png"
  },
  {
   "name": "Glowing Mushroom",
@@ -2244,7 +2244,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Heart_Berry.png"
  },
  {
   "name": "Golden Heart Berry",
@@ -2275,7 +2275,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Golden_Heart_Berry.png"
  },
  {
   "name": "Golden Grumpkin",
@@ -2840,7 +2840,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Puffungi.png"
  },
  {
   "name": "Golden Bomb Pepper",
@@ -2902,7 +2902,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Golden_Puffungi.png"
  },
  {
   "name": "Chewy Cone Candy",
@@ -2973,7 +2973,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Spooky_Pop_Candy.png"
  },
  {
   "name": "Evil Eye Candy",
@@ -3088,7 +3088,7 @@
   "buffs": {},
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Pale_Kelp.png"
  },
  {
   "name": "Red Kelp",
@@ -3151,7 +3151,7 @@
   "buffs": {},
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Flesh_Kelp.png"
  },
  {
   "name": "Dark Blue Kelp",
@@ -3576,7 +3576,7 @@
   },
   "cooked": false,
   "petXp": null,
-  "icon": ""
+  "icon": "/icons/Greater_Healing_Potion.png"
  },
  {
   "name": "Keen Potion",

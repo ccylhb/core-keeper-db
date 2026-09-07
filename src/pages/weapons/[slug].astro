@@ -13,7 +13,10 @@ const { w } = Astro.props;
   description={`${w.name} damage at every upgrade level, DPS, bonuses and crafting recipe in Core Keeper.`}
 >
   <p style="margin:0"><a href="/weapons/">← All weapons</a></p>
-  <h1>{w.name}</h1>
+  <div class="icon-h1">
+    {w.icon && <img src={w.icon} alt="" width="52" height="52" loading="lazy" />}
+    <h1 style="margin:0">{w.name}</h1>
+  </div>
   <p>
     <span class="tag">{w.group}</span>
     {w.rarity && <span class="tag">{w.rarity}</span>}

@@ -189,7 +189,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Rune_Song.png"
  },
  {
   "name": "Ritual Dagger",
@@ -301,7 +301,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Ritual_Dagger.png"
  },
  {
   "name": "Tin Dagger",
@@ -352,7 +352,7 @@
   "cooldown": 0.3,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Tin_Dagger.png"
  },
  {
   "name": "Rusty Dagger",
@@ -432,7 +432,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Rusty_Dagger.png"
  },
  {
   "name": "Scarlet Dagger",
@@ -504,7 +504,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Scarlet_Dagger.png"
  },
  {
   "name": "Splintered Wooden Sword",
@@ -805,7 +805,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Hunting_Spear.png"
  },
  {
   "name": "Atlantean Worm Sword",
@@ -923,7 +923,7 @@
   "cooldown": 0.4,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Copper_Sword.png"
  },
  {
   "name": "Pipe Club",
@@ -1077,7 +1077,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Iron_Sword.png"
  },
  {
   "name": "Galaxite Sword",
@@ -1197,7 +1197,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Octarine_Sword.png"
  },
  {
   "name": "Solarite Sword",
@@ -1264,7 +1264,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Solarite_Sword.png"
  },
  {
   "name": "Slippery Slime Sword",
@@ -1344,7 +1344,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Slippery_Slime_Sword.png"
  },
  {
   "name": "Crystal Shard Club",
@@ -1486,7 +1486,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Iron_Halberd.png"
  },
  {
   "name": "Tin Sword",
@@ -1537,7 +1537,7 @@
   "cooldown": 0.4,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Tin_Sword.png"
  },
  {
   "name": "Larva Spike Club",
@@ -1732,7 +1732,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Scarlet_Sword.png"
  },
  {
   "name": "Hydra Bone Sword",
@@ -1865,7 +1865,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Octarine_Axe.png"
  },
  {
   "name": "Battle Axe",
@@ -1941,7 +1941,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Battle_Axe.png"
  },
  {
   "name": "Tin Axe",
@@ -1992,7 +1992,7 @@
   "cooldown": 0.6,
   "conds": {},
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Tin_Axe.png"
  },
  {
   "name": "Lava Battle Axe",
@@ -2304,7 +2304,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Slime_Sword.png"
  },
  {
   "name": "Broken Handle",
@@ -2374,7 +2374,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Broken_Handle.png"
  },
  {
   "name": "Noxious Meteor Staff",
@@ -2570,7 +2570,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Arcane_Staff.png"
  },
  {
   "name": "Chaos Staff",
@@ -2677,7 +2677,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Sun_Caller.png"
  },
  {
   "name": "Stormbringer",
@@ -2831,7 +2831,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Fireball_Staff.png"
  },
  {
   "name": "Simple Staff",
@@ -2917,7 +2917,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Simple_Staff.png"
  },
  {
   "name": "Scholar's Staff",
@@ -2981,7 +2981,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Scholars_Staff.png"
  },
  {
   "name": "Scrap Minigun",
@@ -3180,7 +3180,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Sticky_Stick.png"
  },
  {
   "name": "Throwing Daggers",
@@ -3242,7 +3242,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Throwing_Daggers.png"
  },
  {
   "name": "Galaxite Chakram",
@@ -3370,7 +3370,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Blowpipe.png"
  },
  {
   "name": "Iron Bow",
@@ -3512,7 +3512,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Bubble_Gun.png"
  },
  {
   "name": "Phantom Spark",
@@ -3667,7 +3667,7 @@
   "cooldown": 0.5,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Slingshot.png"
  },
  {
   "name": "Snowball",
@@ -3740,7 +3740,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Snowball.png"
  },
  {
   "name": "Solarite Crossbow",
@@ -3866,7 +3866,7 @@
   "cooldown": 2.0,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Flintlock_Musket.png"
  },
  {
   "name": "Octarine Bow",
@@ -3932,7 +3932,7 @@
    }
   },
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Octarine_Bow.png"
  },
  {
   "name": "Flamethrower",
@@ -3997,7 +3997,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Flamethrower.png"
  },
  {
   "name": "Quill Rifle",
@@ -4233,7 +4233,7 @@
   "cooldown": 1.0,
   "conds": {},
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Scarlet_Crossbow.png"
  },
  {
   "name": "Wood Bow",
@@ -4287,7 +4287,7 @@
   "cooldown": 0.7,
   "conds": {},
   "secondaryUse": true,
-  "icon": ""
+  "icon": "/icons/Wood_Bow.png"
  },
  {
   "name": "Ricochet Shuriken",
@@ -4888,7 +4888,7 @@
   "cooldown": 0.4,
   "conds": {},
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Wooden_Sword.png"
  },
  {
   "name": "Fire Grenade",

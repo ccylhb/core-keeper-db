@@ -13,7 +13,10 @@ const { a } = Astro.props;
   description={`${a.name} bonuses at every upgrade level in Core Keeper.`}
 >
   <p style="margin:0"><a href="/accessories/">← All accessories</a></p>
-  <h1>{a.name}</h1>
+  <div class="icon-h1">
+    {a.icon && <img src={a.icon} alt="" width="52" height="52" loading="lazy" />}
+    <h1 style="margin:0">{a.name}</h1>
+  </div>
   <p>
     <span class="tag">{a.slot}</span>
     {a.rarity && <span class="tag">{a.rarity}</span>}

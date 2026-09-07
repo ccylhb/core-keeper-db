@@ -53,7 +53,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Wooden_Shield.png"
  },
  {
   "name": "Toxic Defender",
@@ -273,7 +273,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Iron_Shield.png"
  },
  {
   "name": "Minion Detonator",
@@ -3934,7 +3934,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Torc_Necklace.png"
  },
  {
   "name": "Ra-Akar's Necklace",
@@ -4001,7 +4001,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ra_Akars_Necklace.png"
  },
  {
   "name": "Nomad Necklace",
@@ -4168,7 +4168,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Black_Necklace.png"
  },
  {
   "name": "Flame Necklace",
@@ -4618,7 +4618,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Atlantean_Worm_Necklace.png"
  },
  {
   "name": "Tower Shell Necklace",
@@ -4712,7 +4712,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Glass_Bead_Necklace.png"
  },
  {
   "name": "Pyrdra's Necklace",
@@ -5107,7 +5107,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Larva_Ring.png"
  },
  {
   "name": "Wooden Thorn Ring",
@@ -5326,7 +5326,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ring_of_Rock.png"
  },
  {
   "name": "Ring of Stone",
@@ -7083,7 +7083,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/White_Glass_Ring.png"
  },
  {
   "name": "Septum Ring",
@@ -7164,7 +7164,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ring_of_Sand.png"
  },
  {
   "name": "Bone Ring",
@@ -8057,7 +8057,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Crescent_Ring.png"
  },
  {
   "name": "Hourglass Ring",
