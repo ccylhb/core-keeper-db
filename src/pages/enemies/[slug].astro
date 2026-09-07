@@ -1,5 +1,6 @@
 ---import Base from "../../layouts/Base.astro";
 
+import Related from "../../components/Related.astro";
 export async function getStaticPaths() {
   const enemies = (await import("../../../src/data/enemies.json")).default;
   return enemies.map((e) => ({ params: { slug: e.slug }, props: { e } }));
@@ -58,6 +59,15 @@ const { e } = Astro.props;
   ) : (
     <p class="muted">No direct drops recorded.</p>
   )}
+
+  <Related
+    heading="Next steps"
+    links={[
+
+    { href: "/rankings/", title: "Rankings", sub: "Best weapons, armor, accessories ranked", tool: true },
+    { href: "/calculator/", title: "Crafting Calculator", sub: "Resolve any recipe into raw ingredients", tool: true },
+  ]}
+  />
 </Base>
 
 <style>

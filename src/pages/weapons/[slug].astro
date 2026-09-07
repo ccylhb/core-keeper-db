@@ -1,5 +1,6 @@
 ---import Base from "../../layouts/Base.astro";
 
+import Related from "../../components/Related.astro";
 export async function getStaticPaths() {
   const weapons = (await import("../../../src/data/weapons.json")).default;
   return weapons.map((w) => ({ params: { slug: w.slug }, props: { w } }));
@@ -90,6 +91,15 @@ const { w } = Astro.props;
 
   {w.durability && <p>Durability: <strong>{w.durability}</strong></p>}
   {w.sell != null && <p class="muted">Sell value: {w.sell}</p>}
+
+  <Related
+    heading="Next steps"
+    links={[
+
+    { href: "/rankings/", title: "Rankings", sub: "Best weapons, armor, accessories ranked", tool: true },
+    { href: "/calculator/", title: "Crafting Calculator", sub: "Resolve any recipe into raw ingredients", tool: true },
+  ]}
+  />
 </Base>
 
 <style>
