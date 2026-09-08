@@ -869,7 +869,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Atlantean_Worm_Sword.png"
  },
  {
   "name": "Copper Sword",
@@ -4860,7 +4860,7 @@
    }
   },
   "secondaryUse": false,
-  "icon": ""
+  "icon": "/icons/Cupid_Bow.png"
  },
  {
   "name": "Wooden Sword",

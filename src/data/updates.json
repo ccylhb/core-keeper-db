@@ -1,5 +1,10 @@
 [
   {
+    "date": "2026-09-09",
+    "text": "Refreshed item icons and wiki data",
+    "href": "/"
+  },
+  {
     "date": "2026-09-06",
     "text": "Item icons added across the database",
     "href": "/weapons/"

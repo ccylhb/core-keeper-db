@@ -4721,7 +4721,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Hivebone_Breastplate.png"
  },
  {
   "name": "Moldweb Breastplate",
@@ -11882,7 +11882,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Festive_Hat.png"
  },
  {
   "name": "Gingerbread Hood",
@@ -15214,7 +15214,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Ninja_Leggings.png"
  },
  {
   "name": "Assassin Hood",
@@ -15333,7 +15333,7 @@
     }
    }
   },
-  "icon": ""
+  "icon": "/icons/Assassin_Hood.png"
  },
  {
   "name": "Witch Doctor Vest",

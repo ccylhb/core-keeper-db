@@ -981,7 +981,7 @@
   "health": 1350,
   "moveSpeed": 10.0,
   "drops": [],
-  "icon": ""
+  "icon": "/icons/Blue_Slime.png"
  },
  {
   "name": "Bubble Crab",
