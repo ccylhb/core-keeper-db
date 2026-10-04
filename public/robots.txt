@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://core-keeper-db.pages.dev/sitemap.xml
+Sitemap: https://corekeeper.lootseer.com/sitemap.xml
