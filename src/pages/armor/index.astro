@@ -13,6 +13,13 @@ const rows = armor.map((a) => ({
   hpMax: a.maxHealth ? a.maxHealth.max : null,
   area: a.area || "—",
 }));
+// /armor/slot/<slot>/ aggregate pages are generated from the same dataset, so
+// link them here or they exist in the sitemap with no way in.
+const SLOT_LABEL: Record<string, string> = {
+  head: "Helm", chest: "Breast", legs: "Pants", feet: "Boots",
+  hands: "Gloves", ring: "Ring", neck: "Necklace",
+};
+const slots = [...new Set(armor.map((a) => a.slot).filter(Boolean))].sort();
 ---
 
 <Base
@@ -36,6 +43,16 @@ const rows = armor.map((a) => ({
       { key: "armorMax", label: "Armor (lv20)", type: "number" },
       { key: "hpMax", label: "+Max HP (lv20)", type: "number" },
       { key: "area", label: "Biome" },
-    ]}
-  />
+        ]}
+      />
+
+  <h2>Browse by slot</h2>
+  <p class="muted">
+    Armour filtered to a single equipment slot — open a slot for the full list of pieces that fit it.
+  </p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.35rem 0.9rem;margin:1rem 0 2rem">
+    {slots.map((s) => (
+      <a href={`/armor/slot/${s.toLowerCase()}/`} style="font-size:0.9rem">{SLOT_LABEL[s] || s}</a>
+    ))}
+  </div>
 </Base>

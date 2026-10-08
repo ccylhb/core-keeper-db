@@ -12,6 +12,10 @@ const rows = food.map((f) => ({
   buffs: Object.keys(f.buffs).slice(0, 2).join(", ") || "—",
   area: f.area || "—",
 }));
+// /food/group/<group>/ aggregate pages come from this same dataset; without a
+// link here they are declared in the sitemap but never reachable by crawl.
+// there is no group field; the aggregate pages derive cooked/raw from `cooked`
+const groups = [...new Set(food.map((f) => (f.cooked ? "cooked" : "raw")))].sort();
 ---
 
 <Base
@@ -37,4 +41,14 @@ const rows = food.map((f) => ({
       { key: "area", label: "Biome" },
     ]}
   />
+
+  <h2>Browse by group</h2>
+  <p class="muted">
+    Food split into raw ingredients and cooked dishes — open a group for the full list.
+  </p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.35rem 0.9rem;margin:1rem 0 2rem">
+    {groups.map((g) => (
+      <a href={`/food/group/${g}/`} style="font-size:0.9rem">{g}</a>
+    ))}
+  </div>
 </Base>

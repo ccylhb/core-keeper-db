@@ -14,6 +14,9 @@ const rows = weapons.map((w) => ({
   dps: w.dps,
   area: w.area || "—",
 }));
+// /weapons/group/<group>/ aggregate pages are generated from this dataset, so
+// they need a link from here or they reach the sitemap and nowhere else.
+const wgroups = [...new Set(weapons.map((w) => w.group).filter(Boolean))].sort();
 ---
 
 <Base
@@ -38,7 +41,17 @@ const rows = weapons.map((w) => ({
       { key: "dmgBase", label: "Base damage" },
       { key: "dmgMax", label: "Max damage (lv20)", type: "number" },
       { key: "dps", label: "DPS est.", type: "number" },
-      { key: "area", label: "Biome" },
-    ]}
-  />
+          { key: "area", label: "Biome" },
+        ]}
+      />
+
+  <h2>Browse by type</h2>
+  <p class="muted">
+    Weapons grouped by attack type — open a type for the full list and its damage curve.
+  </p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:0.35rem 0.9rem;margin:1rem 0 2rem">
+    {wgroups.map((g) => (
+      <a href={`/weapons/group/${g.toLowerCase()}/`} style="font-size:0.9rem">{g}</a>
+    ))}
+  </div>
 </Base>
