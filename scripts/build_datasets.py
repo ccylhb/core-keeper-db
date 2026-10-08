@@ -157,7 +157,9 @@ def build():
             accessories.append(rec)
             recipes.append({"key": key, "name": cm["name"], "materials": e.get("materials")})
 
-        elif t == "Eatable" and "NonObtainable" not in cats:
+        elif t == "Eatable" and ("NonObtainable" not in cats or "CookedFood" in cats):
+            if not e.get("name"):
+                continue  # skip malformed scraped entries (name == None)
             conds = cond_map(e, "consumed")
             hunger = (conds.pop("HungerAddition", None) or {}).get("base")
             rec = {
