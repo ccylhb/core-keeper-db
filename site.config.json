@@ -60,5 +60,31 @@
   ],
   "footerNote": "Fan-made database. Not affiliated with the game publisher.",
   "gameVersion": "1.2.0.7",
-  "dataUpdated": "2026-09-06"
+  "dataUpdated": "2026-09-06",
+  "sisterSites": [
+    {
+      "name": "FactorDB",
+      "url": "https://abiotic.lootseer.com",
+      "blurb": "Weapons, armour, crafting and portal destinations from the GATE facility."
+    },
+    {
+      "name": "GroundDB",
+      "url": "https://grounded.lootseer.com",
+      "blurb": "Weapons, armour, creatures and trinkets with a gear planner."
+    },
+    {
+      "name": "ConanDB",
+      "url": "https://conan.lootseer.com",
+      "blurb": "Weapon damage, armour values, thrall stats and consumables."
+    },
+    {
+      "name": "OnceHumanDB",
+      "url": "https://oncehuman.lootseer.com",
+      "blurb": "Armour HP and resistances, weapon crit, food and deviation stats."
+    }
+  ],
+  "hubSite": {
+    "name": "LootSeer",
+    "url": "https://lootseer.com"
+  }
 }
